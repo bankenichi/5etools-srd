@@ -1,5 +1,21 @@
 # Audit progress — 2026-11-10
 
+## Delivery completed
+
+The current repository tree is now pruned and published. The data-only
+[SRD 5.2.1 release](https://github.com/bankenichi/5etools-srd/releases/tag/srd-5.2.1-r1)
+contains 40 JSON data files / 2,136 records in an 881,728-byte ZIP.
+Desktop and Android now offer this pinned release as their default setup
+download, retaining existing libraries and custom-source choices. Public
+downloads through both production HTTP handlers and fresh generation pass:
+1,616 cards / 1,488 entries, with all 28 HTML outputs unchanged. Both full
+installed-database regression captures also pass at 12,270 cards / 10,183
+entries / 1,374 sheets per platform, with exact ordered markup and splits.
+Android builds and the native setup UI shows the new option with existing
+data kept. The user directed implementation/publication before delivery checks
+and stopped further expansion of source audits. Checkpoints below are historical
+and do not describe the current publication/default-download state.
+
 ## Latest continuation checkpoint — candidate-24
 
 Exactly one metadata field changes: Druidic Focus `/focus` now includes Ranger,
