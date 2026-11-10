@@ -17,6 +17,7 @@ import fitz
 
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from rule_table_grid import PDF_SHA256
+from build_srd import UPSTREAM
 from rule_table_grid import Source as CellSource
 from verify_rule_prose import decode
 
@@ -277,7 +278,7 @@ def main():
       'pending':sum(r['status']=='PENDING' for r in results),
       'pending_by_kind':dict(Counter(r['kind'] for r in results if r['status']=='PENDING'))}
     manifest=json.loads((args.data/'manifest.json').read_text(encoding='utf8'))
-    report={'official_pdf_sha256':pdf_hash,'upstream_commit':manifest['upstream_commit'],'scope':__doc__,'input_sha256':inputs,'summary':summary,'records':results}
+    report={'official_pdf_sha256':pdf_hash,'upstream_commit':UPSTREAM,'scope':__doc__,'input_sha256':inputs,'summary':summary,'records':results}
     args.out.parent.mkdir(parents=True,exist_ok=True);args.out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print(json.dumps(summary,ensure_ascii=False))
 

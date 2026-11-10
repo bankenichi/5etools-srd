@@ -15,7 +15,8 @@ from validate_srd import validate
 class SrdProjectionTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.files=Builder(ROOT).output()
+        cls.builder=Builder(ROOT)
+        cls.files=cls.builder.output()
         cls.manifest=json.loads(cls.files['manifest.json'])
         cls.data={name:json.loads(value) for name,value in cls.files.items() if name.startswith('data/')}
 
@@ -97,7 +98,7 @@ class SrdProjectionTest(unittest.TestCase):
         self.assertNotIn('Beholder','\n'.join(strings(deck)))
         card=self.record('data/decks.json','card','Basilisk')
         self.assertEqual((card['source'],card['page']),('SRD521',217))
-        self.assertTrue(any('derived directly' in receipt['reason'] and receipt['name']=='Basilisk' for receipt in self.manifest['selection_receipts']))
+        self.assertTrue(any('derived directly' in receipt['reason'] and receipt['name']=='Basilisk' for receipt in self.builder.receipts))
         for kind,path in [('item','data/items.json'),('deck','data/decks.json')]:
             table=self.record(path,kind,'Deck of Illusions')['entries'][3]
             self.assertEqual(table['rows'][4],['13–15','Basilisk'])
@@ -160,7 +161,7 @@ class SrdProjectionTest(unittest.TestCase):
 
     def test_pinned_rebuild_is_byte_deterministic(self):
         self.assertEqual(Builder(ROOT).output(),self.files)
-        self.assertEqual(self.manifest['upstream_commit'],UPSTREAM)
+        self.assertFalse({'upstream','upstream_commit','selection_receipts','content_corrections'} & self.manifest.keys())
 
     def test_capacity_item_uids_and_quantities_are_validated_beyond_file_hashes(self):
         cases=[({'item':[{'bolt|srd521':20}]},True,None),

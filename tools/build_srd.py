@@ -481,12 +481,12 @@ class Builder:
         files = {path:encode(payload) for path,payload in sorted(self.data.items())}
         counts = {}
         for _,kind,record in self.records(): counts[kind] = counts.get(kind,0)+1
-        manifest = {"format":"5etools-compatible SRD data", "srd":"5.2.1", "source_id":SOURCE_ID,
+        manifest = {"format":"TTRPG Card Generator SRD data", "srd":"5.2.1", "source_id":SOURCE_ID,
                     "citation_model_sha256":self.citation_receipt['citation_model_sha256'],
-                    "layout_model_sha256":self.layout_receipt['model_sha256'],"upstream":"https://github.com/5etools-mirror-3/5etools-src",
-                    "upstream_commit":UPSTREAM, "official_pdf":PDF_URL, "official_pdf_sha256":PDF_SHA256,
-                    "counts":dict(sorted(counts.items())), "aliases":self.aliases, "content_corrections":self.changes,
-                    "selection_receipts":self.receipts, "sha256":{path:hashlib.sha256(data).hexdigest() for path,data in files.items()}}
+                    "layout_model_sha256":self.layout_receipt['model_sha256'],
+                    "official_pdf":PDF_URL, "official_pdf_sha256":PDF_SHA256,
+                    "counts":dict(sorted(counts.items())),
+                    "sha256":{path:hashlib.sha256(data).hexdigest() for path,data in files.items()}}
         files["manifest.json"] = encode(manifest)
         return files
 
