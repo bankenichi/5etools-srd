@@ -1,0 +1,298 @@
+{
+  "official_pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+  "scope": "One record, two coupled data edits: materialize the source example’s remaining +1 attack/damage bonus, then remove the misleading fixed AC scalar. Full printed rule/example and rendered card remain unchanged; no engine/grouping/splitting changes.",
+  "records": [
+    {
+      "file": "data/magicvariants.json",
+      "kind": "magicvariant",
+      "identity": {
+        "name": "Defender"
+      },
+      "projected_record_sha256": "35ddfc73fbee55dc3ede29c27fc4fbc937a08e767aa15bd899770041b387d519",
+      "official_pages": [
+        218
+      ],
+      "evidence": [
+        {
+          "reason": "Source gives a configurable transfer, not a fixed +1 AC bonus. The +1 figure in the example is the remaining attack/damage bonus; the example AC bonus is +2. A fixed scalar misrepresents this rule.",
+          "source": {
+            "heading": "Defender",
+            "pages": [
+              218
+            ],
+            "source_lines": [
+              {
+                "page": 218,
+                "column": 1,
+                "block": 10,
+                "line": 0,
+                "text": "You gain a +3 bonus to attack rolls and damage rolls ",
+                "red": false,
+                "red12": false,
+                "fonts": [
+                  "Cambria"
+                ],
+                "origins": [
+                  [
+                    63.0,
+                    232.81610107421875
+                  ]
+                ],
+                "bbox": [
+                  63.0,
+                  201.64610290527344,
+                  289.6240539550781,
+                  257.45611572265625
+                ]
+              },
+              {
+                "page": 218,
+                "column": 1,
+                "block": 10,
+                "line": 1,
+                "text": "made with this magic weapon.",
+                "red": false,
+                "red12": false,
+                "fonts": [
+                  "Cambria"
+                ],
+                "origins": [
+                  [
+                    63.0,
+                    244.81610107421875
+                  ]
+                ],
+                "bbox": [
+                  63.0,
+                  213.64610290527344,
+                  194.697998046875,
+                  269.45611572265625
+                ]
+              },
+              {
+                "page": 218,
+                "column": 1,
+                "block": 10,
+                "line": 2,
+                "text": "\t The first time you attack with the weapon on each ",
+                "red": false,
+                "red12": false,
+                "fonts": [
+                  "Cambria"
+                ],
+                "origins": [
+                  [
+                    63.0,
+                    256.81610107421875
+                  ],
+                  [
+                    65.19999694824219,
+                    256.81610107421875
+                  ],
+                  [
+                    71.0,
+                    256.81610107421875
+                  ]
+                ],
+                "bbox": [
+                  63.0,
+                  225.64610290527344,
+                  290.27508544921875,
+                  281.45611572265625
+                ]
+              },
+              {
+                "page": 218,
+                "column": 1,
+                "block": 10,
+                "line": 3,
+                "text": "of your turns, you can transfer some or all of the ",
+                "red": false,
+                "red12": false,
+                "fonts": [
+                  "Cambria"
+                ],
+                "origins": [
+                  [
+                    63.0,
+                    268.81610107421875
+                  ]
+                ],
+                "bbox": [
+                  63.0,
+                  237.64610290527344,
+                  273.8670959472656,
+                  293.45611572265625
+                ]
+              },
+              {
+                "page": 218,
+                "column": 1,
+                "block": 10,
+                "line": 4,
+                "text": "weapon’s bonus to your Armor Class. For example, ",
+                "red": false,
+                "red12": false,
+                "fonts": [
+                  "Cambria"
+                ],
+                "origins": [
+                  [
+                    63.0,
+                    280.81610107421875
+                  ]
+                ],
+                "bbox": [
+                  63.0,
+                  249.64610290527344,
+                  282.6669921875,
+                  305.45611572265625
+                ]
+              },
+              {
+                "page": 218,
+                "column": 1,
+                "block": 10,
+                "line": 5,
+                "text": "you could reduce the bonus to your attack rolls and ",
+                "red": false,
+                "red12": false,
+                "fonts": [
+                  "Cambria"
+                ],
+                "origins": [
+                  [
+                    63.0,
+                    292.81610107421875
+                  ]
+                ],
+                "bbox": [
+                  63.0,
+                  261.6460876464844,
+                  286.8290100097656,
+                  317.45611572265625
+                ]
+              },
+              {
+                "page": 218,
+                "column": 1,
+                "block": 10,
+                "line": 6,
+                "text": "damage rolls to +1 and gain a +2 bonus to Armor ",
+                "red": false,
+                "red12": false,
+                "fonts": [
+                  "Cambria"
+                ],
+                "origins": [
+                  [
+                    63.0,
+                    304.81610107421875
+                  ]
+                ],
+                "bbox": [
+                  63.0,
+                  273.6460876464844,
+                  274.5439758300781,
+                  329.45611572265625
+                ]
+              },
+              {
+                "page": 218,
+                "column": 1,
+                "block": 10,
+                "line": 7,
+                "text": "Class. The adjusted bonuses remain in effect until ",
+                "red": false,
+                "red12": false,
+                "fonts": [
+                  "Cambria"
+                ],
+                "origins": [
+                  [
+                    63.0,
+                    316.81610107421875
+                  ]
+                ],
+                "bbox": [
+                  63.0,
+                  285.6460876464844,
+                  280.22607421875,
+                  341.45611572265625
+                ]
+              },
+              {
+                "page": 218,
+                "column": 1,
+                "block": 10,
+                "line": 8,
+                "text": "the start of your next turn, although you must hold ",
+                "red": false,
+                "red12": false,
+                "fonts": [
+                  "Cambria"
+                ],
+                "origins": [
+                  [
+                    63.0,
+                    328.81610107421875
+                  ]
+                ],
+                "bbox": [
+                  63.0,
+                  297.6460876464844,
+                  285.030029296875,
+                  353.45611572265625
+                ]
+              },
+              {
+                "page": 218,
+                "column": 1,
+                "block": 10,
+                "line": 9,
+                "text": "the weapon to gain a bonus to AC from it.",
+                "red": false,
+                "red12": false,
+                "fonts": [
+                  "Cambria"
+                ],
+                "origins": [
+                  [
+                    63.0,
+                    340.81610107421875
+                  ]
+                ],
+                "bbox": [
+                  63.0,
+                  309.6460876464844,
+                  240.43397521972656,
+                  365.45611572265625
+                ]
+              }
+            ],
+            "layout_joins": []
+          },
+          "source_dynamic_effect": {
+            "reason": "Configurable transfer of weapon bonus; no fixed scalar.",
+            "source_clause": "you can transfer some or all of the weapon's bonus to your Armor Class",
+            "ignored_example_matches": [
+              "For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class."
+            ]
+          },
+          "schema_consumer": "Pinned upstream js/filter-items.js adds Number(item.bonusAc) to AC for filtering. Keep the complete source rule in entries; no false fixed scalar.",
+          "template_dependency": "The original {=bonusAc} occurs in the attack/damage remainder of the example, not its +2 AC gain. Materialize the exact printed +1 before removing this scalar; removal alone is rejected because rendered text loses the number."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/inherits/entries/1",
+          "value": "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your {@variantrule Armor Class|XPHB}. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to {@variantrule Armor Class|XPHB}. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it."
+        },
+        {
+          "path": "/inherits/bonusAc",
+          "remove": true
+        }
+      ]
+    }
+  ]
+}

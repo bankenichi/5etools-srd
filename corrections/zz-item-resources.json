@@ -1,0 +1,458 @@
+{
+  "official_pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+  "scope": "One omitted source recharge timer: Robe of Stars restores stars at dusk, not dawn. No card text, charge capacity, amount, families or rendering code changes.",
+  "records": [
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Robe of Stars",
+        "source": "XDMG"
+      },
+      "projected_record_sha256": "277e3f30ccfd0d0d0f64aa4a39ce1431e0a016aab152120d764ef2d2df74a580",
+      "official_pages": [
+        240
+      ],
+      "evidence": [
+        {
+          "reason": "Source explicitly restores removed stars daily at dusk. Existing structured rechargeAmount lacks its printed timer.",
+          "source_quote": "Daily at dusk, 1d6 removed stars reappear on the robe.",
+          "heading": "Robe of Stars",
+          "pages": [
+            240
+          ],
+          "source_lines": [
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 0,
+              "text": "This black or dark-blue robe is embroidered with ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  538.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                507.3325500488281,
+                277.44207763671875,
+                563.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 1,
+              "text": "small white or silver stars. You gain a +1 bonus to ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  550.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                519.3325805664062,
+                278.8000183105469,
+                575.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 2,
+              "text": "saving throws while you wear it.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  562.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                531.3325805664062,
+                204.01800537109375,
+                587.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 3,
+              "text": "\t Six stars, located on the robe’s upper-front por-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  574.5025634765625
+                ],
+                [
+                  65.19999694824219,
+                  574.5025634765625
+                ],
+                [
+                  71.0,
+                  574.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                543.3325805664062,
+                275.3500061035156,
+                599.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 4,
+              "text": "tion, are particularly large. While wearing this ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  586.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                555.3325805664062,
+                267.1930236816406,
+                611.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 5,
+              "text": "robe, you can take a Magic action to remove one of ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  598.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                567.3325805664062,
+                282.6470031738281,
+                623.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 6,
+              "text": "the stars and expend it to cast the level 5 version of ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  610.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                579.3325805664062,
+                286.7879943847656,
+                635.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 7,
+              "text": "Magic Missile. Daily at dusk, 1d6 removed stars re-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic",
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  622.5025634765625
+                ],
+                [
+                  119.02000427246094,
+                  622.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                591.3325805664062,
+                279.95001220703125,
+                647.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 8,
+              "text": "appear on the robe.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  634.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                603.3325805664062,
+                147.0700225830078,
+                659.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 9,
+              "text": "\t While you wear the robe, you can take a Magic ac-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  646.5025634765625
+                ],
+                [
+                  65.19999694824219,
+                  646.5025634765625
+                ],
+                [
+                  71.0,
+                  646.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                615.3325805664062,
+                286.22003173828125,
+                671.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 10,
+              "text": "tion to enter the Astral Plane along with everything ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.000030517578125,
+                  658.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.000030517578125,
+                627.3325805664062,
+                289.0431213378906,
+                683.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 11,
+              "text": "you are wearing and carrying. You remain there ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.000030517578125,
+                  670.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.000030517578125,
+                639.3325805664062,
+                273.2400817871094,
+                695.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 12,
+              "text": "until you take a Magic action to return to the plane ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.000030517578125,
+                  682.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.000030517578125,
+                651.3325805664062,
+                284.9710388183594,
+                707.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 13,
+              "text": "you were on. You reappear in the last space you ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.000030517578125,
+                  694.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.000030517578125,
+                663.3325805664062,
+                269.9180603027344,
+                719.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 14,
+              "text": "occupied or, if that space is occupied, the nearest ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.000030517578125,
+                  706.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.000030517578125,
+                675.3325805664062,
+                276.0740661621094,
+                731.142578125
+              ]
+            },
+            {
+              "page": 240,
+              "column": 1,
+              "block": 11,
+              "line": 15,
+              "text": "unoccupied space.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.000030517578125,
+                  718.5025634765625
+                ]
+              ],
+              "bbox": [
+                63.000030517578125,
+                687.3325805664062,
+                141.93003845214844,
+                743.142578125
+              ]
+            }
+          ],
+          "layout_joins": [
+            {
+              "printed": "por-\ntion",
+              "joined": "portion",
+              "removed_layout_hyphen": true
+            },
+            {
+              "printed": "re-\nappear",
+              "joined": "reappear",
+              "removed_layout_hyphen": true
+            },
+            {
+              "printed": "ac-\ntion",
+              "joined": "action",
+              "removed_layout_hyphen": true
+            }
+          ]
+        }
+      ],
+      "edits": [
+        {
+          "path": "/recharge",
+          "value": "dusk"
+        }
+      ]
+    }
+  ]
+}

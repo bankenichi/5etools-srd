@@ -1,0 +1,2159 @@
+{
+  "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+  "input_sha256": "99d84670aa8d595138dcd975e43f13387a3faf3c19a75788c9df451481ae674a",
+  "scope": "Locate every retained rule-table title in the official SRD PDF.\n\nExact, unique printed heading evidence establishes the primary source page. It\ndoes not prove row/cell fidelity, continuation coverage, or other metadata and\nmust not be used as a complete table/release certificate.\n",
+  "normalization": "NFKC; curly quotes and dash forms to straight equivalents; whitespace collapse; case folding. No word substitutions or fuzzy matching.",
+  "records": [
+    {
+      "name": "The Six Abilities; Ability Descriptions",
+      "caption": "Ability Descriptions",
+      "official_page": 5,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 5,
+          "block": 12,
+          "line": 0,
+          "text": "Ability Descriptions",
+          "bbox": [
+            313.4988098144531,
+            161.26121520996094,
+            410.9787902832031,
+            173.7877197265625
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            171.1627197265625
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 10,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Ability Scores",
+      "caption": "Ability Scores",
+      "official_page": 5,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 5,
+          "block": 22,
+          "line": 0,
+          "text": "Ability Scores",
+          "bbox": [
+            313.4988098144531,
+            365.9226989746094,
+            381.5387878417969,
+            378.4491882324219
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            375.8241882324219
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 10,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Ability Modifiers",
+      "caption": "Ability Modifiers",
+      "official_page": 6,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 6,
+          "block": 1,
+          "line": 0,
+          "text": "Ability Modifiers",
+          "bbox": [
+            63.0,
+            39.25847244262695,
+            144.6942138671875,
+            51.78497314453125
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            49.15997314453125
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 10,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Ability Modifier; Ability Check Examples",
+      "caption": "Ability Check Examples",
+      "official_page": 6,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 6,
+          "block": 27,
+          "line": 0,
+          "text": "Ability Check Examples",
+          "bbox": [
+            313.4988098144531,
+            268.7259216308594,
+            429.3212585449219,
+            281.2524108886719
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            278.6274108886719
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 10,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Typical Difficulty Classes",
+      "caption": "Typical Difficulty Classes",
+      "official_page": 6,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 6,
+          "block": 37,
+          "line": 0,
+          "text": "Typical Difficulty Classes",
+          "bbox": [
+            313.4988098144531,
+            633.4274291992188,
+            435.2263488769531,
+            645.9539184570312
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            643.3289184570312
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 11,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Ability Modifier; Saving Throw Examples",
+      "caption": "Saving Throw Examples",
+      "official_page": 7,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 7,
+          "block": 4,
+          "line": 0,
+          "text": "Saving Throw Examples",
+          "bbox": [
+            63.0,
+            256.72589111328125,
+            178.73202514648438,
+            269.25238037109375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            266.62738037109375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 11,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Ability Modifier; Attack Roll Abilities",
+      "caption": "Attack Roll Abilities",
+      "official_page": 7,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 7,
+          "block": 16,
+          "line": 0,
+          "text": "Attack Roll Abilities",
+          "bbox": [
+            313.4988098144531,
+            39.2584114074707,
+            412.06964111328125,
+            51.784912109375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            49.159912109375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 12,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Proficiency Bonus",
+      "caption": "Proficiency Bonus",
+      "official_page": 8,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 8,
+          "block": 9,
+          "line": 0,
+          "text": "Proficiency Bonus",
+          "bbox": [
+            313.4988098144531,
+            285.7544250488281,
+            400.7947692871094,
+            298.2809143066406
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            295.6559143066406
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 13,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Skill List; Skills",
+      "caption": "Skills",
+      "official_page": 9,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 9,
+          "block": 14,
+          "line": 0,
+          "text": "Skills",
+          "bbox": [
+            63.0,
+            39.25847244262695,
+            87.92910766601562,
+            51.78497314453125
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            49.15997314453125
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 14,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Actions",
+      "caption": "Actions",
+      "official_page": 9,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 9,
+          "block": 10,
+          "line": 0,
+          "text": "Actions",
+          "bbox": [
+            313.4988098144531,
+            636.04833984375,
+            350.486083984375,
+            648.5748291015625
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            645.9498291015625
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 15,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Travel Pace",
+      "caption": "Travel Pace",
+      "official_page": 12,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 12,
+          "block": 18,
+          "line": 0,
+          "text": "Travel Pace",
+          "bbox": [
+            313.4988098144531,
+            408.74591064453125,
+            369.41033935546875,
+            421.27239990234375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            418.64739990234375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 20,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Creature Size and Space",
+      "caption": "Creature Size and Space",
+      "official_page": 14,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 14,
+          "block": 11,
+          "line": 0,
+          "text": "Creature Size and Space",
+          "bbox": [
+            313.4988098144531,
+            183.50157165527344,
+            432.81561279296875,
+            196.028076171875
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            193.403076171875
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 25,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Cover",
+      "caption": "Cover",
+      "official_page": 15,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 15,
+          "block": 4,
+          "line": 0,
+          "text": "Cover",
+          "bbox": [
+            63.0,
+            427.2810974121094,
+            92.45355987548828,
+            439.8075866699219
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            437.1825866699219
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 25,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Choose a Class; Class Overview",
+      "caption": "Class Overview",
+      "official_page": 19,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 19,
+          "block": 6,
+          "line": 0,
+          "text": "Class Overview",
+          "bbox": [
+            63.0,
+            517.1514282226562,
+            138.95701599121094,
+            529.6779174804688
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            527.0529174804688
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 33,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Choose a Background; Ability Scores and Backgrounds",
+      "caption": "Ability Scores and Backgrounds",
+      "official_page": 19,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 19,
+          "block": 32,
+          "line": 0,
+          "text": "Ability Scores and Backgrounds",
+          "bbox": [
+            313.4988098144531,
+            637.003173828125,
+            468.1186218261719,
+            649.5296630859375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            646.9046630859375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 36,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Choose Languages; Standard Languages",
+      "caption": "Standard Languages",
+      "official_page": 20,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 20,
+          "block": 10,
+          "line": 0,
+          "text": "Standard Languages",
+          "bbox": [
+            313.4988098144531,
+            207.50157165527344,
+            410.8149108886719,
+            220.028076171875
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            217.403076171875
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 37,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Choose Languages; Rare Languages",
+      "caption": "Rare Languages",
+      "official_page": 20,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 20,
+          "block": 23,
+          "line": 0,
+          "text": "Rare Languages",
+          "bbox": [
+            313.4988098144531,
+            463.7438049316406,
+            389.74774169921875,
+            476.2702941894531
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            473.6452941894531
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 37,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Ability Score Point Costs",
+      "caption": "Ability Score Point Costs",
+      "official_page": 21,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 21,
+          "block": 2,
+          "line": 0,
+          "text": "Ability Score Point Costs",
+          "bbox": [
+            63.0,
+            207.50157165527344,
+            186.0915069580078,
+            220.028076171875
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            217.403076171875
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 38,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Assign Ability Scores; Standard Array by Class",
+      "caption": "Standard Array by Class",
+      "official_page": 21,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 21,
+          "block": 14,
+          "line": 0,
+          "text": "Standard Array by Class",
+          "bbox": [
+            63.0,
+            461.3827209472656,
+            181.26358032226562,
+            473.9092102050781
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            471.2842102050781
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 38,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Determine Ability Modifiers; Ability Scores and Modifiers",
+      "caption": "Ability Scores and Modifiers",
+      "official_page": 21,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 21,
+          "block": 31,
+          "line": 0,
+          "text": "Ability Scores and Modifiers",
+          "bbox": [
+            313.4988098144531,
+            153.3411102294922,
+            451.51495361328125,
+            165.86761474609375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            163.24261474609375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 38,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Level 1 Hit Points by Class",
+      "caption": "Level 1 Hit Points by Class",
+      "official_page": 22,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 22,
+          "block": 11,
+          "line": 0,
+          "text": "Level 1 Hit Points by Class",
+          "bbox": [
+            313.4988098144531,
+            174.9172821044922,
+            443.2336120605469,
+            187.44378662109375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            184.81878662109375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 40,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Level Advancement; Character Advancement",
+      "caption": "Character Advancement",
+      "official_page": 23,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 23,
+          "block": 5,
+          "line": 0,
+          "text": "Character Advancement",
+          "bbox": [
+            63.0,
+            384.91729736328125,
+            182.6559295654297,
+            397.44378662109375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            394.81878662109375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 41,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Adjust Hit Points and Hit Point Dice; Fixed Hit Points by Class",
+      "caption": "Fixed Hit Points by Class",
+      "official_page": 23,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 23,
+          "block": 30,
+          "line": 0,
+          "text": "Fixed Hit Points by Class",
+          "bbox": [
+            313.4988098144531,
+            218.04588317871094,
+            434.8955078125,
+            230.5723876953125
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            227.9473876953125
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 42,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Starting Equipment at Higher Levels",
+      "caption": "Starting Equipment at Higher Levels",
+      "official_page": 24,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 24,
+          "block": 13,
+          "line": 0,
+          "text": "Starting Equipment at Higher Levels",
+          "bbox": [
+            63.0,
+            602.1159057617188,
+            240.34707641601562,
+            614.6423950195312
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            612.0173950195312
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 43,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Spellcasting; Multiclass Spellcaster: Spell Slots per Spell Level",
+      "caption": "Multiclass Spellcaster: Spell Slots per Spell Level",
+      "official_page": 26,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 26,
+          "block": 2,
+          "line": 0,
+          "text": "Multiclass Spellcaster:",
+          "bbox": [
+            63.0,
+            217.26109313964844,
+            177.42901611328125,
+            229.78759765625
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            227.16259765625
+          ]
+        },
+        {
+          "page": 26,
+          "block": 2,
+          "line": 1,
+          "text": "Spell Slots per Spell Level",
+          "bbox": [
+            63.00000762939453,
+            230.7640838623047,
+            189.1396942138672,
+            243.29058837890625
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.00000762939453,
+            240.66558837890625
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 44,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Coins; Coin Values",
+      "caption": "Coin Values",
+      "official_page": 89,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 89,
+          "block": 6,
+          "line": 0,
+          "text": "Coin Values",
+          "bbox": [
+            63.0,
+            223.93138122558594,
+            120.61138916015625,
+            236.4578857421875
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            233.8328857421875
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 213,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Weapons",
+      "caption": "Weapons",
+      "official_page": 91,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 91,
+          "block": 1,
+          "line": 0,
+          "text": "Weapons",
+          "bbox": [
+            49.86000061035156,
+            21.920886993408203,
+            95.0708999633789,
+            34.4473876953125
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            49.86000061035156,
+            31.8223876953125
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 213,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Armor",
+      "caption": "Armor",
+      "official_page": 92,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 92,
+          "block": 12,
+          "line": 0,
+          "text": "Armor",
+          "bbox": [
+            63.0,
+            319.846923828125,
+            95.78730010986328,
+            332.3734130859375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            329.7484130859375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 219,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Adventuring Gear",
+      "caption": "Adventuring Gear",
+      "official_page": 95,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 95,
+          "block": 1,
+          "line": 0,
+          "text": "Adventuring Gear",
+          "bbox": [
+            63.250301361083984,
+            39.25847244262695,
+            150.82659912109375,
+            51.78497314453125
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.250301361083984,
+            49.15997314453125
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 222,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Ammunition (Varies); Ammunition",
+      "caption": "Ammunition",
+      "official_page": 96,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 96,
+          "block": 1,
+          "line": 0,
+          "text": "Ammunition",
+          "bbox": [
+            63.0,
+            39.2584114074707,
+            123.60704040527344,
+            51.784912109375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            49.159912109375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 222,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Arcane Focus (Varies); Arcane Focuses",
+      "caption": "Arcane Focuses",
+      "official_page": 96,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 96,
+          "block": 10,
+          "line": 0,
+          "text": "Arcane Focuses",
+          "bbox": [
+            63.0,
+            280.5732116699219,
+            139.4956512451172,
+            293.0997009277344
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            290.4747009277344
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 224,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Druidic Focus (Varies); Druidic Focuses",
+      "caption": "Druidic Focuses",
+      "official_page": 97,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 97,
+          "block": 10,
+          "line": 0,
+          "text": "Druidic Focuses",
+          "bbox": [
+            63.0,
+            584.1416015625,
+            140.6317596435547,
+            596.6680908203125
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            594.0430908203125
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 225,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Holy Symbol (Varies); Holy Symbols",
+      "caption": "Holy Symbols",
+      "official_page": 97,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 97,
+          "block": 23,
+          "line": 0,
+          "text": "Holy Symbols",
+          "bbox": [
+            313.4988098144531,
+            481.7411193847656,
+            379.7559814453125,
+            494.2676086425781
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            491.6426086425781
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 226,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Mounts and Vehicles; Mounts and Other Animals",
+      "caption": "Mounts and Other Animals",
+      "official_page": 100,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 100,
+          "block": 13,
+          "line": 0,
+          "text": "Mounts and Other Animals",
+          "bbox": [
+            313.4988098144531,
+            157.88108825683594,
+            445.8974609375,
+            170.4075927734375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            167.7825927734375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 229,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Mounts and Vehicles; Tack, Harness, and Drawn Vehicles",
+      "caption": "Tack, Harness, and Drawn Vehicles",
+      "official_page": 100,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 100,
+          "block": 23,
+          "line": 0,
+          "text": "Tack, Harness, and Drawn Vehicles",
+          "bbox": [
+            313.4988098144531,
+            320.3446044921875,
+            484.8839416503906,
+            332.87109375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            330.24609375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 229,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Large Vehicles; Airborne and Waterborne Vehicles",
+      "caption": "Airborne and Waterborne Vehicles",
+      "official_page": 101,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 101,
+          "block": 30,
+          "line": 0,
+          "text": "Airborne and Waterborne Vehicles",
+          "bbox": [
+            63.18000030517578,
+            39.2584114074707,
+            235.0198211669922,
+            51.784912109375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.18000030517578,
+            49.159912109375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 230,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Food, Drink, and Lodging",
+      "caption": "Food, Drink, and Lodging",
+      "official_page": 101,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 101,
+          "block": 13,
+          "line": 0,
+          "text": "Food, Drink, and Lodging",
+          "bbox": [
+            313.4988098144531,
+            580.345947265625,
+            437.1710205078125,
+            592.8724365234375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            590.2474365234375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 231,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Hirelings",
+      "caption": "Hirelings",
+      "official_page": 102,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 102,
+          "block": 10,
+          "line": 0,
+          "text": "Hirelings",
+          "bbox": [
+            63.0,
+            238.8544158935547,
+            106.43115997314453,
+            251.38092041015625
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            248.75592041015625
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 232,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Spellcasting Services",
+      "caption": "Spellcasting Services",
+      "official_page": 102,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 102,
+          "block": 16,
+          "line": 0,
+          "text": "Spellcasting Services",
+          "bbox": [
+            63.0,
+            425.5353088378906,
+            164.2630615234375,
+            438.0617980957031
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            435.4367980957031
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 232,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Scribing Spell Scrolls; Spell Scroll Costs",
+      "caption": "Spell Scroll Costs",
+      "official_page": 103,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 103,
+          "block": 12,
+          "line": 0,
+          "text": "Spell Scroll Costs",
+          "bbox": [
+            313.4988098144531,
+            539.12109375,
+            399.03692626953125,
+            551.6475830078125
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            549.0225830078125
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 233,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Preparing Spells; Spell Preparation by Class",
+      "caption": "Spell Preparation by Class",
+      "official_page": 104,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 104,
+          "block": 7,
+          "line": 0,
+          "text": "Spell Preparation by Class",
+          "bbox": [
+            63.0,
+            260.5513916015625,
+            190.85850524902344,
+            273.077880859375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            270.452880859375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 235,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "School of Magic; Schools of Magic",
+      "caption": "Schools of Magic",
+      "official_page": 105,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 105,
+          "block": 3,
+          "line": 0,
+          "text": "Schools of Magic",
+          "bbox": [
+            63.0,
+            157.88108825683594,
+            144.0369110107422,
+            170.4075927734375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            167.7825927734375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XPHB",
+      "unverified_legacy_page": 236,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Travel Terrain",
+      "caption": "Travel Terrain",
+      "official_page": 192,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 192,
+          "block": 15,
+          "line": 0,
+          "text": "Travel Terrain",
+          "bbox": [
+            63.0,
+            492.4360046386719,
+            132.33570861816406,
+            504.9624938964844
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            502.3374938964844
+          ]
+        }
+      ],
+      "compatibility_source_id": "XDMG",
+      "unverified_legacy_page": 39,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Fear Effects; Sample Fear DCs",
+      "caption": "Sample Fear DCs",
+      "official_page": 196,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 196,
+          "block": 3,
+          "line": 0,
+          "text": "Sample Fear DCs",
+          "bbox": [
+            63.0,
+            274.3744201660156,
+            147.29086303710938,
+            286.9009094238281
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            284.2759094238281
+          ]
+        }
+      ],
+      "compatibility_source_id": "XDMG",
+      "unverified_legacy_page": 70,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Sample Mental Stress Effects",
+      "caption": "Sample Mental Stress Effects",
+      "official_page": 196,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 196,
+          "block": 15,
+          "line": 0,
+          "text": "Sample Mental Stress Effects",
+          "bbox": [
+            313.4988098144531,
+            200.6459197998047,
+            454.82354736328125,
+            213.17242431640625
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            210.54742431640625
+          ]
+        }
+      ],
+      "compatibility_source_id": "XDMG",
+      "unverified_legacy_page": 70,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Determine Your XP Budget; XP Budget per Character",
+      "caption": "XP Budget per Character",
+      "official_page": 202,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 202,
+          "block": 14,
+          "line": 0,
+          "text": "XP Budget per Character",
+          "bbox": [
+            313.4988098144531,
+            42.8008918762207,
+            438.3102111816406,
+            55.327392578125
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            52.702392578125
+          ]
+        }
+      ],
+      "compatibility_source_id": "XDMG",
+      "unverified_legacy_page": 114,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Magic Item Categories",
+      "caption": "Magic Item Categories",
+      "official_page": 204,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 204,
+          "block": 3,
+          "line": 0,
+          "text": "Magic Item Categories",
+          "bbox": [
+            63.0,
+            217.3314666748047,
+            172.8373565673828,
+            229.85797119140625
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            227.23297119140625
+          ]
+        }
+      ],
+      "compatibility_source_id": "XDMG",
+      "unverified_legacy_page": 216,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Mixing Potions; Potion Miscibility",
+      "caption": "Potion Miscibility",
+      "official_page": 204,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 204,
+          "block": 18,
+          "line": 0,
+          "text": "Potion Miscibility",
+          "bbox": [
+            313.4988098144531,
+            121.26122283935547,
+            397.7939453125,
+            133.7877197265625
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            131.1627197265625
+          ]
+        }
+      ],
+      "compatibility_source_id": "XDMG",
+      "unverified_legacy_page": 216,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Magic Item Values by Rarity; Magic Item Rarities and Values",
+      "caption": "Magic Item Rarities and Values",
+      "official_page": 206,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 206,
+          "block": 2,
+          "line": 0,
+          "text": "Magic Item Rarities and Values",
+          "bbox": [
+            63.0,
+            85.26110076904297,
+            212.99143981933594,
+            97.78759765625
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            95.16259765625
+          ]
+        }
+      ],
+      "compatibility_source_id": "XDMG",
+      "unverified_legacy_page": 217,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Magic Item Tools",
+      "caption": "Magic Item Tools",
+      "official_page": 207,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 207,
+          "block": 1,
+          "line": 0,
+          "text": "Magic Item Tools",
+          "bbox": [
+            63.0,
+            44.3583869934082,
+            146.30490112304688,
+            56.8848876953125
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            54.2598876953125
+          ]
+        }
+      ],
+      "compatibility_source_id": "XDMG",
+      "unverified_legacy_page": 220,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Magic Item Crafting Time and Cost",
+      "caption": "Magic Item Crafting Time and Cost",
+      "official_page": 207,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 207,
+          "block": 15,
+          "line": 0,
+          "text": "Magic Item Crafting Time and Cost",
+          "bbox": [
+            313.4988098144531,
+            39.2584114074707,
+            485.7135009765625,
+            51.784912109375
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            49.159912109375
+          ]
+        }
+      ],
+      "compatibility_source_id": "XDMG",
+      "unverified_legacy_page": 221,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Special Purpose; Sentient Item's Alignment",
+      "caption": "Sentient Item's Alignment",
+      "official_page": 208,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 208,
+          "block": 2,
+          "line": 0,
+          "text": "Sentient Item’s Alignment",
+          "bbox": [
+            63.0,
+            159.50169372558594,
+            190.0919952392578,
+            172.0281982421875
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            169.4031982421875
+          ]
+        }
+      ],
+      "compatibility_source_id": "XDMG",
+      "unverified_legacy_page": 226,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Special Purpose; Sentient Item's Communication",
+      "caption": "Sentient Item's Communication",
+      "official_page": 208,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 208,
+          "block": 9,
+          "line": 0,
+          "text": "Sentient Item’s Communication",
+          "bbox": [
+            63.0,
+            275.0404968261719,
+            217.21875,
+            287.5669860839844
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            284.9419860839844
+          ]
+        }
+      ],
+      "compatibility_source_id": "XDMG",
+      "unverified_legacy_page": 226,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Special Purpose; Sentient Item's Senses",
+      "caption": "Sentient Item's Senses",
+      "official_page": 208,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 208,
+          "block": 14,
+          "line": 0,
+          "text": "Sentient Item’s Senses",
+          "bbox": [
+            63.0,
+            397.6719055175781,
+            172.35226440429688,
+            410.1983947753906
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            407.5733947753906
+          ]
+        }
+      ],
+      "compatibility_source_id": "XDMG",
+      "unverified_legacy_page": 226,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Sentient Item's Special Purpose",
+      "caption": "Sentient Item's Special Purpose",
+      "official_page": 208,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 208,
+          "block": 20,
+          "line": 0,
+          "text": "Sentient Item’s Special Purpose",
+          "bbox": [
+            63.0,
+            498.00689697265625,
+            217.06333923339844,
+            510.53338623046875
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            507.90838623046875
+          ]
+        }
+      ],
+      "compatibility_source_id": "XDMG",
+      "unverified_legacy_page": 226,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Parts of a Stat Block; Hit Dice by Size",
+      "caption": "Hit Dice by Size",
+      "official_page": 255,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 255,
+          "block": 10,
+          "line": 0,
+          "text": "Hit Dice by Size",
+          "bbox": [
+            63.0,
+            188.6459197998047,
+            141.0318145751953,
+            201.17242431640625
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            198.54742431640625
+          ]
+        }
+      ],
+      "compatibility_source_id": "XMM",
+      "unverified_legacy_page": 6,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Experience Points by Challenge Rating",
+      "caption": "Experience Points by Challenge Rating",
+      "official_page": 256,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 256,
+          "block": 7,
+          "line": 0,
+          "text": "Experience Points by Challenge Rating",
+          "bbox": [
+            63.0,
+            475.2810974121094,
+            250.74209594726562,
+            487.8075866699219
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            485.1825866699219
+          ]
+        }
+      ],
+      "compatibility_source_id": "XMM",
+      "unverified_legacy_page": 8,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Proficiency Bonus by Challenge Rating",
+      "caption": "Proficiency Bonus by Challenge Rating",
+      "official_page": 256,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 256,
+          "block": 28,
+          "line": 0,
+          "text": "Proficiency Bonus by Challenge Rating",
+          "bbox": [
+            313.4988098144531,
+            194.75291442871094,
+            500.67279052734375,
+            207.2794189453125
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            313.4988098144531,
+            204.6544189453125
+          ]
+        }
+      ],
+      "compatibility_source_id": "XMM",
+      "unverified_legacy_page": 8,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    },
+    {
+      "name": "Wand of Wonder Effects",
+      "caption": "Wand of Wonder Effects",
+      "official_page": 252,
+      "locator_kind": "exact_table_caption",
+      "heading_lines": [
+        {
+          "page": 252,
+          "block": 1,
+          "line": 0,
+          "text": "Wand of Wonder Effects",
+          "bbox": [
+            63.0,
+            39.71977615356445,
+            183.76466369628906,
+            52.24627685546875
+          ],
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "sizes": [
+            10.5
+          ],
+          "colors": [
+            2301728
+          ],
+          "origin": [
+            63.0,
+            49.62127685546875
+          ]
+        }
+      ],
+      "compatibility_source_id": "XDMG",
+      "unverified_legacy_page": null,
+      "row_fidelity_status": "UNVERIFIED by this heading locator"
+    }
+  ],
+  "errors": [],
+  "all_primary_headings_located": true
+}

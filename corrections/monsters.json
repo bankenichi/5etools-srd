@@ -1,0 +1,2677 @@
+{
+  "official_pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+  "scope": "Confirmed core facts, all 28 mismatched full feature texts, all 30 literal legendary headers. Two exceptional passive Initiative scores are explicit printed facts in initiativePassive; no inferred Advantage rule. Full literal typography and consumer behavior remain separate gates.",
+  "records": [
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Aboleth",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "b2eaa79dd7fa889386517feb50b59aabf7ec66d013d05e61680db4a5ae365dc1",
+      "official_pages": [
+        258
+      ],
+      "evidence": [
+        {
+          "section": "trait",
+          "name": "Eldritch Restoration",
+          "official_page": 258,
+          "official_text": "Eldritch Restoration. If destroyed, the aboleth gains a new body in 5d10 days, reviving with all its Hit Points in the Far Realm or another location chosen by the GM."
+        },
+        {
+          "official_pages": [
+            258
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the aboleth can expend a use to take one of the following actions. The aboleth regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/trait",
+          "value": [
+            {
+              "name": "Amphibious",
+              "entries": [
+                "The aboleth can breathe air and water."
+              ]
+            },
+            {
+              "name": "Eldritch Restoration",
+              "entries": [
+                "If destroyed, the aboleth gains a new body in {@dice 5d10} days, reviving with all its {@variantrule Hit Points|XPHB} in the Far Realm or another location chosen by the GM."
+              ]
+            },
+            {
+              "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+              "entries": [
+                "If the aboleth fails a saving throw, it can choose to succeed instead."
+              ]
+            },
+            {
+              "name": "Mucus Cloud",
+              "entries": [
+                "While underwater, the aboleth is surrounded by mucus. {@actSave con} {@dc 14}, each creature in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the aboleth at the end of the aboleth's turn. {@actSaveFail} The target is cursed. Until the curse ends, the target's skin becomes slimy, the target can breathe air and water, and it can't regain {@variantrule Hit Points|XPHB} unless it is underwater.",
+                "While the cursed creature is outside a body of water, the creature takes 6 ({@damage 1d12}) Acid damage at the end of every 10 minutes unless moisture is applied to its skin before those minutes have passed."
+              ]
+            },
+            {
+              "name": "Probing Telepathy",
+              "entries": [
+                "If a creature the aboleth can see communicates telepathically with the aboleth, the aboleth learns the creature's greatest desires."
+              ]
+            }
+          ]
+        },
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the aboleth can expend a use to take one of the following actions. The aboleth regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Adult Black Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "b7c0962ebd3634583d100e490691adde199c38575867101054a2fa18f5e46e56",
+      "official_pages": [
+        264
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Spellcasting",
+          "official_page": 264,
+          "official_text": "Spellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 17, +9 to hit with spell attacks): At Will: Acid Arrow (level 3 version), Detect Magic, Fear 1/Day Each: Speak with Dead, Vitriolic Sphere"
+        },
+        {
+          "section": "legendary",
+          "name": "Pounce",
+          "official_page": 264,
+          "official_text": "Pounce. The dragon moves up to half its Speed, and it makes one Rend attack."
+        },
+        {
+          "official_pages": [
+            264
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/spellcasting",
+          "value": [
+            {
+              "name": "Spellcasting",
+              "type": "spellcasting",
+              "headerEntries": [
+                "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 17}, {@hit 9} to hit with spell attacks):"
+              ],
+              "will": [
+                "{@spell Acid Arrow|XPHB} (level 3 version)",
+                "{@spell Detect Magic|XPHB}",
+                "{@spell Fear|XPHB}"
+              ],
+              "daily": {
+                "1e": [
+                  "{@spell Speak with Dead|XPHB}",
+                  "{@spell Vitriolic Sphere|XPHB}"
+                ]
+              },
+              "ability": "cha",
+              "displayAs": "action"
+            }
+          ]
+        },
+        {
+          "path": "/legendary",
+          "value": [
+            {
+              "name": "Cloud of Insects",
+              "entries": [
+                "{@actSave dex} {@dc 17}, one creature the dragon can see within 120 feet. {@actSaveFail} 22 ({@damage 4d10}) Poison damage, and the target has {@variantrule Disadvantage|XPHB} on saving throws to maintain {@status Concentration|XPHB} until the end of its next turn. {@actSaveSuccessOrFail} The dragon can't take this action again until the start of its next turn."
+              ]
+            },
+            {
+              "name": "Frightful Presence",
+              "entries": [
+                "The dragon uses Spellcasting to cast {@spell Fear|XPHB}. The dragon can't take this action again until the start of its next turn."
+              ]
+            },
+            {
+              "name": "Pounce",
+              "entries": [
+                "The dragon moves up to half its {@variantrule Speed|XPHB}, and it makes one Rend attack."
+              ]
+            }
+          ]
+        },
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Adult Blue Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "e098baf6048bcfc189086f42b0444a58dccf2e388c58c775f74cef8ab9f6b9a4",
+      "official_pages": [
+        266,
+        267
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            266,
+            267
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Adult Brass Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "2f1e5e56801f3b9053df413251643c5b8479e8b336a49dd2278f5679bcd12ac1",
+      "official_pages": [
+        268,
+        269
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            268,
+            269
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Adult Bronze Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "2ccb1c0f171b9bed7c69085039b934bfc39da7dc98d08ca669d0627235109f39",
+      "official_pages": [
+        270,
+        271
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            270,
+            271
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Adult Copper Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "7940207aa9e24e80fee287fcc37aea149d4bad1491e8671bd09b0b54ed11b293",
+      "official_pages": [
+        276,
+        277
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            276,
+            277
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Adult Gold Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "d71a7c6bb6f6e4b7b867e4a78e23ba0bc022069cce283cbd66546016fcba38a5",
+      "official_pages": [
+        291,
+        292
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            291,
+            292
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Adult Green Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "0fcad4a5ef6c06e84a14f98a774b611180c44f3a344901de5b4a5ca05a943133",
+      "official_pages": [
+        294
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            294
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Adult Red Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "d806706b9025de8d306130c49707dbf3c424182baf773ad52b1261f88d80e8fc",
+      "official_pages": [
+        318,
+        319
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            318,
+            319
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Adult Silver Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "1b9817f59f2bd07cbe10e06eab60fa6a81dfca44e8244c5604622bf420da0057",
+      "official_pages": [
+        324,
+        325
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            324,
+            325
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Adult White Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "685afc0c72bc62dd54eb82bfbf12150504a6e9061c2c0a496ab1750b6d88dd9a",
+      "official_pages": [
+        340
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            340
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Ancient Black Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "216852bac81b149e62680aa396e16ad89247144ffa102e8eb4cac376d58e673a",
+      "official_pages": [
+        265
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Spellcasting",
+          "official_page": 265,
+          "official_text": "Spellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 21, +13 to hit with spell attacks): At Will: Acid Arrow (level 4 version), Detect Magic, Fear 1/Day Each: Create Undead, Speak with Dead, Vitriolic Sphere (level 5 version)"
+        },
+        {
+          "official_pages": [
+            265
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/spellcasting",
+          "value": [
+            {
+              "name": "Spellcasting",
+              "type": "spellcasting",
+              "headerEntries": [
+                "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 21}, {@hit 13} to hit with spell attacks):"
+              ],
+              "will": [
+                "{@spell Acid Arrow|XPHB} (level 4 version)",
+                "{@spell Detect Magic|XPHB}",
+                "{@spell Fear|XPHB}"
+              ],
+              "daily": {
+                "1e": [
+                  "{@spell Create Undead|XPHB}",
+                  "{@spell Speak with Dead|XPHB}",
+                  "{@spell Vitriolic Sphere|XPHB} (level 5 version)"
+                ]
+              },
+              "ability": "cha",
+              "displayAs": "action"
+            }
+          ]
+        },
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Ancient Blue Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "0f8c8cb00a34dc871e5c55cba7965f7d1a356f313bb7a587c5e0b79d5d323d84",
+      "official_pages": [
+        267
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            267
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Ancient Brass Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "4450d2a10633ad8f5da85ee61874f024e72b92b61a0c6cbed634f58d386ad060",
+      "official_pages": [
+        269
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            269
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Ancient Bronze Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "354307d17079cde6f600868c41f90cbd027e918f26726c249e1df3e58264d9b4",
+      "official_pages": [
+        271
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            271
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Ancient Copper Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "c439d01f18905b17eccf457f7a997f4d88920a7ab6bde088d1ee6faab3fb4afe",
+      "official_pages": [
+        277
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            277
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Ancient Gold Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "124a6b7033553da8995b9cd1a654764f0fbef53a4c0f3b052d5f20fbfbba2293",
+      "official_pages": [
+        292
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            292
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Ancient Green Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "39130237f4b34ac37bd7a5ca32faa2b15690e2fea33803363b6e49cf278bed30",
+      "official_pages": [
+        294,
+        295
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            294,
+            295
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Ancient Red Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "97479cc6d27e57975861c540ac4b3205b684219734d78d7f31b534b672c9d1cb",
+      "official_pages": [
+        319
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            319
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Ancient Silver Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "d1a6f39a2bfd48955aecee425d79d9dd526d113336bc5609824fc6dfa158e17a",
+      "official_pages": [
+        325
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            325
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Ancient White Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "13690bfab4b971b30272644f2b0f22a9482685ea2b9b974bc9f72e2ba2a398bb",
+      "official_pages": [
+        341
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            341
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Archmage",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "f217280ae28c18042b35299fa858f9f2b046ebb6329f3a443f3b6e43c7d1a3d9",
+      "official_pages": [
+        305
+      ],
+      "evidence": [
+        {
+          "name": "Archmage",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 30,
+          "official_page": 305,
+          "suggested_fields": {
+            "initiative": {
+              "initiative": 7
+            },
+            "cr": {
+              "cr": "12",
+              "xp": 8000
+            }
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/initiative",
+          "value": {
+            "initiative": 7
+          }
+        },
+        {
+          "path": "/cr",
+          "value": {
+            "cr": "12",
+            "xp": 8000
+          }
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Assassin",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "3d9216093648a55fc212105262891971e8ac8e2c3c5ec699f35a07fe0fc8f56e",
+      "official_pages": [
+        260
+      ],
+      "evidence": [
+        {
+          "name": "Assassin",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 31,
+          "official_page": 260,
+          "suggested_fields": {
+            "languages": [
+              "Common",
+              "Thieves' Cant"
+            ]
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/languages",
+          "value": [
+            "Common",
+            "Thieves' Cant"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Awakened Tree",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "dcfcf2c0efd358e16f71bb4d8ddb883fb4582e13e7ad916b2e9b9547b73308b6",
+      "official_pages": [
+        260
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Slam",
+          "official_page": 260,
+          "official_text": "Slam. Melee Attack Roll: +6, reach 10 ft. Hit: 14 (3d6 + 4) Bludgeoning damage."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/action",
+          "value": [
+            {
+              "name": "Slam",
+              "entries": [
+                "{@atkr m} {@hit 6}, reach 10 ft. {@h}14 ({@damage 3d6 + 4}) Bludgeoning damage."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Axe Beak",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "8e3140def5368eb3d39e2db5b811fd00725a402399b2151507bf3d38bc4359a1",
+      "official_pages": [
+        260
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Beak",
+          "official_page": 260,
+          "official_text": "Beak. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/action",
+          "value": [
+            {
+              "name": "Beak",
+              "entries": [
+                "{@atkr m} {@hit 4}, reach 5 ft. {@h}6 ({@damage 1d8 + 2}) Slashing damage."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Bandit",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "978493a4264098945d3703e2b75b0386d1818e43ee7a8c34c33b6389512d4695",
+      "official_pages": [
+        261
+      ],
+      "evidence": [
+        {
+          "name": "Bandit",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 39,
+          "official_page": 261,
+          "suggested_fields": {
+            "languages": [
+              "Common",
+              "Thieves' Cant"
+            ]
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/languages",
+          "value": [
+            "Common",
+            "Thieves' Cant"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Bandit Captain",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "4263e59f6a1c02e8ebe44fd12676f6e656c8b445c707bc0f8fdbd8a67f7a61d4",
+      "official_pages": [
+        261,
+        262
+      ],
+      "evidence": [
+        {
+          "name": "Bandit Captain",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 40,
+          "official_page": 261,
+          "suggested_fields": {
+            "languages": [
+              "Common",
+              "Thieves' Cant"
+            ]
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/languages",
+          "value": [
+            "Common",
+            "Thieves' Cant"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Basilisk",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "9ebc06389936f051484b1c706c368f1570fbef5d865a36d492b74d7fa8c4a2a9",
+      "official_pages": [
+        262
+      ],
+      "evidence": [
+        {
+          "section": "bonus",
+          "name": "Petrifying Gaze (Recharge 4-6)",
+          "official_page": 262,
+          "official_text": "Petrifying Gaze (Recharge 4-6). Constitution Saving Throw: DC 12, each creature in a 30-foot Cone. If the basilisk sees its reflection in the Cone, the basilisk must make this save. First Failure: The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition instead of the Restrained condition."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/bonus",
+          "value": [
+            {
+              "name": "Petrifying Gaze {@recharge 4}",
+              "entries": [
+                "{@actSave con} {@dc 12}, each creature in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. If the basilisk sees its reflection in the {@variantrule Cone [Area of Effect]|XPHB|Cone}, the basilisk must make this save. {@actSaveFail 1} The target has the {@condition Restrained|XPHB} condition and repeats the save at the end of its next turn if it is still {@condition Restrained|XPHB}, ending the effect on itself on a success. {@actSaveFail 2} The target has the {@condition Petrified|XPHB} condition instead of the {@condition Restrained|XPHB} condition."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Bat",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "02efce71ac5c1fa1499df4bd527f07eb4dc6540628e2a0d740406a3c28ccfae1",
+      "official_pages": [
+        345
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Bite",
+          "official_page": 345,
+          "official_text": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/action",
+          "value": [
+            {
+              "name": "Bite",
+              "entries": [
+                "{@atkr m} {@hit 4}, reach 5 ft. {@h}1 Piercing damage."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Blink Dog",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "78fe27c224d4ea7f8408e09f85a5b9dd22b3faa9fe144c03177ade16e503257d",
+      "official_pages": [
+        266
+      ],
+      "evidence": [
+        {
+          "name": "Blink Dog",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 50,
+          "official_page": 266,
+          "suggested_fields": {
+            "languages": [
+              "Blink Dog; understands Elvish and Sylvan but can't speak them"
+            ]
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/languages",
+          "value": [
+            "Blink Dog; understands Elvish and Sylvan but can't speak them"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Clay Golem",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "ec95ea77a65cfb69337aa69f0b3e44f50285daf38f8859dd7cc4ce1546d6c055",
+      "official_pages": [
+        274
+      ],
+      "evidence": [
+        {
+          "name": "Clay Golem",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 67,
+          "official_page": 274,
+          "suggested_fields": {
+            "speed.walk": 30
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/speed",
+          "value": {
+            "walk": 30
+          }
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Commoner",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "1c003ca8ffe938744b021d725c18ddb90edacbf99cd6a967c1b0899972379b69",
+      "official_pages": [
+        275
+      ],
+      "evidence": [
+        {
+          "section": "trait",
+          "name": "Training",
+          "official_page": 275,
+          "official_text": "Training. The commoner has proficiency in one skill of the GM's choice and has Advantage whenever it makes an ability check using that skill."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/trait",
+          "value": [
+            {
+              "name": "Training",
+              "entries": [
+                "The commoner has proficiency in one skill of the GM's choice and has {@variantrule Advantage|XPHB} whenever it makes an ability check using that skill."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Cultist Fanatic",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "9c59b3ea8f7f9e1a76cd47a58a26cb55dba90f25f1a6c331c0e2e6c49e690e7e",
+      "official_pages": [
+        278
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            278
+          ],
+          "spellcasting": "Spellcasting",
+          "basis": "Daily spell groups in descending uses order, as verified in the complete printed source feature. Preserve this insertion order for unchanged consumers."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/spellcasting",
+          "value": [
+            {
+              "name": "Spellcasting",
+              "type": "spellcasting",
+              "headerEntries": [
+                "The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 12}, {@hit 4} to hit with spell attacks):"
+              ],
+              "will": [
+                "{@spell Light|XPHB}",
+                "{@spell Thaumaturgy|XPHB}"
+              ],
+              "daily": {
+                "2": [
+                  "{@spell Command|XPHB}"
+                ],
+                "1": [
+                  "{@spell Hold Person|XPHB}"
+                ]
+              },
+              "ability": "wis",
+              "displayAs": "action"
+            },
+            {
+              "name": "Spiritual Weapon (2/Day)",
+              "type": "spellcasting",
+              "headerEntries": [
+                "The cultist casts the {@spell Spiritual Weapon|XPHB} spell, using the same spellcasting ability as Spellcasting."
+              ],
+              "daily": {
+                "2": [
+                  "{@spell Spiritual Weapon|XPHB}"
+                ]
+              },
+              "ability": "wis",
+              "displayAs": "bonus",
+              "hidden": [
+                "daily"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Djinni",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "6a65b0600d4b3af5128144c65eaa09c9315e15f3c9488ff38e578dd0ce96fd02",
+      "official_pages": [
+        280
+      ],
+      "evidence": [
+        {
+          "name": "Djinni",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 84,
+          "official_page": 280,
+          "suggested_fields": {
+            "alignment": [
+              "N"
+            ]
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/alignment",
+          "value": [
+            "N"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Druid",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "b7ca91a17407befc9f4d1b9c75c9c5998d609568b4765efb43b312ffdbda959c",
+      "official_pages": [
+        282
+      ],
+      "evidence": [
+        {
+          "name": "Druid",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 90,
+          "official_page": 282,
+          "suggested_fields": {
+            "type": {
+              "type": "humanoid",
+              "tags": [
+                "druid"
+              ]
+            }
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/type",
+          "value": {
+            "type": "humanoid",
+            "tags": [
+              "druid"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Giant Frog",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "c53c8cea1a4569b0511915b242248ff4ab6c78702d06daade58f6e25b5365503",
+      "official_pages": [
+        351
+      ],
+      "evidence": [
+        {
+          "name": "Giant Frog",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 123,
+          "official_page": 351,
+          "suggested_fields": {
+            "skill.stealth": "+4"
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/skill",
+          "value": {
+            "perception": "+2",
+            "stealth": "+4"
+          }
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Gray Ooze",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "8ac354388e3df9a7e04e5989a6c700b8bded4fa0012c59bee5fe2f37ef497205",
+      "official_pages": [
+        293
+      ],
+      "evidence": [
+        {
+          "official_page": 293,
+          "initiativePassive": 13,
+          "basis": "Explicit printed source score retained in an additive data field. No inferred Advantage mechanic or numeric-type hack."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/initiativePassive",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Half-Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "3a85798939bc12881dd46fd9b6f580b8ea7e3b282620dfdd5582209cc28c9060",
+      "official_pages": [
+        297
+      ],
+      "evidence": [
+        {
+          "section": "trait",
+          "name": "Draconic Origin",
+          "official_page": 297,
+          "official_text": "Draconic Origin. The half-dragon is related to a type of dragon associated with one of the following damage types (GM's choice): Acid, Cold, Fire, Lightning, or Poison. This choice affects other aspects of the stat block."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/trait",
+          "value": [
+            {
+              "name": "Draconic Origin",
+              "entries": [
+                "The half-dragon is related to a type of dragon associated with one of the following damage types (GM's choice): Acid, Cold, Fire, Lightning, or Poison. This choice affects other aspects of the stat block."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Horned Devil",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "1c68fe5e737000019162a428b245f65c38e0cccae47cca9d280bc2a8a075d84c",
+      "official_pages": [
+        299,
+        300
+      ],
+      "evidence": [
+        {
+          "name": "Horned Devil",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 170,
+          "official_page": 299,
+          "suggested_fields": {
+            "resist": [
+              "cold"
+            ]
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/resist",
+          "value": [
+            "cold"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Imp",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "4f5f958b62c56c5d1f4fa7a39f49b089afd34cdb8a9b63be6add91cfdd2e8db3",
+      "official_pages": [
+        300,
+        301
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Shape-Shift",
+          "official_page": 301,
+          "official_text": "Shape-Shift. The imp shape-shifts to resemble a rat (Speed 20 ft.), a raven (20 ft., Fly 60 ft.), or a spider (20 ft., Climb 20 ft.), or it returns to its true form. Its game statistics are the same in each form, except for its Speed. Any equipment it is wearing or carrying isn't transformed."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/action",
+          "value": [
+            {
+              "name": "Sting",
+              "entries": [
+                "{@atkr m} {@hit 5}, reach 5 ft. {@h}6 ({@damage 1d6 + 3}) Piercing damage plus 7 ({@damage 2d6}) Poison damage."
+              ]
+            },
+            {
+              "name": "Shape-Shift",
+              "entries": [
+                "The imp shape-shifts to resemble a rat ({@variantrule Speed|XPHB} 20 ft.), a raven (20 ft., Fly 60 ft.), or a spider (20 ft., Climb 20 ft.), or it returns to its true form. Its game statistics are the same in each form, except for its {@variantrule Speed|XPHB}. Any equipment it is wearing or carrying isn't transformed."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Incubus",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "46b591285dc290c2d486b3a05c3f86e3f9e2eaeb968640537a97e897a789c85f",
+      "official_pages": [
+        301
+      ],
+      "evidence": [
+        {
+          "section": "trait",
+          "name": "Succubus Form",
+          "official_page": 301,
+          "official_text": "Succubus Form. When the incubus finishes a Long Rest, it can shape-shift into a Succubus, using that stat block instead of this one. Any equipment it is wearing or carrying isn't transformed."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/trait",
+          "value": [
+            {
+              "name": "Succubus Form",
+              "entries": [
+                "When the incubus finishes a {@variantrule Long Rest|XPHB}, it can shape-shift into a {@creature Succubus|XMM}, using that stat block instead of this one. Any equipment it is wearing or carrying isn't transformed."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Invisible Stalker",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "68ce20ac98e394e46f180f468f720f659680d60621408afb0fa6c251385c8c6e",
+      "official_pages": [
+        301,
+        302
+      ],
+      "evidence": [
+        {
+          "official_page": 301,
+          "initiativePassive": 22,
+          "basis": "Explicit printed source score retained in an additive data field. No inferred Advantage mechanic or numeric-type hack."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/initiativePassive",
+          "value": 22
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Kraken",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "fab7d263be1f429f7e0f8e9f8350011dfd7300270ec6386a057310823a74cb73",
+      "official_pages": [
+        303
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            303
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the kraken can expend a use to take one of the following actions. The kraken regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the kraken can expend a use to take one of the following actions. The kraken regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Lich",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "df3725374d79ef546636abb8b3ad5beb59332f69b1f892cd4fc69f4aa84b75de",
+      "official_pages": [
+        304
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            304
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the lich can expend a use to take one of the following actions. The lich regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the lich can expend a use to take one of the following actions. The lich regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Mastiff",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "87d7e2983d112a92c6ff5cab5ad93bef7a913f42674ecb1029f878f95454c615",
+      "official_pages": [
+        357
+      ],
+      "evidence": [
+        {
+          "name": "Mastiff",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 196,
+          "official_page": 357,
+          "suggested_fields": {
+            "save.wis": "+3"
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/save",
+          "value": {
+            "wis": "+3"
+          }
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Mummy Lord",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "206a8eb2a4ed8d42a4d52cc959b28ad002d95fdcbdaf5bfb7de61ea333dc4d91",
+      "official_pages": [
+        309,
+        310
+      ],
+      "evidence": [
+        {
+          "name": "Mummy Lord",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 205,
+          "official_page": 309,
+          "suggested_fields": {
+            "shortName": "mummy"
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        },
+        {
+          "official_pages": [
+            309,
+            310
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the mummy can expend a use to take one of the following actions. The mummy regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/shortName",
+          "value": "mummy"
+        },
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the mummy can expend a use to take one of the following actions. The mummy regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Owl",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "e00c1d2e2bbb10d4a1c48d9e02593f76d73b891bf44d15140b2b8fe1c95c731f",
+      "official_pages": [
+        358
+      ],
+      "evidence": [
+        {
+          "section": "trait",
+          "name": "Flyby",
+          "official_page": 358,
+          "official_text": "Flyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/trait",
+          "value": [
+            {
+              "name": "Flyby",
+              "entries": [
+                "The owl doesn't provoke an {@action Opportunity Attack|XPHB} when it flies out of an enemy's reach."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Priest",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "d97a3637fa07a0fc53ec8780f4fac6e869aa891c7b8cc40fe3e429081f00c544",
+      "official_pages": [
+        316
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Spellcasting",
+          "official_page": 316,
+          "official_text": "Spellcasting. The priest casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13): At Will: Light, Thaumaturgy 1/Day: Spirit Guardians"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/spellcasting",
+          "value": [
+            {
+              "name": "Spellcasting",
+              "type": "spellcasting",
+              "headerEntries": [
+                "The priest casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}):"
+              ],
+              "will": [
+                "{@spell Light|XPHB}",
+                "{@spell Thaumaturgy|XPHB}"
+              ],
+              "daily": {
+                "1": [
+                  "{@spell Spirit Guardians|XPHB}"
+                ]
+              },
+              "ability": "wis",
+              "displayAs": "action"
+            },
+            {
+              "name": "Divine Aid (3/Day)",
+              "type": "spellcasting",
+              "headerEntries": [
+                "The priest casts {@spell Bless|XPHB}, {@spell Dispel Magic|XPHB}, {@spell Healing Word|XPHB}, or {@spell Lesser Restoration|XPHB}, using the same spellcasting ability as Spellcasting."
+              ],
+              "daily": {
+                "3": [
+                  "{@spell Bless|XPHB}",
+                  "{@spell Dispel Magic|XPHB}",
+                  "{@spell Healing Word|XPHB}",
+                  "{@spell Lesser Restoration|XPHB}"
+                ]
+              },
+              "ability": "wis",
+              "displayAs": "bonus",
+              "hidden": [
+                "daily"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Pseudodragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "80c09ee1e3a70709ade0745a80229d62923c62da01abbda62e9a0ddc4a40114b",
+      "official_pages": [
+        316
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Sting",
+          "official_page": 316,
+          "official_text": "Sting. Constitution Saving Throw: DC 12, one creature the pseudodragon can see within 5 feet. Failure: 5 (2d4) Poison damage, and the target has the Poisoned condition for 1 hour. Failure by 5 or More: While Poisoned, the target also has the Unconscious condition, which ends early if the target takes damage or a creature within 5 feet of it takes an action to wake it."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/action",
+          "value": [
+            {
+              "name": "Multiattack",
+              "entries": [
+                "The pseudodragon makes two Bite attacks."
+              ]
+            },
+            {
+              "name": "Bite",
+              "entries": [
+                "{@atkr m} {@hit 4}, reach 5 ft. {@h}4 ({@damage 1d4 + 2}) Piercing damage."
+              ]
+            },
+            {
+              "name": "Sting",
+              "entries": [
+                "{@actSave con} {@dc 12}, one creature the pseudodragon can see within 5 feet. {@actSaveFail} 5 ({@damage 2d4}) Poison damage, and the target has the {@condition Poisoned|XPHB} condition for 1 hour. Failure by 5 or More: While {@condition Poisoned|XPHB}, the target also has the {@condition Unconscious|XPHB} condition, which ends early if the target takes damage or a creature within 5 feet of it takes an action to wake it."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Rat",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "f78d5ad0f8ce4c87243ed343b20981e5294ba2f5a09c56a77a0093ac54d6200a",
+      "official_pages": [
+        359
+      ],
+      "evidence": [
+        {
+          "section": "trait",
+          "name": "Agile",
+          "official_page": 359,
+          "official_text": "Agile. The rat doesn't provoke an Opportunity Attack when it moves out of an enemy's reach."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/trait",
+          "value": [
+            {
+              "name": "Agile",
+              "entries": [
+                "The rat doesn't provoke an {@action Opportunity Attack|XPHB} when it moves out of an enemy's reach."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Solar",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "aae1097685ff946d135fd274ddf933ab07eb8d5a9a975571f373f6c137682035",
+      "official_pages": [
+        326,
+        327
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            326,
+            327
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3. Immediately after another creature's turn, the solar can expend a use to take one of the following actions. The solar regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3. Immediately after another creature's turn, the solar can expend a use to take one of the following actions. The solar regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Sphinx of Lore",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "b031211da50587642e6be2b9c889ce933b4276b5e88d3ba45fd95ad6f82ea2af",
+      "official_pages": [
+        327,
+        328
+      ],
+      "evidence": [
+        {
+          "name": "Sphinx of Lore",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 262,
+          "official_page": 327,
+          "suggested_fields": {
+            "shortName": "sphinx"
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        },
+        {
+          "official_pages": [
+            327,
+            328
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the sphinx can expend a use to take one of the following actions. The sphinx regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/shortName",
+          "value": "sphinx"
+        },
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the sphinx can expend a use to take one of the following actions. The sphinx regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Sphinx of Valor",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "6a4c008642af38eeb34661c7d7abda2f7c60567fddd5a85491a7d99d2e9070ab",
+      "official_pages": [
+        328
+      ],
+      "evidence": [
+        {
+          "name": "Sphinx of Valor",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 263,
+          "official_page": 328,
+          "suggested_fields": {
+            "shortName": "sphinx"
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        },
+        {
+          "official_pages": [
+            328
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the sphinx can expend a use to take one of the following actions. The sphinx regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/shortName",
+          "value": "sphinx"
+        },
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the sphinx can expend a use to take one of the following actions. The sphinx regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Succubus",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "081941f8cf5d1996f45dabb979993ed15f643b0950868b51ce70f14421634c86",
+      "official_pages": [
+        331
+      ],
+      "evidence": [
+        {
+          "section": "bonus",
+          "name": "Shape-Shift",
+          "official_page": 331,
+          "official_text": "Shape-Shift. The succubus shape-shifts into a Medium or Small Humanoid, or it returns to its true form. Its game statistics are the same in each form, except its Fly Speed is available only in its true form. Any equipment it is wearing or carrying isn't transformed."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/bonus",
+          "value": [
+            {
+              "name": "Shape-Shift",
+              "entries": [
+                "The succubus shape-shifts into a Medium or Small Humanoid, or it returns to its true form. Its game statistics are the same in each form, except its {@variantrule Fly Speed|XPHB} is available only in its true form. Any equipment it is wearing or carrying isn't transformed."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Swarm of Insects",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "7fbc2b9d72fdbb20a15045dd89d0414ae5d7ff9c215e629c7c78c696f0937059",
+      "official_pages": [
+        361
+      ],
+      "evidence": [
+        {
+          "name": "Swarm of Insects",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 277,
+          "official_page": 361,
+          "suggested_fields": {
+            "speed.choose.note": "(GM's choice)"
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/speed",
+          "value": {
+            "walk": 20,
+            "choose": {
+              "from": [
+                "climb",
+                "fly"
+              ],
+              "amount": 20,
+              "note": "(GM's choice)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Swarm of Rats",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "faf7b40c4628ecd8c6c5db3b7fb8c12280cde34702c6200af43ad7555184c6bc",
+      "official_pages": [
+        362
+      ],
+      "evidence": [
+        {
+          "name": "Swarm of Rats",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 279,
+          "official_page": 362,
+          "suggested_fields": {
+            "save.dex": "+2"
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/save",
+          "value": {
+            "dex": "+2"
+          }
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Tarrasque",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "5f275caac3dfaa3a8f9d7cfd7657c5d5e24e698f1e76fad565565be5ecb26e8a",
+      "official_pages": [
+        331,
+        332
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            331,
+            332
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3. Immediately after another creature's turn, the tarrasque can expend a use to take one of the following actions. The tarrasque regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3. Immediately after another creature's turn, the tarrasque can expend a use to take one of the following actions. The tarrasque regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Unicorn",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "7ce30745786cecafc38cf2633caab9987f04b63661908fff336d9b790607e3f6",
+      "official_pages": [
+        334
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            334
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3. Immediately after another creature's turn, the unicorn can expend a use to take one of the following actions. The unicorn regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3. Immediately after another creature's turn, the unicorn can expend a use to take one of the following actions. The unicorn regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Vampire",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "473dfe9dfc4eef087633b81be5eb86a13bb155effc8a72b3e628e82cfadb75c0",
+      "official_pages": [
+        335,
+        336
+      ],
+      "evidence": [
+        {
+          "official_pages": [
+            335,
+            336
+          ],
+          "legendaryHeader": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the vampire can expend a use to take one of the following actions. The vampire regains all expended uses at the start of each of its turns.",
+          "basis": "Literal source header consumed by the existing parser; do not derive creature shorthand from its record title."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/legendaryHeader",
+          "value": [
+            "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the vampire can expend a use to take one of the following actions. The vampire regains all expended uses at the start of each of its turns."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Werebear",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "60afdde9f1dadccda3bfbdc2832e6503559ae8a1a2b9545aef902ac422144a24",
+      "official_pages": [
+        337,
+        338
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Bite (Bear or Hybrid Form Only)",
+          "official_page": 337,
+          "official_text": "Bite (Bear or Hybrid Form Only). Melee Attack Roll: +7, reach 5 ft. Hit: 17 (2d12 + 4) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 14. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werebear under the GM's control and has 10 Hit Points. Success: The target is immune to this werebear's curse for 24 hours."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/action",
+          "value": [
+            {
+              "name": "Multiattack",
+              "entries": [
+                "The werebear makes two attacks, using Handaxe or Rend in any combination. It can replace one attack with a Bite attack."
+              ]
+            },
+            {
+              "name": "Bite (Bear or Hybrid Form Only)",
+              "entries": [
+                "{@atkr m} {@hit 7}, reach 5 ft. {@h}17 ({@damage 2d12 + 4}) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. {@actSave con} {@dc 14}. {@actSaveFail} The target is cursed. If the cursed target drops to 0 {@variantrule Hit Points|XPHB}, it instead becomes a Werebear under the GM's control and has 10 {@variantrule Hit Points|XPHB}. {@actSaveSuccess} The target is immune to this werebear's curse for 24 hours."
+              ]
+            },
+            {
+              "name": "Handaxe (Humanoid or Hybrid Form Only)",
+              "entries": [
+                "{@atkr m,r} {@hit 7}, reach 5 ft or range 20/60 ft. {@h}14 ({@damage 3d6 + 4}) Slashing damage."
+              ]
+            },
+            {
+              "name": "Rend (Bear or Hybrid Form Only)",
+              "entries": [
+                "{@atkr m} {@hit 7}, reach 5 ft. {@h}13 ({@damage 2d8 + 4}) Slashing damage."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Wereboar",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "08a4fdc3465b4b31f07bab9df57cc4ff71edee6fe361a82dacd53b752f3f3944",
+      "official_pages": [
+        338
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Gore (Boar or Hybrid Form Only)",
+          "official_page": 338,
+          "official_text": "Gore (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Wereboar under the GM's control and has 10 Hit Points. Success: The target is immune to this wereboar's curse for 24 hours."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/action",
+          "value": [
+            {
+              "name": "Multiattack",
+              "entries": [
+                "The wereboar makes two attacks, using Javelin or Tusk in any combination. It can replace one attack with a Gore attack."
+              ]
+            },
+            {
+              "name": "Gore (Boar or Hybrid Form Only)",
+              "entries": [
+                "{@atkr m} {@hit 5}, reach 5 ft. {@h}12 ({@damage 2d8 + 3}) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. {@actSave con} {@dc 12}. {@actSaveFail} The target is cursed. If the cursed target drops to 0 {@variantrule Hit Points|XPHB}, it instead becomes a Wereboar under the GM's control and has 10 {@variantrule Hit Points|XPHB}. {@actSaveSuccess} The target is immune to this wereboar's curse for 24 hours."
+              ]
+            },
+            {
+              "name": "Javelin (Humanoid or Hybrid Form Only)",
+              "entries": [
+                "{@atkr m,r} {@hit 5}, reach 5 ft. or range 30/120 ft. {@h}13 ({@damage 3d6 + 3}) Piercing damage."
+              ]
+            },
+            {
+              "name": "Tusk (Boar or Hybrid Form Only)",
+              "entries": [
+                "{@atkr m} {@hit 5}, reach 5 ft. {@h}10 ({@damage 2d6 + 3}) Piercing damage. If the target is a Medium or smaller creature and the wereboar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 ({@damage 2d6}) Piercing damage and has the {@condition Prone|XPHB} condition."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Wererat",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "0409168b873e11ceb78afbab45d913b33deaf6e8c30314ef5c580c42c289f3d6",
+      "official_pages": [
+        338
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Bite (Rat or Hybrid Form Only)",
+          "official_page": 338,
+          "official_text": "Bite (Rat or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 8 (2d4 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 11. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Wererat under the GM's control and has 10 Hit Points. Success: The target is immune to this wererat's curse for 24 hours."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/action",
+          "value": [
+            {
+              "name": "Multiattack",
+              "entries": [
+                "The wererat makes two attacks, using Scratch or Hand Crossbow in any combination. It can replace one attack with a Bite attack."
+              ]
+            },
+            {
+              "name": "Bite (Rat or Hybrid Form Only)",
+              "entries": [
+                "{@atkr m} {@hit 5}, reach 5 ft. {@h}8 ({@damage 2d4 + 3}) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. {@actSave con} {@dc 11}. {@actSaveFail} The target is cursed. If the cursed target drops to 0 {@variantrule Hit Points|XPHB}, it instead becomes a Wererat under the GM's control and has 10 {@variantrule Hit Points|XPHB}. {@actSaveSuccess} The target is immune to this wererat's curse for 24 hours."
+              ]
+            },
+            {
+              "name": "Scratch",
+              "entries": [
+                "{@atkr m} {@hit 5}, reach 5 ft. {@h}6 ({@damage 1d6 + 3}) Slashing damage."
+              ]
+            },
+            {
+              "name": "Hand Crossbow (Humanoid or Hybrid Form Only)",
+              "entries": [
+                "{@atkr r} {@hit 5}, range 30/120 ft. {@h}6 ({@damage 1d6 + 3}) Piercing damage."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Weretiger",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "5b891783439303dba7e02803a262a554ddb7b246c39fd35a47299bb78d1ccf7c",
+      "official_pages": [
+        339
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Bite (Tiger or Hybrid Form Only)",
+          "official_page": 339,
+          "official_text": "Bite (Tiger or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 13. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Weretiger under the GM's control and has 10 Hit Points. Success: The target is immune to this weretiger's curse for 24 hours."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/action",
+          "value": [
+            {
+              "name": "Multiattack",
+              "entries": [
+                "The weretiger makes two attacks, using Scratch or Longbow in any combination. It can replace one attack with a Bite attack."
+              ]
+            },
+            {
+              "name": "Bite (Tiger or Hybrid Form Only)",
+              "entries": [
+                "{@atkr m} {@hit 5}, reach 5 ft. {@h}12 ({@damage 2d8 + 3}) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. {@actSave con} {@dc 13}. {@actSaveFail} The target is cursed. If the cursed target drops to 0 {@variantrule Hit Points|XPHB}, it instead becomes a Weretiger under the GM's control and has 10 {@variantrule Hit Points|XPHB}. {@actSaveSuccess} The target is immune to this weretiger's curse for 24 hours."
+              ]
+            },
+            {
+              "name": "Scratch",
+              "entries": [
+                "{@atkr m} {@hit 5}, reach 5 ft. {@h}10 ({@damage 2d6 + 3}) Slashing damage."
+              ]
+            },
+            {
+              "name": "Longbow (Humanoid or Hybrid Form Only)",
+              "entries": [
+                "{@atkr r} {@hit 4}, range 150/600 ft. {@h}11 ({@damage 2d8 + 2}) Piercing damage."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Werewolf",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "ab4b814cb37a210ad36c31689bd5b57cd5383bd2b3c5587aa36fa2348ed57cd4",
+      "official_pages": [
+        339
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Bite (Wolf or Hybrid Form Only)",
+          "official_page": 339,
+          "official_text": "Bite (Wolf or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werewolf under the GM's control and has 10 Hit Points. Success: The target is immune to this werewolf's curse for 24 hours."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/action",
+          "value": [
+            {
+              "name": "Multiattack",
+              "entries": [
+                "The werewolf makes two attacks, using Scratch or Longbow in any combination. It can replace one attack with a Bite attack."
+              ]
+            },
+            {
+              "name": "Bite (Wolf or Hybrid Form Only)",
+              "entries": [
+                "{@atkr m} {@hit 5}, reach 5 ft. {@h}12 ({@damage 2d8 + 3}) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. {@actSave con} {@dc 12}. {@actSaveFail} The target is cursed. If the cursed target drops to 0 {@variantrule Hit Points|XPHB}, it instead becomes a Werewolf under the GM's control and has 10 {@variantrule Hit Points|XPHB}. {@actSaveSuccess} The target is immune to this werewolf's curse for 24 hours."
+              ]
+            },
+            {
+              "name": "Scratch",
+              "entries": [
+                "{@atkr m} {@hit 5}, reach 5 ft. {@h}10 ({@damage 2d6 + 3}) Slashing damage."
+              ]
+            },
+            {
+              "name": "Longbow (Humanoid or Hybrid Form Only)",
+              "entries": [
+                "{@atkr r} {@hit 4}, range 150/600 ft. {@h}11 ({@damage 2d8 + 2}) Piercing damage."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xmm.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Young White Dragon",
+        "source": "XMM"
+      },
+      "projected_record_sha256": "6938146e4a1ea505007dfca1e96276b9959e0d8aa4109180c767c3bebc1c0e6b",
+      "official_pages": [
+        340
+      ],
+      "evidence": [
+        {
+          "name": "Young White Dragon",
+          "file": "data/bestiary/bestiary-xmm.json",
+          "record_index": 328,
+          "official_page": 340,
+          "suggested_fields": {
+            "save.int": "+2"
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/save",
+          "value": {
+            "dex": "+3",
+            "wis": "+3",
+            "int": "+2"
+          }
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xphb.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Animated Object",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "7832b47734069077525a96f2bd69761ddbaa679bdcecfe4f14be55ce6c3cfb06",
+      "official_pages": [
+        109
+      ],
+      "evidence": [
+        {
+          "name": "Animated Object",
+          "file": "data/bestiary/bestiary-xphb.json",
+          "record_index": 0,
+          "official_page": 109,
+          "suggested_fields": {
+            "immune": [
+              "poison",
+              "psychic"
+            ],
+            "conditionImmune": [
+              "charmed",
+              "exhaustion",
+              "frightened",
+              "paralyzed",
+              "poisoned"
+            ]
+          },
+          "basis": "direct printed source facts",
+          "apply_status": "NOT APPLIED"
+        },
+        {
+          "section": "action",
+          "name": "Slam",
+          "official_page": 109,
+          "official_text": "Slam. Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: Force damage equal to 1d4 + 3 (Medium or smaller), 2d6 + 3 + your spellcasting ability modifier (Large), or 2d12 + 3 + your spellcasting ability modifier (Huge)."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/action",
+          "value": [
+            {
+              "name": "Slam",
+              "entries": [
+                "{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. {@h}Force damage equal to {@damage (summonSpellLevel - 4)d4 + 3|1d4 + 3} (Medium or smaller), {@damage (summonSpellLevel - 3)d6 + 3|2d6 + 3} + your spellcasting ability modifier (Large), or {@damage (summonSpellLevel - 3)d12 + 3|2d12 + 3} + your spellcasting ability modifier (Huge)."
+              ]
+            }
+          ]
+        },
+        {
+          "path": "/immune",
+          "value": [
+            "poison",
+            "psychic"
+          ]
+        },
+        {
+          "path": "/conditionImmune",
+          "value": [
+            "charmed",
+            "exhaustion",
+            "frightened",
+            "paralyzed",
+            "poisoned"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xphb.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Draconic Spirit",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "9408a0e938e863359d6eacfe0094533ca32b25b000e2f25ba96f58dda6f16c53",
+      "official_pages": [
+        166
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Rend",
+          "official_page": 166,
+          "official_text": "Rend. Melee Attack Roll: Bonus equals your spell attack modifier, reach 10 feet. Hit: 1d6 + 4 + the spell's level Piercing damage."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/action",
+          "value": [
+            {
+              "name": "Multiattack",
+              "entries": [
+                "The spirit makes a number of Rend attacks equal to half the spell's level (round down), and it uses Breath Weapon."
+              ]
+            },
+            {
+              "name": "Rend",
+              "entries": [
+                "{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 feet. {@h}{@damage 1d6 + 4 + summonSpellLevel} Piercing damage."
+              ]
+            },
+            {
+              "name": "Breath Weapon",
+              "entries": [
+                "{@actSave dex} DC equals your spell save DC, each creature in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} {@damage 2d6} damage of a type this spirit has {@variantrule Resistance|XPHB} to (your choice when you cast the spell). {@actSaveSuccess} Half damage."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xphb.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Giant Insect",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "b2a521895dce6c87197c152e54dfe3dadd9dfbc178978d5d934d51a2af70c485",
+      "official_pages": [
+        136
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Poison Jab",
+          "official_page": 136,
+          "official_text": "Poison Jab. Melee Attack Roll: Bonus equals your spell attack modifier, reach 10 ft. Hit: 1d6 + 3 plus the spell's level Piercing damage plus 1d4 Poison damage."
+        },
+        {
+          "section": "action",
+          "name": "Web Bolt (Spider Only)",
+          "official_page": 136,
+          "official_text": "Web Bolt (Spider Only). Ranged Attack Roll: Bonus equals your spell attack modifier, range 60 ft. Hit: 1d10 + 3 plus the spell's level Bludgeoning damage, and the target's Speed is reduced to 0 until the start of the insect's next turn."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/action",
+          "value": [
+            {
+              "name": "Multiattack",
+              "entries": [
+                "The insect makes a number of attacks equal to half this spell's level (round down)."
+              ]
+            },
+            {
+              "name": "Poison Jab",
+              "entries": [
+                "{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}1d6 + 3 plus the spell's level Piercing damage plus {@damage 1d4} Poison damage."
+              ]
+            },
+            {
+              "name": "Web Bolt (Spider Only)",
+              "entries": [
+                "{@atkr r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, range 60 ft. {@h}1d10 + 3 plus the spell's level Bludgeoning damage, and the target's {@variantrule Speed|XPHB} is reduced to 0 until the start of the insect's next turn."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/bestiary/bestiary-xphb.json",
+      "kind": "monster",
+      "identity": {
+        "name": "Otherworldly Steed",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "1fa94c5c7a97a56d52f470a6fe95c385b2387e1afcee356fa8e169a8a4f685f6",
+      "official_pages": [
+        131
+      ],
+      "evidence": [
+        {
+          "section": "action",
+          "name": "Otherworldly Slam",
+          "official_page": 131,
+          "official_text": "Otherworldly Slam. Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: 1d8 plus the spell's level of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage."
+        },
+        {
+          "section": "bonus",
+          "name": "Healing Touch (Celestial Only; Recharges after a Long Rest)",
+          "official_page": 131,
+          "official_text": "Healing Touch (Celestial Only; Recharges after a Long Rest). One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8 plus the spell's level."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/action",
+          "value": [
+            {
+              "name": "Otherworldly Slam",
+              "entries": [
+                "{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. {@h}1d8 plus the spell's level of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage."
+              ]
+            }
+          ]
+        },
+        {
+          "path": "/bonus",
+          "value": [
+            {
+              "name": "Fell Glare (Fiend Only; Recharges after a Long Rest)",
+              "entries": [
+                "{@actSave wis} DC equals your spell save DC, one creature within 60 feet the steed can see. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition until the end of your next turn."
+              ]
+            },
+            {
+              "name": "Fey Step (Fey Only; Recharges after a Long Rest)",
+              "entries": [
+                "The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself."
+              ]
+            },
+            {
+              "name": "Healing Touch (Celestial Only; Recharges after a Long Rest)",
+              "entries": [
+                "One creature within 5 feet of the steed regains a number of {@variantrule Hit Points|XPHB} equal to 2d8 plus the spell's level."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

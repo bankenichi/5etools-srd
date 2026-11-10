@@ -1,0 +1,1635 @@
+{
+  "official_pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+  "scope": "Twenty-three attunement qualifiers: source capitalization only. Apply after all other guarded corrections, preserving their frozen preimages.",
+  "records": [
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "+1 Wand of the War Mage"
+      },
+      "projected_record_sha256": "44f5bd53748c8d4150ef0550abfa6936d50d537c7503064471ba32b18c9dd395",
+      "official_pages": [
+        251
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Wand, Uncommon (+1), Rare (+2), or Very Rare (+3) (Requires Attunement by a Spellcaster)",
+          "source_heading": "Wand of the War Mage, +1, +2, or +3",
+          "header_source_lines": [
+            {
+              "page": 251,
+              "column": 2,
+              "block": 14,
+              "line": 1,
+              "text": "Wand, Uncommon (+1), Rare (+2), or Very Rare (+3) ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  290.7904968261719
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                280.32049560546875,
+                525.023681640625,
+                293.58050537109375
+              ]
+            },
+            {
+              "page": 251,
+              "column": 2,
+              "block": 14,
+              "line": 2,
+              "text": "(Requires Attunement by a Spellcaster)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  302.7904968261719
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                292.32049560546875,
+                474.70855712890625,
+                305.58050537109375
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Spellcaster"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "+2 Wand of the War Mage"
+      },
+      "projected_record_sha256": "288dabf47058e562a7871c984628d9b32112a69ea59363d7f5ed54ed4e66f1ba",
+      "official_pages": [
+        251
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Wand, Uncommon (+1), Rare (+2), or Very Rare (+3) (Requires Attunement by a Spellcaster)",
+          "source_heading": "Wand of the War Mage, +1, +2, or +3",
+          "header_source_lines": [
+            {
+              "page": 251,
+              "column": 2,
+              "block": 14,
+              "line": 1,
+              "text": "Wand, Uncommon (+1), Rare (+2), or Very Rare (+3) ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  290.7904968261719
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                280.32049560546875,
+                525.023681640625,
+                293.58050537109375
+              ]
+            },
+            {
+              "page": 251,
+              "column": 2,
+              "block": 14,
+              "line": 2,
+              "text": "(Requires Attunement by a Spellcaster)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  302.7904968261719
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                292.32049560546875,
+                474.70855712890625,
+                305.58050537109375
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Spellcaster"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "+3 Wand of the War Mage"
+      },
+      "projected_record_sha256": "d465c9ebf393ca81f16ea2146d55c536efc8e454cc718c695819970e540a8f3d",
+      "official_pages": [
+        251
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Wand, Uncommon (+1), Rare (+2), or Very Rare (+3) (Requires Attunement by a Spellcaster)",
+          "source_heading": "Wand of the War Mage, +1, +2, or +3",
+          "header_source_lines": [
+            {
+              "page": 251,
+              "column": 2,
+              "block": 14,
+              "line": 1,
+              "text": "Wand, Uncommon (+1), Rare (+2), or Very Rare (+3) ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  290.7904968261719
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                280.32049560546875,
+                525.023681640625,
+                293.58050537109375
+              ]
+            },
+            {
+              "page": 251,
+              "column": 2,
+              "block": 14,
+              "line": 2,
+              "text": "(Requires Attunement by a Spellcaster)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  302.7904968261719
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                292.32049560546875,
+                474.70855712890625,
+                305.58050537109375
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Spellcaster"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Hat of Many Spells"
+      },
+      "projected_record_sha256": "ffb5badde80f0dafbbcdcb804e259b6ce0ac6a8aaef7f2f4f73aa5dfdfc9140e",
+      "official_pages": [
+        224
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Wondrous Item, Very Rare (Requires Attunement by a Wizard)",
+          "source_heading": "Hat of Many Spells",
+          "header_source_lines": [
+            {
+              "page": 224,
+              "column": 2,
+              "block": 19,
+              "line": 1,
+              "text": "Wondrous Item, Very Rare (Requires Attunement by a ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  632.1026000976562
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                621.6326293945312,
+                536.5444946289062,
+                634.892578125
+              ]
+            },
+            {
+              "page": 224,
+              "column": 2,
+              "block": 19,
+              "line": 2,
+              "text": "Wizard)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  644.1026000976562
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                633.6326293945312,
+                347.7838134765625,
+                646.892578125
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Wizard"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Necklace of Prayer Beads"
+      },
+      "projected_record_sha256": "ae177505987a14b21fe5b5cbc47988bd8176314b08af3e1cf16ad47f0f6ca644",
+      "official_pages": [
+        233
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Wondrous Item, Rare (Requires Attunement by a Cleric, Druid, or Paladin)",
+          "source_heading": "Necklace of Prayer Beads",
+          "header_source_lines": [
+            {
+              "page": 233,
+              "column": 1,
+              "block": 3,
+              "line": 1,
+              "text": "Wondrous Item, Rare (Requires Attunement by a ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  206.5831298828125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                196.11312866210938,
+                265.0950622558594,
+                209.3731231689453
+              ]
+            },
+            {
+              "page": 233,
+              "column": 1,
+              "block": 3,
+              "line": 2,
+              "text": "Cleric, Druid, or Paladin)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  218.5831298828125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                208.11312866210938,
+                164.64898681640625,
+                221.3731231689453
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Cleric, Druid, or Paladin"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Pearl of Power"
+      },
+      "projected_record_sha256": "49ab102e557cabdef4bf153671c1886df528c40b42730e8dd490c3361f234720",
+      "official_pages": [
+        234
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Wondrous Item, Uncommon (Requires Attunement by a Spellcaster)",
+          "source_heading": "Pearl of Power",
+          "header_source_lines": [
+            {
+              "page": 234,
+              "column": 1,
+              "block": 2,
+              "line": 1,
+              "text": "Wondrous Item, Uncommon (Requires Attunement by ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  116.74261474609375
+                ]
+              ],
+              "bbox": [
+                63.0,
+                106.27261352539062,
+                284.9679870605469,
+                119.5326156616211
+              ]
+            },
+            {
+              "page": 234,
+              "column": 1,
+              "block": 2,
+              "line": 2,
+              "text": "a Spellcaster)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  128.74261474609375
+                ]
+              ],
+              "bbox": [
+                63.0,
+                118.27261352539062,
+                119.05200958251953,
+                131.53260803222656
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Spellcaster"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Robe of the Archmagi"
+      },
+      "projected_record_sha256": "f4d24ff18ec5f224612cc0ccb1c7424bb45be812feefd041cf4ddbfe26953df6",
+      "official_pages": [
+        240
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Wondrous Item, Legendary (Requires Attunement by a Sorcerer, Warlock, or Wizard)",
+          "source_heading": "Robe of the Archmagi",
+          "header_source_lines": [
+            {
+              "page": 240,
+              "column": 2,
+              "block": 12,
+              "line": 1,
+              "text": "Wondrous Item, Legendary (Requires Attunement by a ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  62.903076171875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                52.433074951171875,
+                540.1255493164062,
+                65.69307708740234
+              ]
+            },
+            {
+              "page": 240,
+              "column": 2,
+              "block": 12,
+              "line": 2,
+              "text": "Sorcerer, Warlock, or Wizard)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  74.903076171875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                64.43307495117188,
+                436.8416748046875,
+                77.69307708740234
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Sorcerer, Warlock, or Wizard"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Staff of Charming"
+      },
+      "projected_record_sha256": "9778a21014ceade4dbf9fbc13eb55a820b4b1443c763af00e0ad716e30e1279f",
+      "official_pages": [
+        245
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Staff, Rare (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)",
+          "source_heading": "Staff of Charming",
+          "header_source_lines": [
+            {
+              "page": 245,
+              "column": 1,
+              "block": 5,
+              "line": 1,
+              "text": "Staff, Rare (Requires Attunement by a Bard, Cleric, ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  170.10491943359375
+                ]
+              ],
+              "bbox": [
+                63.0,
+                159.63491821289062,
+                273.5269775390625,
+                172.89491271972656
+              ]
+            },
+            {
+              "page": 245,
+              "column": 1,
+              "block": 5,
+              "line": 2,
+              "text": "Druid, Sorcerer, Warlock, or Wizard)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  182.10491943359375
+                ]
+              ],
+              "bbox": [
+                63.0,
+                171.63491821289062,
+                214.2969970703125,
+                184.89491271972656
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Staff of Fire"
+      },
+      "projected_record_sha256": "a3a00af870f12206f7e92e8fd3b7bdc394ea9718351320541a323d6d6dceddd9",
+      "official_pages": [
+        245
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Staff, Very Rare (Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)",
+          "source_heading": "Staff of Fire",
+          "header_source_lines": [
+            {
+              "page": 245,
+              "column": 1,
+              "block": 12,
+              "line": 1,
+              "text": "Staff, Very Rare (Requires Attunement by a Druid, ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  456.58489990234375
+                ]
+              ],
+              "bbox": [
+                63.0,
+                446.1148986816406,
+                269.8100891113281,
+                459.3749084472656
+              ]
+            },
+            {
+              "page": 245,
+              "column": 1,
+              "block": 12,
+              "line": 2,
+              "text": "Sorcerer, Warlock, or Wizard)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  468.58489990234375
+                ]
+              ],
+              "bbox": [
+                63.0,
+                458.1148986816406,
+                186.343017578125,
+                471.3749084472656
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Druid, Sorcerer, Warlock, or Wizard"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Staff of Frost"
+      },
+      "projected_record_sha256": "289db72e3a85775ee860009a46b9a93b990f5088b9cd20300813e02a81fb6f90",
+      "official_pages": [
+        245
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Staff, Very Rare (Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)",
+          "source_heading": "Staff of Frost",
+          "header_source_lines": [
+            {
+              "page": 245,
+              "column": 2,
+              "block": 23,
+              "line": 1,
+              "text": "Staff, Very Rare (Requires Attunement by a Druid, ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  62.903076171875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                52.433074951171875,
+                520.3093872070312,
+                65.69307708740234
+              ]
+            },
+            {
+              "page": 245,
+              "column": 2,
+              "block": 23,
+              "line": 2,
+              "text": "Sorcerer, Warlock, or Wizard)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  74.903076171875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                64.43307495117188,
+                436.8416748046875,
+                77.69307708740234
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Druid, Sorcerer, Warlock, or Wizard"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Staff of Healing"
+      },
+      "projected_record_sha256": "7dd272495b8f673412b47dd3ce4ea3be711e4783a4976c92a0d15b50693351af",
+      "official_pages": [
+        245
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Staff, Rare (Requires Attunement by a Bard, Cleric, or Druid)",
+          "source_heading": "Staff of Healing",
+          "header_source_lines": [
+            {
+              "page": 245,
+              "column": 2,
+              "block": 34,
+              "line": 1,
+              "text": "Staff, Rare (Requires Attunement by a Bard, Cleric, or ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  307.4566955566406
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                296.9866943359375,
+                535.1856079101562,
+                310.2467041015625
+              ]
+            },
+            {
+              "page": 245,
+              "column": 2,
+              "block": 34,
+              "line": 2,
+              "text": "Druid)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  319.4566955566406
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                308.9866943359375,
+                340.94281005859375,
+                322.2467041015625
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Bard, Cleric, or Druid"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Staff of Power"
+      },
+      "projected_record_sha256": "78841f760afa0385eefb335a2e6f8a3ea525e6d4ce5523cfa7af812b4b3b6d8b",
+      "official_pages": [
+        245
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Staff, Very Rare (Requires Attunement by a Sorcerer, Warlock, or Wizard)",
+          "source_heading": "Staff of Power",
+          "header_source_lines": [
+            {
+              "page": 245,
+              "column": 2,
+              "block": 42,
+              "line": 1,
+              "text": "Staff, Very Rare (Requires Attunement by a Sorcerer, ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  557.464111328125
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                546.994140625,
+                531.4135131835938,
+                560.2540893554688
+              ]
+            },
+            {
+              "page": 245,
+              "column": 2,
+              "block": 42,
+              "line": 2,
+              "text": "Warlock, or Wizard)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  569.464111328125
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                558.994140625,
+                397.7937927246094,
+                572.2540893554688
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Sorcerer, Warlock, or Wizard"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Staff of Swarming Insects"
+      },
+      "projected_record_sha256": "c7848ead78370084c47eb4a4b471f401a80f6faf582a8e24d8847ee33d20ca5d",
+      "official_pages": [
+        246
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Staff, Rare (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)",
+          "source_heading": "Staff of Swarming Insects",
+          "header_source_lines": [
+            {
+              "page": 246,
+              "column": 1,
+              "block": 16,
+              "line": 1,
+              "text": "Staff, Rare (Requires Attunement by a Bard, Cleric, ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  635.6572265625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                625.187255859375,
+                273.5269775390625,
+                638.4472045898438
+              ]
+            },
+            {
+              "page": 246,
+              "column": 1,
+              "block": 16,
+              "line": 2,
+              "text": "Druid, Sorcerer, Warlock, or Wizard)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  647.6572265625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                637.187255859375,
+                214.2969970703125,
+                650.4472045898438
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Staff of the Magi"
+      },
+      "projected_record_sha256": "81807c48944ac888a52ad5e3a62b0685f39c27feb0ffe9bc020bd7498336fba8",
+      "official_pages": [
+        246
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Staff, Legendary (Requires Attunement by a Sorcerer, Warlock, or Wizard)",
+          "source_heading": "Staff of the Magi",
+          "header_source_lines": [
+            {
+              "page": 246,
+              "column": 2,
+              "block": 24,
+              "line": 1,
+              "text": "Staff, Legendary (Requires Attunement by a Sorcerer, ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  277.6162109375
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                267.1462097167969,
+                534.9935302734375,
+                280.4062194824219
+              ]
+            },
+            {
+              "page": 246,
+              "column": 2,
+              "block": 24,
+              "line": 2,
+              "text": "Warlock, or Wizard)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  289.6162109375
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                279.1462097167969,
+                397.7937927246094,
+                292.4062194824219
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Sorcerer, Warlock, or Wizard"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Staff of the Woodlands"
+      },
+      "projected_record_sha256": "f34fab8b7b3516b766d5727536228f375e878ec1c0abaef324d7c2034d5e4b10",
+      "official_pages": [
+        247
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Staff, Rare (Requires Attunement by a Druid)",
+          "source_heading": "Staff of the Woodlands",
+          "header_source_lines": [
+            {
+              "page": 247,
+              "column": 2,
+              "block": 14,
+              "line": 1,
+              "text": "Staff, Rare (Requires Attunement by a Druid)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  62.903076171875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                52.433074951171875,
+                498.74658203125,
+                65.69307708740234
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Druid"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Talisman of Pure Good"
+      },
+      "projected_record_sha256": "77995e5ddd209d340fbb11d559520d3e4a46c3f283dfa87655624ec84f0f4865",
+      "official_pages": [
+        248
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Wondrous Item, Legendary (Requires Attunement by a Cleric or Paladin)",
+          "source_heading": "Talisman of Pure Good",
+          "header_source_lines": [
+            {
+              "page": 248,
+              "column": 2,
+              "block": 17,
+              "line": 1,
+              "text": "Wondrous Item, Legendary (Requires Attunement by a ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  643.7825927734375
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                633.3126220703125,
+                540.1255493164062,
+                646.5725708007812
+              ]
+            },
+            {
+              "page": 248,
+              "column": 2,
+              "block": 17,
+              "line": 2,
+              "text": "Cleric or Paladin)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  655.7825927734375
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                645.3126220703125,
+                385.0547790527344,
+                658.5725708007812
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Cleric or Paladin"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Wand of Fireballs"
+      },
+      "projected_record_sha256": "ff333c252e38690d2148f5f5f8a9b6d47556b5f580fb446c699cced7aaf6b61a",
+      "official_pages": [
+        250
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Wand, Rare (Requires Attunement by a Spellcaster)",
+          "source_heading": "Wand of Fireballs",
+          "header_source_lines": [
+            {
+              "page": 250,
+              "column": 2,
+              "block": 29,
+              "line": 1,
+              "text": "Wand, Rare (Requires Attunement by a Spellcaster)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4986877441406,
+                  660.2177124023438
+                ]
+              ],
+              "bbox": [
+                313.4986877441406,
+                649.7477416992188,
+                524.83935546875,
+                663.0076904296875
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Spellcaster"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Wand of Lightning Bolts"
+      },
+      "projected_record_sha256": "85f16f10d9bbfea6a17e5e444e2549a133d41379fb121682b049559fb344ef0f",
+      "official_pages": [
+        251
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Wand, Rare (Requires Attunement by a Spellcaster)",
+          "source_heading": "Wand of Lightning Bolts",
+          "header_source_lines": [
+            {
+              "page": 251,
+              "column": 1,
+              "block": 2,
+              "line": 1,
+              "text": "Wand, Rare (Requires Attunement by a Spellcaster)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  117.85589599609375
+                ]
+              ],
+              "bbox": [
+                63.0,
+                107.38589477539062,
+                274.34100341796875,
+                120.6458969116211
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Spellcaster"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Wand of Paralysis"
+      },
+      "projected_record_sha256": "254781f1b98e3ce7deb5b3a65feaa4c05849e2406ab66b85e31446d9f93c9a16",
+      "official_pages": [
+        251
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Wand, Rare (Requires Attunement by a Spellcaster)",
+          "source_heading": "Wand of Paralysis",
+          "header_source_lines": [
+            {
+              "page": 251,
+              "column": 1,
+              "block": 8,
+              "line": 1,
+              "text": "Wand, Rare (Requires Attunement by a Spellcaster)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  488.8959045410156
+                ]
+              ],
+              "bbox": [
+                63.0,
+                478.4259033203125,
+                274.34100341796875,
+                491.6859130859375
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Spellcaster"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Wand of Polymorph"
+      },
+      "projected_record_sha256": "bcd938759b64cabebc1eb2f52381081a2fa5b69f69e2dbe752d269ec8c70d3be",
+      "official_pages": [
+        251
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Wand, Very Rare (Requires Attunement by a Spellcaster)",
+          "source_heading": "Wand of Polymorph",
+          "header_source_lines": [
+            {
+              "page": 251,
+              "column": 2,
+              "block": 10,
+              "line": 1,
+              "text": "Wand, Very Rare (Requires Attunement by a ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  63.430419921875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                52.960418701171875,
+                497.1896057128906,
+                66.22042083740234
+              ]
+            },
+            {
+              "page": 251,
+              "column": 2,
+              "block": 10,
+              "line": 2,
+              "text": "Spellcaster)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  75.430419921875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                64.96041870117188,
+                362.19183349609375,
+                78.22042083740234
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Spellcaster"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "item",
+      "identity": {
+        "name": "Wand of Web"
+      },
+      "projected_record_sha256": "28ba1e823d3f6f34a40fd7e1af60d39faaf468959c8214185004b2d1b93f4cda",
+      "official_pages": [
+        251
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Wand, Uncommon (Requires Attunement by a Spellcaster)",
+          "source_heading": "Wand of Web",
+          "header_source_lines": [
+            {
+              "page": 251,
+              "column": 2,
+              "block": 16,
+              "line": 1,
+              "text": "Wand, Uncommon (Requires Attunement by a ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  386.4704895019531
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                376.00048828125,
+                503.4704895019531,
+                389.260498046875
+              ]
+            },
+            {
+              "page": 251,
+              "column": 2,
+              "block": 16,
+              "line": 2,
+              "text": "Spellcaster)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  398.4704895019531
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                388.00048828125,
+                362.19183349609375,
+                401.260498046875
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Spellcaster"
+        }
+      ]
+    },
+    {
+      "file": "data/items.json",
+      "kind": "itemGroup",
+      "identity": {
+        "name": "Wand of the War Mage"
+      },
+      "projected_record_sha256": "ac96a3df789e63dc348174b2ab0f8d16124bcb0041484cc0d338e8527d811ed1",
+      "official_pages": [
+        251
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Wand, Uncommon (+1), Rare (+2), or Very Rare (+3) (Requires Attunement by a Spellcaster)",
+          "source_heading": "Wand of the War Mage, +1, +2, or +3",
+          "header_source_lines": [
+            {
+              "page": 251,
+              "column": 2,
+              "block": 14,
+              "line": 1,
+              "text": "Wand, Uncommon (+1), Rare (+2), or Very Rare (+3) ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  290.7904968261719
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                280.32049560546875,
+                525.023681640625,
+                293.58050537109375
+              ]
+            },
+            {
+              "page": 251,
+              "column": 2,
+              "block": 14,
+              "line": 2,
+              "text": "(Requires Attunement by a Spellcaster)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  302.7904968261719
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                292.32049560546875,
+                474.70855712890625,
+                305.58050537109375
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/reqAttune",
+          "value": "by a Spellcaster"
+        }
+      ]
+    },
+    {
+      "file": "data/magicvariants.json",
+      "kind": "magicvariant",
+      "identity": {
+        "name": "Holy Avenger"
+      },
+      "projected_record_sha256": "1858e85da09e617d2c632ecf58353b03b8a142a9707beacab685055eabf44e77",
+      "official_pages": [
+        226
+      ],
+      "evidence": [
+        {
+          "reason": "Preserve the capitalization of the complete printed attunement qualifier in this new SRD dataset. No mechanics, families, body text or rendering code change.",
+          "printed_header": "Weapon (Any Simple or Martial), Legendary (Requires Attunement by a Paladin)",
+          "source_heading": "Holy Avenger",
+          "header_source_lines": [
+            {
+              "page": 226,
+              "column": 1,
+              "block": 8,
+              "line": 1,
+              "text": "Weapon (Any Simple or Martial), Legendary (Requires ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  379.7825927734375
+                ]
+              ],
+              "bbox": [
+                63.0,
+                369.3125915527344,
+                288.0969543457031,
+                382.5726013183594
+              ]
+            },
+            {
+              "page": 226,
+              "column": 1,
+              "block": 8,
+              "line": 2,
+              "text": "Attunement by a Paladin)",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria-Italic"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  391.7825927734375
+                ]
+              ],
+              "bbox": [
+                63.0,
+                381.3125915527344,
+                168.16598510742188,
+                394.5726013183594
+              ]
+            }
+          ],
+          "layout_joins": []
+        }
+      ],
+      "edits": [
+        {
+          "path": "/inherits/reqAttune",
+          "value": "by a Paladin"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1579 @@
+{
+  "official_pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+  "source_review_sha256": "82576d37a355f31347879bb4868f0b4fd5c50c67f073cd351454c2756f0dd064",
+  "scope": "119 previously unproved item weight fields only. Preserve all weights already supported by printed equipment rows/base-item derivations; no application code changes.",
+  "records": [
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "+1 Wand of the War Mage",
+      "source_heading": "Wand of the War Mage, +1, +2, or +3",
+      "source_pages": [
+        251
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "+2 Wand of the War Mage",
+      "source_heading": "Wand of the War Mage, +1, +2, or +3",
+      "source_pages": [
+        251
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "+3 Wand of the War Mage",
+      "source_heading": "Wand of the War Mage, +1, +2, or +3",
+      "source_pages": [
+        251
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Amulet of Health",
+      "source_heading": "Amulet of Health",
+      "source_pages": [
+        209
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Amulet of Proof against Detection and Location",
+      "source_heading": "Amulet of Proof against Detection and Location",
+      "source_pages": [
+        209
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Amulet of the Planes",
+      "source_heading": "Amulet of the Planes",
+      "source_pages": [
+        209
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Apparatus of the Crab",
+      "source_heading": "Apparatus of the Crab",
+      "source_pages": [
+        210
+      ],
+      "previous_pounds": 500,
+      "action": "retain_printed_weight",
+      "pounds": 500,
+      "source_quote": "This item first appears to be a sealed iron barrel weighing 500 pounds."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Bag of Holding",
+      "source_heading": "Bag of Holding",
+      "source_pages": [
+        212
+      ],
+      "previous_pounds": 5,
+      "action": "retain_printed_weight",
+      "pounds": 5,
+      "source_quote": "The bag weighs 5 pounds, regardless of its contents."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Bead of Force",
+      "source_heading": "Bead of Force",
+      "source_pages": [
+        212,
+        213
+      ],
+      "previous_pounds": 0.5,
+      "action": "retain_printed_weight",
+      "pounds": 0.0625,
+      "source_quote": "This small black sphere measures 3/4 of an inch in diameter and weighs an ounce.",
+      "conversion": "1 ounce = 1/16 pound; the sphere produced after activation has a separate 1 pound weight and is not the unused bead."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Chime of Opening",
+      "source_heading": "Chime of Opening",
+      "source_pages": [
+        215
+      ],
+      "previous_pounds": 1,
+      "action": "retain_printed_weight",
+      "pounds": 1,
+      "source_quote": "This hollow metal tube measures about 1 foot long and weighs 1 pound."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Crystal Ball",
+      "source_heading": "Crystal Ball",
+      "source_pages": [
+        216
+      ],
+      "previous_pounds": 3,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Crystal Ball of Mind Reading",
+      "source_heading": "Crystal Ball of Mind Reading",
+      "source_pages": [
+        216
+      ],
+      "previous_pounds": 3,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Crystal Ball of Telepathy",
+      "source_heading": "Crystal Ball of Telepathy",
+      "source_pages": [
+        216
+      ],
+      "previous_pounds": 3,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Crystal Ball of True Seeing",
+      "source_heading": "Crystal Ball of True Seeing",
+      "source_pages": [
+        216
+      ],
+      "previous_pounds": 3,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Decanter of Endless Water",
+      "source_heading": "Decanter of Endless Water",
+      "source_pages": [
+        217
+      ],
+      "previous_pounds": 2,
+      "action": "retain_printed_weight",
+      "pounds": 2,
+      "source_quote": "The decanter weighs 2 pounds."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Elixir of Health",
+      "source_heading": "Elixir of Health",
+      "source_pages": [
+        220
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Folding Boat",
+      "source_heading": "Folding Boat",
+      "source_pages": [
+        223
+      ],
+      "previous_pounds": 4,
+      "action": "retain_printed_weight",
+      "pounds": 4,
+      "source_quote": "It weighs 4 pounds and floats."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Handy Haversack",
+      "source_heading": "Handy Haversack",
+      "source_pages": [
+        224
+      ],
+      "previous_pounds": 5,
+      "action": "retain_printed_weight",
+      "pounds": 5,
+      "source_quote": "The haversack always weighs 5 pounds, regardless of its contents."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Immovable Rod",
+      "source_heading": "Immovable Rod",
+      "source_pages": [
+        227
+      ],
+      "previous_pounds": 2,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [
+        "The rod can hold up to 8,000 pounds of weight.",
+        "More weight causes the rod to deactivate and fall."
+      ],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Iron Bands",
+      "source_heading": "Iron Bands",
+      "source_pages": [
+        228
+      ],
+      "previous_pounds": 1,
+      "action": "retain_printed_weight",
+      "pounds": 1,
+      "source_quote": "This rusty iron sphere measures 3 inches in diameter and weighs 1 pound."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Manual of Bodily Health",
+      "source_heading": "Manual of Bodily Health",
+      "source_pages": [
+        229
+      ],
+      "previous_pounds": 5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Manual of Clay Golems",
+      "source_heading": "Manual of Golems",
+      "source_pages": [
+        229,
+        230
+      ],
+      "previous_pounds": 5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Manual of Flesh Golems",
+      "source_heading": "Manual of Golems",
+      "source_pages": [
+        229,
+        230
+      ],
+      "previous_pounds": 5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Manual of Gainful Exercise",
+      "source_heading": "Manual of Gainful Exercise",
+      "source_pages": [
+        229
+      ],
+      "previous_pounds": 5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Manual of Iron Golems",
+      "source_heading": "Manual of Golems",
+      "source_pages": [
+        229,
+        230
+      ],
+      "previous_pounds": 5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Manual of Quickness of Action",
+      "source_heading": "Manual of Quickness of Action",
+      "source_pages": [
+        230
+      ],
+      "previous_pounds": 5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Manual of Stone Golems",
+      "source_heading": "Manual of Golems",
+      "source_pages": [
+        229,
+        230
+      ],
+      "previous_pounds": 5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Medallion of Thoughts",
+      "source_heading": "Medallion of Thoughts",
+      "source_pages": [
+        230
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Mirror of Life Trapping",
+      "source_heading": "Mirror of Life Trapping",
+      "source_pages": [
+        230
+      ],
+      "previous_pounds": 50,
+      "action": "retain_printed_weight",
+      "pounds": 50,
+      "source_quote": "The mirror weighs 50 pounds, and it has AC 11, HP 10, Immunity to Poison and Psychic damage, and Vulnerability to Bludgeoning damage."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Necklace of Adaptation",
+      "source_heading": "Necklace of Adaptation",
+      "source_pages": [
+        232
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Necklace of Fireballs",
+      "source_heading": "Necklace of Fireballs",
+      "source_pages": [
+        233
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Necklace of Prayer Beads",
+      "source_heading": "Necklace of Prayer Beads",
+      "source_pages": [
+        233
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Oil of Etherealness",
+      "source_heading": "Oil of Etherealness",
+      "source_pages": [
+        233
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Oil of Sharpness",
+      "source_heading": "Oil of Sharpness",
+      "source_pages": [
+        233
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Oil of Slipperiness",
+      "source_heading": "Oil of Slipperiness",
+      "source_pages": [
+        233,
+        234
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Dragon Orb",
+      "source_heading": "Dragon Orb",
+      "source_pages": [
+        218
+      ],
+      "previous_pounds": 3,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Periapt of Health",
+      "source_heading": "Periapt of Health",
+      "source_pages": [
+        234
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Periapt of Proof against Poison",
+      "source_heading": "Periapt of Proof against Poison",
+      "source_pages": [
+        234
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Periapt of Wound Closure",
+      "source_heading": "Periapt of Wound Closure",
+      "source_pages": [
+        234
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Philter of Love",
+      "source_heading": "Philter of Love",
+      "source_pages": [
+        234
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Acid Resistance",
+      "source_heading": "Potion of Resistance",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Animal Friendship",
+      "source_heading": "Potion of Animal Friendship",
+      "source_pages": [
+        235
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Clairvoyance",
+      "source_heading": "Potion of Clairvoyance",
+      "source_pages": [
+        235
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Climbing",
+      "source_heading": "Potion of Climbing",
+      "source_pages": [
+        235
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Cloud Giant Strength",
+      "source_heading": "Potion of Giant Strength",
+      "source_pages": [
+        235
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Cold Resistance",
+      "source_heading": "Potion of Resistance",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Diminution",
+      "source_heading": "Potion of Diminution",
+      "source_pages": [
+        235
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Fire Giant Strength",
+      "source_heading": "Potion of Giant Strength",
+      "source_pages": [
+        235
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Fire Resistance",
+      "source_heading": "Potion of Resistance",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Flying",
+      "source_heading": "Potion of Flying",
+      "source_pages": [
+        235
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Force Resistance",
+      "source_heading": "Potion of Resistance",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Frost Giant Strength",
+      "source_heading": "Potion of Giant Strength",
+      "source_pages": [
+        235
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Gaseous Form",
+      "source_heading": "Potion of Gaseous Form",
+      "source_pages": [
+        235
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Greater Healing",
+      "source_heading": "Potions of Healing",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Growth",
+      "source_heading": "Potion of Growth",
+      "source_pages": [
+        235
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Heroism",
+      "source_heading": "Potion of Heroism",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Hill Giant Strength",
+      "source_heading": "Potion of Giant Strength",
+      "source_pages": [
+        235
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Invisibility",
+      "source_heading": "Potion of Invisibility",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Invulnerability",
+      "source_heading": "Potion of Invulnerability",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Lightning Resistance",
+      "source_heading": "Potion of Resistance",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Longevity",
+      "source_heading": "Potion of Longevity",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Mind Reading",
+      "source_heading": "Potion of Mind Reading",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Necrotic Resistance",
+      "source_heading": "Potion of Resistance",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Poison",
+      "source_heading": "Potion of Poison",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Poison Resistance",
+      "source_heading": "Potion of Resistance",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Psychic Resistance",
+      "source_heading": "Potion of Resistance",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Radiant Resistance",
+      "source_heading": "Potion of Resistance",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Speed",
+      "source_heading": "Potion of Speed",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Stone Giant Strength",
+      "source_heading": "Potion of Giant Strength",
+      "source_pages": [
+        235
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Storm Giant Strength",
+      "source_heading": "Potion of Giant Strength",
+      "source_pages": [
+        235
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Superior Healing",
+      "source_heading": "Potions of Healing",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Supreme Healing",
+      "source_heading": "Potions of Healing",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Thunder Resistance",
+      "source_heading": "Potion of Resistance",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Vitality",
+      "source_heading": "Potion of Vitality",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Water Breathing",
+      "source_heading": "Potion of Water Breathing",
+      "source_pages": [
+        236,
+        237
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Efficient Quiver",
+      "source_heading": "Efficient Quiver",
+      "source_pages": [
+        219
+      ],
+      "previous_pounds": 2,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [
+        "Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds."
+      ],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Rod of Absorption",
+      "source_heading": "Rod of Absorption",
+      "source_pages": [
+        241
+      ],
+      "previous_pounds": 2,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Rod of Alertness",
+      "source_heading": "Rod of Alertness",
+      "source_pages": [
+        241
+      ],
+      "previous_pounds": 2,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Rod of Lordly Might",
+      "source_heading": "Rod of Lordly Might",
+      "source_pages": [
+        241,
+        242
+      ],
+      "previous_pounds": 2,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [
+        "The pole can bear up to 4,000 pounds.",
+        "More weight or lack of solid anchoring causes the rod to revert to its normal form."
+      ],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Rod of Resurrection",
+      "source_heading": "Rod of Resurrection",
+      "source_pages": [
+        242
+      ],
+      "previous_pounds": 2,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Rod of Rulership",
+      "source_heading": "Rod of Rulership",
+      "source_pages": [
+        242
+      ],
+      "previous_pounds": 2,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Rod of Security",
+      "source_heading": "Rod of Security",
+      "source_pages": [
+        242
+      ],
+      "previous_pounds": 2,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Rowboat",
+      "source_heading": "Speed",
+      "source_pages": [
+        100
+      ],
+      "previous_pounds": 100,
+      "action": "retain_printed_weight",
+      "pounds": 100,
+      "source_quote": "A Rowboat can be carried and weighs 100 pounds."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Scarab of Protection",
+      "source_heading": "Scarab of Protection",
+      "source_pages": [
+        243
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Staff of Charming",
+      "source_heading": "Staff of Charming",
+      "source_pages": [
+        245
+      ],
+      "previous_pounds": 4,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Staff of Fire",
+      "source_heading": "Staff of Fire",
+      "source_pages": [
+        245
+      ],
+      "previous_pounds": 4,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Staff of Frost",
+      "source_heading": "Staff of Frost",
+      "source_pages": [
+        245
+      ],
+      "previous_pounds": 4,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Staff of Healing",
+      "source_heading": "Staff of Healing",
+      "source_pages": [
+        245
+      ],
+      "previous_pounds": 4,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Staff of Power",
+      "source_heading": "Staff of Power",
+      "source_pages": [
+        245,
+        246
+      ],
+      "previous_pounds": 4,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Staff of Striking",
+      "source_heading": "Staff of Striking",
+      "source_pages": [
+        246
+      ],
+      "previous_pounds": 4,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Staff of Swarming Insects",
+      "source_heading": "Staff of Swarming Insects",
+      "source_pages": [
+        246
+      ],
+      "previous_pounds": 4,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Staff of the Magi",
+      "source_heading": "Staff of the Magi",
+      "source_pages": [
+        246,
+        247
+      ],
+      "previous_pounds": 4,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Staff of the Python",
+      "source_heading": "Staff of the Python",
+      "source_pages": [
+        247
+      ],
+      "previous_pounds": 4,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Staff of the Woodlands",
+      "source_heading": "Staff of the Woodlands",
+      "source_pages": [
+        247
+      ],
+      "previous_pounds": 4,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Staff of Thunder and Lightning",
+      "source_heading": "Staff of Thunder and Lightning",
+      "source_pages": [
+        247,
+        248
+      ],
+      "previous_pounds": 4,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Staff of Withering",
+      "source_heading": "Staff of Withering",
+      "source_pages": [
+        248
+      ],
+      "previous_pounds": 4,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Talisman of Pure Good",
+      "source_heading": "Talisman of Pure Good",
+      "source_pages": [
+        248,
+        249
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Talisman of the Sphere",
+      "source_heading": "Talisman of the Sphere",
+      "source_pages": [
+        249
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Talisman of Ultimate Evil",
+      "source_heading": "Talisman of Ultimate Evil",
+      "source_pages": [
+        249
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Tome of Clear Thought",
+      "source_heading": "Tome of Clear Thought",
+      "source_pages": [
+        249
+      ],
+      "previous_pounds": 5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Tome of Leadership and Influence",
+      "source_heading": "Tome of Leadership and Influence",
+      "source_pages": [
+        249,
+        250
+      ],
+      "previous_pounds": 5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Tome of Understanding",
+      "source_heading": "Tome of Understanding",
+      "source_pages": [
+        250
+      ],
+      "previous_pounds": 5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Wand of Binding",
+      "source_heading": "Wand of Binding",
+      "source_pages": [
+        250
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Wand of Enemy Detection",
+      "source_heading": "Wand of Enemy Detection",
+      "source_pages": [
+        250
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Wand of Fear",
+      "source_heading": "Wand of Fear",
+      "source_pages": [
+        250
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Wand of Fireballs",
+      "source_heading": "Wand of Fireballs",
+      "source_pages": [
+        250,
+        251
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Wand of Lightning Bolts",
+      "source_heading": "Wand of Lightning Bolts",
+      "source_pages": [
+        251
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Wand of Magic Detection",
+      "source_heading": "Wand of Magic Detection",
+      "source_pages": [
+        251
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Wand of Magic Missiles",
+      "source_heading": "Wand of Magic Missiles",
+      "source_pages": [
+        251
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Wand of Paralysis",
+      "source_heading": "Wand of Paralysis",
+      "source_pages": [
+        251
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Wand of Polymorph",
+      "source_heading": "Wand of Polymorph",
+      "source_pages": [
+        251
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Wand of Secrets",
+      "source_heading": "Wand of Secrets",
+      "source_pages": [
+        251
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Wand of Web",
+      "source_heading": "Wand of Web",
+      "source_pages": [
+        251
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Wand of Wonder",
+      "source_heading": "Wand of Wonder",
+      "source_pages": [
+        251,
+        252
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "itemGroup",
+      "name": "Manual of Golems",
+      "source_heading": "Manual of Golems",
+      "source_pages": [
+        229,
+        230
+      ],
+      "previous_pounds": 5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "itemGroup",
+      "name": "Potion of Giant Strength",
+      "source_heading": "Potion of Giant Strength",
+      "source_pages": [
+        235
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "itemGroup",
+      "name": "Potion of Resistance",
+      "source_heading": "Potion of Resistance",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "itemGroup",
+      "name": "Potions of Healing",
+      "source_heading": "Potions of Healing",
+      "source_pages": [
+        236
+      ],
+      "previous_pounds": 0.5,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    },
+    {
+      "file": "items.json",
+      "kind": "itemGroup",
+      "name": "Wand of the War Mage",
+      "source_heading": "Wand of the War Mage, +1, +2, or +3",
+      "source_pages": [
+        251
+      ],
+      "previous_pounds": 1,
+      "action": "remove_unprinted_fixed_weight",
+      "source_weight_related_sentences": [],
+      "reason": "No fixed item weight is printed in its source unit. Capacity/load limits or an upper bound do not establish a fixed physical weight. No printed base-equipment row derivation was available in the exhaustive metadata audit."
+    }
+  ]
+}

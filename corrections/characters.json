@@ -1,0 +1,4832 @@
+{
+  "official_pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+  "scope": "68 confirmed changed leaves, five cross-reference omissions, 83 synthetic prose leaves, Quarterstaff focus and contradictory familiar ritual metadata. Full character metadata and literal typography still require verification.",
+  "records": [
+    {
+      "file": "data/class/class-barbarian.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Barbarian Subclass",
+        "source": "XPHB",
+        "className": "Barbarian",
+        "level": 3
+      },
+      "projected_record_sha256": "7c83002dcc450a2cb1e52ac02d8752808902896f7c1c50a1b5f24b9461bdcb7d",
+      "official_pages": [
+        29
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official retained-subclass sentence",
+          "source": {
+            "pdf_page_start": 29,
+            "pdf_page_end": 29,
+            "extractor": "full",
+            "normalized_start": 2358,
+            "normalized_end": 2681,
+            "exact_source_span": "You gain a Barbarian subclass of your choice. The Path of the Berserker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level or lower."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain a Barbarian subclass of your choice. The Path of the Berserker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level or lower."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-barbarian.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Barbarian",
+        "level": 4
+      },
+      "projected_record_sha256": "6b2da95aa977786bf55a1da9feef612080e7746314c986ae712c85a2e5ccec1f",
+      "official_pages": [
+        29
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 29,
+            "pdf_page_end": 29,
+            "extractor": "full",
+            "normalized_start": 3294,
+            "normalized_end": 3468,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain the {@feat Ability Score Improvement|XPHB} feat (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-barbarian.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Epic Boon",
+        "source": "XPHB",
+        "className": "Barbarian",
+        "level": 19
+      },
+      "projected_record_sha256": "22efe4a3b112ec1137ad98c273d8b6f62c4d9c24138020909fb579a04d5db841",
+      "official_pages": [
+        30
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 30,
+            "pdf_page_end": 30,
+            "extractor": "full",
+            "normalized_start": 1937,
+            "normalized_end": 2076,
+            "exact_source_span": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of Irresistible Offense is recommended."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain an {@filter Epic Boon feat|feats|category=EB} (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Irresistible Offense|XPHB} is recommended."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-bard.json",
+      "kind": "class",
+      "identity": {
+        "name": "Bard",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "10b6d6a309bcd430e6486a0a5d5ec8f126ed1789782abaeed666d0bd17be2b7d",
+      "official_pages": [
+        31
+      ],
+      "evidence": [
+        {
+          "reason": "singular Dagger and omitted and differ from the official starting equipment",
+          "source": {
+            "pdf_page_start": 31,
+            "pdf_page_end": 31,
+            "extractor": "full",
+            "normalized_start": 342,
+            "normalized_end": 465,
+            "exact_source_span": "Choose A or B: (A) Leather Armor, 2 Daggers, Musical Instrument of your choice, Entertainer's Pack, and 19 GP; or (B) 90 GP"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/startingEquipment/entries/0",
+          "value": "{@i Choose A or B:} (A) {@item Leather Armor|XPHB}, 2 {@item Dagger|XPHB}s, {@item Musical Instrument|XPHB} of your choice, {@item Entertainer's Pack|XPHB}, and 19 GP; or (B) 90 GP"
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-bard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Spellcasting",
+        "source": "XPHB",
+        "className": "Bard",
+        "level": 1
+      },
+      "projected_record_sha256": "a2bec2bd091d7033e92ed76e05b8f2306dda3dfb11bec5f273a8b0d3fcaf2726",
+      "official_pages": [
+        32
+      ],
+      "evidence": [
+        {
+          "reason": "keeps the commercial-book chapter number instead of the official SRD section reference",
+          "source": {
+            "pdf_page_start": 32,
+            "pdf_page_end": 32,
+            "extractor": "full",
+            "normalized_start": 788,
+            "normalized_end": 1031,
+            "exact_source_span": "You have learned to cast spells through your bardic arts. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Bard spells, which appear in the Bard spell list later in the class's description."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You have learned to cast spells through your bardic arts. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Bard spells, which appear in the {@filter Bard spell list|spells|class=Bard} later in the class's description."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-bard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Expertise",
+        "source": "XPHB",
+        "className": "Bard",
+        "level": 2
+      },
+      "projected_record_sha256": "4948098b115bbc055a8b27ac91331bad7e02688f893edeb91f811ea5d1c5ef1f",
+      "official_pages": [
+        32
+      ],
+      "evidence": [
+        {
+          "reason": "omits official Rules Glossary cross-reference",
+          "source": {
+            "pdf_page_start": 32,
+            "pdf_page_end": 32,
+            "extractor": "full",
+            "normalized_start": 2946,
+            "normalized_end": 3114,
+            "exact_source_span": "You gain Expertise (see \"Rules Glossary\") in two of your skill proficiencies of your choice. Performance and Persuasion are recommended if you have proficiency in them."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain {@variantrule Expertise|XPHB} (see \"Rules Glossary\") in two of your skill proficiencies of your choice. {@skill Performance|XPHB} and {@skill Persuasion|XPHB} are recommended if you have proficiency in them."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-bard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Bard Subclass",
+        "source": "XPHB",
+        "className": "Bard",
+        "level": 3
+      },
+      "projected_record_sha256": "a970f2601d857fa6753d410a07d87258640fa500d8d18f544b804bde1624a2c5",
+      "official_pages": [
+        32
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official retained-subclass sentence",
+          "source": {
+            "pdf_page_start": 32,
+            "pdf_page_end": 32,
+            "extractor": "full",
+            "normalized_start": 3575,
+            "normalized_end": 3877,
+            "exact_source_span": "You gain a Bard subclass of your choice. The College of Lore subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Bard levels. For the rest of your career, you gain each of your subclass's features that are of your Bard level or lower."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain a Bard subclass of your choice. The College of Lore subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Bard levels. For the rest of your career, you gain each of your subclass's features that are of your Bard level or lower."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-bard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Bard",
+        "level": 4
+      },
+      "projected_record_sha256": "5cf4395c217aaf5b4c15fbca7173417360291a2eb2db5074a7f90b1b5ccff49c",
+      "official_pages": [
+        32
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 32,
+            "pdf_page_end": 32,
+            "extractor": "full",
+            "normalized_start": 3913,
+            "normalized_end": 4082,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Bard levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain the {@feat Ability Score Improvement|XPHB} feat (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Bard levels 8, 12, and 16."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-bard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Epic Boon",
+        "source": "XPHB",
+        "className": "Bard",
+        "level": 19
+      },
+      "projected_record_sha256": "1e47e9d5e50bdafb5aa188dcca8f09381b5e4b3386c7023e2a7b6c36066d69b0",
+      "official_pages": [
+        33
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 33,
+            "pdf_page_end": 33,
+            "extractor": "full",
+            "normalized_start": 1016,
+            "normalized_end": 1147,
+            "exact_source_span": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of Spell Recall is recommended."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain an {@filter Epic Boon feat|feats|category=EB} (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Spell Recall|XPHB} is recommended."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-cleric.json",
+      "kind": "class",
+      "identity": {
+        "name": "Cleric",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "bfca96e620b495134a7ea284ee1b340b9614e51ec2a08a6f59b0a11125f1dd98",
+      "official_pages": [
+        36
+      ],
+      "evidence": [
+        {
+          "reason": "omits and in the official starting equipment",
+          "source": {
+            "pdf_page_start": 36,
+            "pdf_page_end": 36,
+            "extractor": "full",
+            "normalized_start": 317,
+            "normalized_end": 414,
+            "exact_source_span": "Choose A or B: (A) Chain Shirt, Shield, Mace, Holy Symbol, Priest's Pack, and 7 GP; or (B) 110 GP"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/startingEquipment/entries/0",
+          "value": "{@i Choose A or B:} (A) {@item Chain Shirt|XPHB}, {@item Shield|XPHB}, {@item Mace|XPHB}, {@item Holy Symbol|XPHB}, {@item Priest's Pack|XPHB}, and 7 GP; or (B) 110 GP"
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-cleric.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Spellcasting",
+        "source": "XPHB",
+        "className": "Cleric",
+        "level": 1
+      },
+      "projected_record_sha256": "a349cf5dcf146bdfe57153756e4fa4d5a79a3961880e858c2244ac4e09b70ec8",
+      "official_pages": [
+        36
+      ],
+      "evidence": [
+        {
+          "reason": "keeps the commercial-book chapter number instead of the official SRD section reference",
+          "source": {
+            "pdf_page_start": 36,
+            "pdf_page_end": 36,
+            "extractor": "full",
+            "normalized_start": 1130,
+            "normalized_end": 1382,
+            "exact_source_span": "You have learned to cast spells through prayer and meditation. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Cleric spells, which appear on the Cleric spell list later in the class's description."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You have learned to cast spells through prayer and meditation. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Cleric spells, which appear on the {@filter Cleric spell list|spells|class=Cleric} later in the class's description."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-cleric.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Cleric Subclass",
+        "source": "XPHB",
+        "className": "Cleric",
+        "level": 3
+      },
+      "projected_record_sha256": "171ba07302bfccba1fe600a32ef42e8986eca6ae1246c2fbd140c9457e3ec46b",
+      "official_pages": [
+        37
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official retained-subclass sentence",
+          "source": {
+            "pdf_page_start": 37,
+            "pdf_page_end": 37,
+            "extractor": "full",
+            "normalized_start": 4022,
+            "normalized_end": 4326,
+            "exact_source_span": "You gain a Cleric subclass of your choice. The Life Domain subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Cleric levels. For the rest of your career, you gain each of your subclass's features that are of your Cleric level or lower."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain a Cleric subclass of your choice. The Life Domain subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Cleric levels. For the rest of your career, you gain each of your subclass's features that are of your Cleric level or lower."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-cleric.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Cleric",
+        "level": 4
+      },
+      "projected_record_sha256": "5680049c96ae1c2ae90a0f805fadfc693c93cc5549a94efbad1eb30947e08e0e",
+      "official_pages": [
+        37
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 37,
+            "pdf_page_end": 37,
+            "extractor": "full",
+            "normalized_start": 4362,
+            "normalized_end": 4533,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Cleric levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain the {@feat Ability Score Improvement|XPHB} feat (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Cleric levels 8, 12, and 16."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-cleric.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Epic Boon",
+        "source": "XPHB",
+        "className": "Cleric",
+        "level": 19
+      },
+      "projected_record_sha256": "d9ed156f60aa48405623bad0dae3204e9696396e5c89e350d0922d6a6eed888e",
+      "official_pages": [
+        38
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 38,
+            "pdf_page_end": 38,
+            "extractor": "full",
+            "normalized_start": 1332,
+            "normalized_end": 1455,
+            "exact_source_span": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of Fate is recommended."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain an {@filter Epic Boon feat|feats|category=EB} (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Fate|XPHB} is recommended."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-druid.json",
+      "kind": "class",
+      "identity": {
+        "name": "Druid",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "6efd961defa974c333a832c116d68ca9a9310310f2720608041654edb2c3d84a",
+      "official_pages": [
+        41
+      ],
+      "evidence": [
+        {
+          "reason": "changes Kit capitalization and omits and in the official starting equipment",
+          "source": {
+            "pdf_page_start": 41,
+            "pdf_page_end": 41,
+            "extractor": "full",
+            "normalized_start": 374,
+            "normalized_end": 508,
+            "exact_source_span": "Choose A or B: (A) Leather Armor, Shield, Sickle, Druidic Focus (Quarterstaff), Explorer's Pack, Herbalism Kit, and 9 GP; or (B) 50 GP"
+          }
+        },
+        {
+          "reason": "The source fixes the chosen focus to a Quarterstaff.",
+          "source": {
+            "pdf_page_start": 41,
+            "pdf_page_end": 41,
+            "exact_source_span": "Druidic Focus (Quarterstaff)"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/startingEquipment/entries/0",
+          "value": "{@i Choose A or B:} (A) {@item Leather Armor|XPHB}, {@item Shield|XPHB}, {@item Sickle|XPHB}, {@item Druidic Focus|XPHB|Druidic Focus (Quarterstaff)}, {@item Explorer's Pack|XPHB}, Herbalism Kit, and 9 GP; or (B) 50 GP"
+        },
+        {
+          "path": "/startingEquipment/defaultData/0/A/3/item",
+          "value": "quarterstaff|xphb"
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-druid.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Spellcasting",
+        "source": "XPHB",
+        "className": "Druid",
+        "level": 1
+      },
+      "projected_record_sha256": "a80b9c9fbe860228105ddec8362593247fefae63c1ff14a9affd863bb6f60cdf",
+      "official_pages": [
+        41,
+        42
+      ],
+      "evidence": [
+        {
+          "reason": "keeps the commercial-book chapter number instead of the official SRD section reference",
+          "source": {
+            "pdf_page_start": 41,
+            "pdf_page_end": 42,
+            "extractor": "prose-no-progression-table",
+            "normalized_start": 1202,
+            "normalized_end": 1469,
+            "exact_source_span": "You have learned to cast spells through studying the mystical forces of nature. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Druid spells, which appear on the Druid spell list later in the class's description."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You have learned to cast spells through studying the mystical forces of nature. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Druid spells, which appear on the {@filter Druid spell list|spells|class=Druid} later in the class's description."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-druid.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Wild Shape",
+        "source": "XPHB",
+        "className": "Druid",
+        "level": 2
+      },
+      "projected_record_sha256": "79726b523294f2b351da815efe44c1b9921bcaa9b58e617c718f96944040e001",
+      "official_pages": [
+        42,
+        43
+      ],
+      "evidence": [
+        {
+          "reason": "keeps non-SRD appendix reference",
+          "source": {
+            "pdf_page_start": 42,
+            "pdf_page_end": 42,
+            "extractor": "full",
+            "normalized_start": 3660,
+            "normalized_end": 4021,
+            "exact_source_span": "You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed (see \"Animals\" in \"Monsters\" for stat block options). The Rat, Riding Horse, Spider, and Wolf are recommended. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form."
+          }
+        },
+        {
+          "reason": "keeps non-SRD book and Dungeon Master wording",
+          "source": {
+            "pdf_page_start": 42,
+            "pdf_page_end": 42,
+            "extractor": "full",
+            "normalized_start": 4259,
+            "normalized_end": 4376,
+            "exact_source_span": "When choosing known forms, you may look in other sources for eligible Beasts if the Game Master permits you to do so."
+          }
+        },
+        {
+          "reason": "DM differs from official GM",
+          "source": {
+            "pdf_page_start": 43,
+            "pdf_page_end": 43,
+            "extractor": "full",
+            "normalized_start": 913,
+            "normalized_end": 1522,
+            "exact_source_span": "Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it's practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you're in that form."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/1/entries/1/entries/0",
+          "value": "You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum {@variantrule Challenge Rating|XPHB} of 1/4 and that lack a {@variantrule Fly Speed|XPHB} (see \"Animals\" in \"Monsters\" for stat block options). The {@creature Rat|XMM}, {@creature Riding Horse|XMM}, {@creature Spider|XMM}, and {@creature Wolf|XMM} are recommended. Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace one of your known forms with another eligible form."
+        },
+        {
+          "path": "/entries/1/entries/1/entries/2",
+          "value": "When choosing known forms, you may look in other sources for eligible Beasts if the Game Master permits you to do so."
+        },
+        {
+          "path": "/entries/1/entries/3/entries/1/items/3/entries/0",
+          "value": "Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it's practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you're in that form."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-druid.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Druid Subclass",
+        "source": "XPHB",
+        "className": "Druid",
+        "level": 3
+      },
+      "projected_record_sha256": "a6d4f848bd122c6afe264ee41e30a3d34afeedbe168a94cac1c5b3f8ecc858e7",
+      "official_pages": [
+        43
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official retained-subclass sentence",
+          "source": {
+            "pdf_page_start": 43,
+            "pdf_page_end": 43,
+            "extractor": "full",
+            "normalized_start": 1874,
+            "normalized_end": 2182,
+            "exact_source_span": "You gain a Druid subclass of your choice. The Circle of the Land subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Druid levels. For the rest of your career, you gain each of your subclass's features that are of your Druid level or lower."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain a Druid subclass of your choice. The Circle of the Land subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Druid levels. For the rest of your career, you gain each of your subclass's features that are of your Druid level or lower."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-druid.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Druid",
+        "level": 4
+      },
+      "projected_record_sha256": "b5e893cd7c796f8f20eb8a007a97d60478010767c3097055f32c67c12a9867a3",
+      "official_pages": [
+        43
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 43,
+            "pdf_page_end": 43,
+            "extractor": "full",
+            "normalized_start": 2218,
+            "normalized_end": 2388,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Druid levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain the {@feat Ability Score Improvement|XPHB} feat (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Druid levels 8, 12, and 16."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-druid.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Epic Boon",
+        "source": "XPHB",
+        "className": "Druid",
+        "level": 19
+      },
+      "projected_record_sha256": "3fdbfd402bbe91b76bedd595eb794275dcadaeba54ab9650b3134b0e24b65321",
+      "official_pages": [
+        43
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 43,
+            "pdf_page_end": 43,
+            "extractor": "full",
+            "normalized_start": 3723,
+            "normalized_end": 3860,
+            "exact_source_span": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain an {@filter Epic Boon feat|feats|category=EB} (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Dimensional Travel|XPHB} is recommended."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-fighter.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Fighting Style",
+        "source": "XPHB",
+        "className": "Fighter",
+        "level": 1
+      },
+      "projected_record_sha256": "39d6d2b36dd360b4e4fecbe39cfa4904750318483031a4d7fca043cea5829528",
+      "official_pages": [
+        47
+      ],
+      "evidence": [
+        {
+          "reason": "omits official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 47,
+            "pdf_page_end": 47,
+            "extractor": "full",
+            "normalized_start": 1304,
+            "normalized_end": 1424,
+            "exact_source_span": "You have honed your martial prowess and gain a Fighting Style feat of your choice (see \"Feats\"). Defense is recommended."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You have honed your martial prowess and gain a {@filter Fighting Style feat|feats|category=FS} of your choice (see \"Feats\"). {@feat Defense|XPHB} is recommended."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-fighter.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Fighter Subclass",
+        "source": "XPHB",
+        "className": "Fighter",
+        "level": 3
+      },
+      "projected_record_sha256": "d04b216ca4ba49eeb04aa22b1b9f2c3024c9b578e034d4aa61d6dec1acd9acba",
+      "official_pages": [
+        48
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official retained-subclass sentence",
+          "source": {
+            "pdf_page_start": 48,
+            "pdf_page_end": 48,
+            "extractor": "full",
+            "normalized_start": 1667,
+            "normalized_end": 1971,
+            "exact_source_span": "You gain a Fighter subclass of your choice. The Champion subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain a Fighter subclass of your choice. The Champion subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-fighter.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Fighter",
+        "level": 4
+      },
+      "projected_record_sha256": "8bc24a37e4c06167ada9d1d1e95317fb11d98844e341f2d0950c7bfdcb01f364",
+      "official_pages": [
+        48
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 48,
+            "pdf_page_end": 48,
+            "extractor": "full",
+            "normalized_start": 2007,
+            "normalized_end": 2186,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain the {@feat Ability Score Improvement|XPHB} feat (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-fighter.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Epic Boon",
+        "source": "XPHB",
+        "className": "Fighter",
+        "level": 19
+      },
+      "projected_record_sha256": "1523c04cc7efeec9b02f6ddd311e8e60d5216552f3c7dac9341a674c490e35ee",
+      "official_pages": [
+        48
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 48,
+            "pdf_page_end": 48,
+            "extractor": "full",
+            "normalized_start": 3345,
+            "normalized_end": 3478,
+            "exact_source_span": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain an {@filter Epic Boon feat|feats|category=EB} (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Combat Prowess|XPHB} is recommended."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-monk.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Martial Arts",
+        "source": "XPHB",
+        "className": "Monk",
+        "level": 1
+      },
+      "projected_record_sha256": "9f16c241fa7657a9a5299b0d39d0e37a9b15516fd4c74f2ce0c8f356437ef2f7",
+      "official_pages": [
+        50
+      ],
+      "evidence": [
+        {
+          "reason": "Weapons capitalization differs from source",
+          "source": {
+            "pdf_page_start": 50,
+            "pdf_page_end": 50,
+            "extractor": "full",
+            "normalized_start": 161,
+            "normalized_end": 181,
+            "exact_source_span": "Simple Melee weapons"
+          }
+        },
+        {
+          "reason": "Weapons capitalization differs from source",
+          "source": {
+            "pdf_page_start": 50,
+            "pdf_page_end": 50,
+            "extractor": "full",
+            "normalized_start": 184,
+            "normalized_end": 234,
+            "exact_source_span": "Martial Melee weapons that have the Light property"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/1/items/0",
+          "value": "Simple Melee weapons"
+        },
+        {
+          "path": "/entries/1/items/1",
+          "value": "Martial Melee weapons that have the Light property"
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-monk.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Monk Subclass",
+        "source": "XPHB",
+        "className": "Monk",
+        "level": 3
+      },
+      "projected_record_sha256": "816afa5bd22c95c3de727787befcbe77540d1702bf659bc38e590c9e302c5e2b",
+      "official_pages": [
+        51
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official retained-subclass sentence",
+          "source": {
+            "pdf_page_start": 51,
+            "pdf_page_end": 51,
+            "extractor": "full",
+            "normalized_start": 1622,
+            "normalized_end": 1933,
+            "exact_source_span": "You gain a Monk subclass of your choice. The Warrior of the Open Hand subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Monk levels. For the rest of your career, you gain each of your subclass's features that are of your Monk level or lower."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain a Monk subclass of your choice. The Warrior of the Open Hand subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Monk levels. For the rest of your career, you gain each of your subclass's features that are of your Monk level or lower."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-monk.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Monk",
+        "level": 4
+      },
+      "projected_record_sha256": "272a9d170747f40f9a64443afc6f27d61b966c7939e5c2cd8bf65ea8bf50fcdd",
+      "official_pages": [
+        51
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 51,
+            "pdf_page_end": 51,
+            "extractor": "full",
+            "normalized_start": 1969,
+            "normalized_end": 2138,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain the {@feat Ability Score Improvement|XPHB} feat (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-monk.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Epic Boon",
+        "source": "XPHB",
+        "className": "Monk",
+        "level": 19
+      },
+      "projected_record_sha256": "02b132d8fb977c7b5e36f0fa2eed6383d5e903900b856be96ed8880bdde6f230",
+      "official_pages": [
+        52
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 52,
+            "pdf_page_end": 52,
+            "extractor": "full",
+            "normalized_start": 1525,
+            "normalized_end": 1664,
+            "exact_source_span": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of Irresistible Offense is recommended."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain an {@filter Epic Boon feat|feats|category=EB} (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Irresistible Offense|XPHB} is recommended."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-paladin.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Spellcasting",
+        "source": "XPHB",
+        "className": "Paladin",
+        "level": 1
+      },
+      "projected_record_sha256": "887074ffbe683fc9baaa253a5873d6a1ad3bf83b26531deb47c91b0755c3d3c1",
+      "official_pages": [
+        54
+      ],
+      "evidence": [
+        {
+          "reason": "keeps the commercial-book chapter number instead of the official SRD section reference",
+          "source": {
+            "pdf_page_start": 54,
+            "pdf_page_end": 54,
+            "extractor": "full",
+            "normalized_start": 942,
+            "normalized_end": 1196,
+            "exact_source_span": "You have learned to cast spells through prayer and meditation. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Paladin spells, which appear in the Paladin spell list later in the class's description."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You have learned to cast spells through prayer and meditation. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Paladin spells, which appear in the {@filter Paladin spell list|spells|class=Paladin} later in the class's description."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-paladin.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Fighting Style",
+        "source": "XPHB",
+        "className": "Paladin",
+        "level": 2
+      },
+      "projected_record_sha256": "18b13fb314b06dbfcf273a81746e7d697b7b0db2d6a659523c5ff239ab807f16",
+      "official_pages": [
+        54
+      ],
+      "evidence": [
+        {
+          "reason": "omits official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 54,
+            "pdf_page_end": 54,
+            "extractor": "full",
+            "normalized_start": 3030,
+            "normalized_end": 3173,
+            "exact_source_span": "You gain a Fighting Style feat of your choice (see \"Feats\" for feats). Instead of choosing one of those feats, you can choose the option below."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain a {@filter Fighting Style feat|feats|category=FS} of your choice (see \"Feats\" for feats). Instead of choosing one of those feats, you can choose the option below."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-paladin.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Paladin Subclass",
+        "source": "XPHB",
+        "className": "Paladin",
+        "level": 3
+      },
+      "projected_record_sha256": "d00ce7ed4ef2f281c517daeb2734d708cb96c1dda536ce15d006d4f310cbc8df",
+      "official_pages": [
+        54,
+        55
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official retained-subclass sentence",
+          "source": {
+            "pdf_page_start": 55,
+            "pdf_page_end": 55,
+            "extractor": "full",
+            "normalized_start": 582,
+            "normalized_end": 894,
+            "exact_source_span": "You gain a Paladin subclass of your choice. The Oath of Devotion subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level or lower."
+          }
+        },
+        {
+          "reason": "DM differs from official GM",
+          "source": {
+            "pdf_page_start": 54,
+            "pdf_page_end": 54,
+            "extractor": "full",
+            "normalized_start": 355,
+            "normalized_end": 533,
+            "exact_source_span": "If your Paladin unrepentantly violates their oath, talk to your GM. Your Paladin should probably take a more appropriate subclass or even abandon the class and adopt another one."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain a Paladin subclass of your choice. The Oath of Devotion subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level or lower."
+        },
+        {
+          "path": "/entries/1/entries/2",
+          "value": "If your Paladin unrepentantly violates their oath, talk to your GM. Your Paladin should probably take a more appropriate subclass or even abandon the class and adopt another one."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-paladin.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Paladin",
+        "level": 4
+      },
+      "projected_record_sha256": "ad6b0fd365f948b06f74e53edd9a7fe7c0fe826b340232923f090994b7597694",
+      "official_pages": [
+        55
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 55,
+            "pdf_page_end": 55,
+            "extractor": "full",
+            "normalized_start": 930,
+            "normalized_end": 1102,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain the {@feat Ability Score Improvement|XPHB} feat (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-paladin.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Epic Boon",
+        "source": "XPHB",
+        "className": "Paladin",
+        "level": 19
+      },
+      "projected_record_sha256": "b32e53ee82aec2f79f15068e16b2f99cec53dcc81596dc6d7720e30c84512aa2",
+      "official_pages": [
+        55
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 55,
+            "pdf_page_end": 55,
+            "extractor": "full",
+            "normalized_start": 3362,
+            "normalized_end": 3490,
+            "exact_source_span": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of Truesight is recommended."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain an {@filter Epic Boon feat|feats|category=EB} (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Truesight|XPHB} is recommended."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-ranger.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Spellcasting",
+        "source": "XPHB",
+        "className": "Ranger",
+        "level": 1
+      },
+      "projected_record_sha256": "258c9af359513daff7802096a0f62c23a13012cfb11c5cefe1cb7fbb0754b517",
+      "official_pages": [
+        57
+      ],
+      "evidence": [
+        {
+          "reason": "keeps the commercial-book chapter number instead of the official SRD section reference",
+          "source": {
+            "pdf_page_start": 57,
+            "pdf_page_end": 57,
+            "extractor": "full",
+            "normalized_start": 2298,
+            "normalized_end": 2561,
+            "exact_source_span": "You have learned to channel the magical essence of nature to cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the Ranger spell list later in the class's description."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You have learned to channel the magical essence of nature to cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the {@filter Ranger spell list|spells|class=Ranger} later in the class's description."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-ranger.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Deft Explorer",
+        "source": "XPHB",
+        "className": "Ranger",
+        "level": 2
+      },
+      "projected_record_sha256": "093a1195deb04088a183f85a02b03d987bec95bd69d52dfbbd59b77453c533de",
+      "official_pages": [
+        59
+      ],
+      "evidence": [
+        {
+          "reason": "commercial chapter reference differs from official SRD Character Creation section",
+          "source": {
+            "pdf_page_start": 59,
+            "pdf_page_end": 59,
+            "extractor": "full",
+            "normalized_start": 451,
+            "normalized_end": 538,
+            "exact_source_span": "You know two languages of your choice from the language tables in \"Character Creation.\""
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/1/entries/1/entries/0",
+          "value": "You know two languages of your choice from the language tables in \"Character Creation.\""
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-ranger.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Fighting Style",
+        "source": "XPHB",
+        "className": "Ranger",
+        "level": 2
+      },
+      "projected_record_sha256": "1e96a919cb7e609020b57a9d00d1e0f21768cbfeb0ac2bd9dfcf668931dddbe4",
+      "official_pages": [
+        59
+      ],
+      "evidence": [
+        {
+          "reason": "omits official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 59,
+            "pdf_page_end": 59,
+            "extractor": "full",
+            "normalized_start": 563,
+            "normalized_end": 696,
+            "exact_source_span": "You gain a Fighting Style feat of your choice (see \"Feats\"). Instead of choosing one of those feats, you can choose the option below."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain a {@filter Fighting Style feat|feats|category=FS} of your choice (see \"Feats\"). Instead of choosing one of those feats, you can choose the option below."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-ranger.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ranger Subclass",
+        "source": "XPHB",
+        "className": "Ranger",
+        "level": 3
+      },
+      "projected_record_sha256": "dc7e26dbf072c00315f26f91b8e448436494eda301fb77b2b75ef9884881cfde",
+      "official_pages": [
+        59
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official retained-subclass sentence",
+          "source": {
+            "pdf_page_start": 59,
+            "pdf_page_end": 59,
+            "extractor": "full",
+            "normalized_start": 1087,
+            "normalized_end": 1386,
+            "exact_source_span": "You gain a Ranger subclass of your choice. The Hunter subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain a Ranger subclass of your choice. The Hunter subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-ranger.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Ranger",
+        "level": 4
+      },
+      "projected_record_sha256": "68fd3661ddcde3b960804c698e904031fd8d0b9648f0507ac3b687b5f3707e40",
+      "official_pages": [
+        59
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 59,
+            "pdf_page_end": 59,
+            "extractor": "full",
+            "normalized_start": 1422,
+            "normalized_end": 1593,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain the {@feat Ability Score Improvement|XPHB} feat (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-ranger.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Epic Boon",
+        "source": "XPHB",
+        "className": "Ranger",
+        "level": 19
+      },
+      "projected_record_sha256": "62cfe6211a96164f8e8b4cbdb5c8fc0d0efc4a769b019d0bf7124a22ddecf532",
+      "official_pages": [
+        59
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 59,
+            "pdf_page_end": 59,
+            "extractor": "full",
+            "normalized_start": 3167,
+            "normalized_end": 3304,
+            "exact_source_span": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain an {@filter Epic Boon feat|feats|category=EB} (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Dimensional Travel|XPHB} is recommended."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-rogue.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Thieves' Cant",
+        "source": "XPHB",
+        "className": "Rogue",
+        "level": 1
+      },
+      "projected_record_sha256": "5319227571f494195c06c9afc35108c25f3125a0732ad9e37fe17ed173bd6000",
+      "official_pages": [
+        62
+      ],
+      "evidence": [
+        {
+          "reason": "commercial chapter reference differs from official SRD Character Creation section",
+          "source": {
+            "pdf_page_start": 62,
+            "pdf_page_end": 62,
+            "extractor": "full",
+            "normalized_start": 498,
+            "normalized_end": 715,
+            "exact_source_span": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in \"Character Creation.\""
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in \"Character Creation.\""
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-rogue.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Rogue Subclass",
+        "source": "XPHB",
+        "className": "Rogue",
+        "level": 3
+      },
+      "projected_record_sha256": "0eba2e504ff250b9f42c965fcff06dd4aa8b5a1bc68f34f074f6f96f4d5c842c",
+      "official_pages": [
+        62
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official retained-subclass sentence",
+          "source": {
+            "pdf_page_start": 62,
+            "pdf_page_end": 62,
+            "extractor": "full",
+            "normalized_start": 1299,
+            "normalized_end": 1594,
+            "exact_source_span": "You gain a Rogue subclass of your choice. The Thief subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level or lower."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain a Rogue subclass of your choice. The Thief subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level or lower."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-rogue.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Rogue",
+        "level": 4
+      },
+      "projected_record_sha256": "e06d69834c3e6b8ace4cf4831b74adf178fe03011e7e935983a531c12c750206",
+      "official_pages": [
+        63
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 63,
+            "pdf_page_end": 63,
+            "extractor": "full",
+            "normalized_start": 35,
+            "normalized_end": 209,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain the {@feat Ability Score Improvement|XPHB} feat (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-rogue.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Epic Boon",
+        "source": "XPHB",
+        "className": "Rogue",
+        "level": 19
+      },
+      "projected_record_sha256": "4bb5bbedd5d452cbc62311e88564064b49c3793c77a4e466490d2773cec32f26",
+      "official_pages": [
+        63
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 63,
+            "pdf_page_end": 63,
+            "extractor": "full",
+            "normalized_start": 3327,
+            "normalized_end": 3462,
+            "exact_source_span": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of the Night Spirit is recommended."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain an {@filter Epic Boon feat|feats|category=EB} (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of the Night Spirit|XPHB} is recommended."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-sorcerer.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Spellcasting",
+        "source": "XPHB",
+        "className": "Sorcerer",
+        "level": 1
+      },
+      "projected_record_sha256": "e2158fba7dc56221bf8468a6f68bd04c9fb482111cdf1f91cb46e7bfefaa9bd9",
+      "official_pages": [
+        64
+      ],
+      "evidence": [
+        {
+          "reason": "keeps the commercial-book chapter number instead of the official SRD section reference",
+          "source": {
+            "pdf_page_start": 64,
+            "pdf_page_end": 64,
+            "extractor": "full",
+            "normalized_start": 3224,
+            "normalized_end": 3470,
+            "exact_source_span": "Drawing from your innate magic, you can cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Sorcerer spells, which appear in the Sorcerer spell list later in the class's description."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "Drawing from your innate magic, you can cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Sorcerer spells, which appear in the {@filter Sorcerer spell list|spells|class=Sorcerer} later in the class's description."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-sorcerer.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Sorcerer Subclass",
+        "source": "XPHB",
+        "className": "Sorcerer",
+        "level": 3
+      },
+      "projected_record_sha256": "ab029e4be310753dbe294444bb181bd363fd4776854408b234f3dd29197a65eb",
+      "official_pages": [
+        66
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official retained-subclass sentence",
+          "source": {
+            "pdf_page_start": 66,
+            "pdf_page_end": 66,
+            "extractor": "full",
+            "normalized_start": 2183,
+            "normalized_end": 2498,
+            "exact_source_span": "You gain a Sorcerer subclass of your choice. The Draconic Sorcery subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Sorcerer levels. For the rest of your career, you gain each of your subclass's features that are of your Sorcerer level or lower."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain a Sorcerer subclass of your choice. The Draconic Sorcery subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Sorcerer levels. For the rest of your career, you gain each of your subclass's features that are of your Sorcerer level or lower."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-sorcerer.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Sorcerer",
+        "level": 4
+      },
+      "projected_record_sha256": "fa734d5d6c2a6942cfac988e7508eb7fb276def455ca7eab622a8f6e1e00c778",
+      "official_pages": [
+        66
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 66,
+            "pdf_page_end": 66,
+            "extractor": "full",
+            "normalized_start": 2534,
+            "normalized_end": 2707,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain the {@feat Ability Score Improvement|XPHB} feat (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-sorcerer.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Epic Boon",
+        "source": "XPHB",
+        "className": "Sorcerer",
+        "level": 19
+      },
+      "projected_record_sha256": "7be1b0c224461b1b5617285faeb0eea8f1aa5e642ace82be2935640c1c1da014",
+      "official_pages": [
+        66
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 66,
+            "pdf_page_end": 66,
+            "extractor": "full",
+            "normalized_start": 3275,
+            "normalized_end": 3412,
+            "exact_source_span": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain an {@filter Epic Boon feat|feats|category=EB} (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Dimensional Travel|XPHB} is recommended."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-warlock.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Pact Magic",
+        "source": "XPHB",
+        "className": "Warlock",
+        "level": 1
+      },
+      "projected_record_sha256": "e841675c0146c578f1fd2eafbb52c960dccfdb42cc0e1fa82663590ddd69e0f7",
+      "official_pages": [
+        71
+      ],
+      "evidence": [
+        {
+          "reason": "keeps the commercial-book chapter number instead of the official SRD section reference",
+          "source": {
+            "pdf_page_start": 71,
+            "pdf_page_end": 71,
+            "extractor": "full",
+            "normalized_start": 357,
+            "normalized_end": 764,
+            "exact_source_span": "Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Warlock spells, which appear in the Warlock spell list later in the class's description."
+          }
+        },
+        {
+          "reason": "official worked example uses Charm Person",
+          "source": {
+            "pdf_page_start": 71,
+            "pdf_page_end": 71,
+            "extractor": "full",
+            "normalized_start": 1446,
+            "normalized_end": 1634,
+            "exact_source_span": "For example, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell Charm Person, you must spend one of those slots, and you cast it as a level 3 spell."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Warlock spells, which appear in the {@filter Warlock spell list|spells|class=Warlock} later in the class's description."
+        },
+        {
+          "path": "/entries/1/entries/1/entries/1",
+          "value": "For example, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell Charm Person, you must spend one of those slots, and you cast it as a level 3 spell."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-warlock.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Warlock Subclass",
+        "source": "XPHB",
+        "className": "Warlock",
+        "level": 3
+      },
+      "projected_record_sha256": "5433062f2a76af938f26442b73c1e9e85950d2b276068d54d6349cf1b12fcde9",
+      "official_pages": [
+        72
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official retained-subclass sentence",
+          "source": {
+            "pdf_page_start": 72,
+            "pdf_page_end": 72,
+            "extractor": "full",
+            "normalized_start": 762,
+            "normalized_end": 1070,
+            "exact_source_span": "You gain a Warlock subclass of your choice. The Fiend Patron subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass's features that are of your Warlock level or lower."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain a Warlock subclass of your choice. The Fiend Patron subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass's features that are of your Warlock level or lower."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-warlock.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Warlock",
+        "level": 4
+      },
+      "projected_record_sha256": "859c3c401b91bfc358f999ec7ad1d997f94f0c2f56844c56be768c9329b65df4",
+      "official_pages": [
+        72
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 72,
+            "pdf_page_end": 72,
+            "extractor": "full",
+            "normalized_start": 1106,
+            "normalized_end": 1278,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain the {@feat Ability Score Improvement|XPHB} feat (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-warlock.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Epic Boon",
+        "source": "XPHB",
+        "className": "Warlock",
+        "level": 19
+      },
+      "projected_record_sha256": "b06a708b18f4b1cb570f354fa6cfeceb2588867388a80acded72d33dfe80f95a",
+      "official_pages": [
+        72
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 72,
+            "pdf_page_end": 72,
+            "extractor": "full",
+            "normalized_start": 2429,
+            "normalized_end": 2552,
+            "exact_source_span": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of Fate is recommended."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain an {@filter Epic Boon feat|feats|category=EB} (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Fate|XPHB} is recommended."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-wizard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Spellcasting",
+        "source": "XPHB",
+        "className": "Wizard",
+        "level": 1
+      },
+      "projected_record_sha256": "a4d95de93f5f5115492ac36e99b4d8da759a665f43a854c7d4b046b8d4cec609",
+      "official_pages": [
+        77
+      ],
+      "evidence": [
+        {
+          "reason": "keeps the commercial-book chapter number instead of the official SRD section reference",
+          "source": {
+            "pdf_page_start": 77,
+            "pdf_page_end": 77,
+            "extractor": "full",
+            "normalized_start": 1075,
+            "normalized_end": 1327,
+            "exact_source_span": "As a student of arcane magic, you have learned to cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the Wizard spell list later in the class's description."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "As a student of arcane magic, you have learned to cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the {@filter Wizard spell list|spells|class=Wizard} later in the class's description."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-wizard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Wizard Subclass",
+        "source": "XPHB",
+        "className": "Wizard",
+        "level": 3
+      },
+      "projected_record_sha256": "02af79464600db0f9c06db1bbf1594add683b0ac72c6b86769bf9106c3d2ecb4",
+      "official_pages": [
+        78,
+        79
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official retained-subclass sentence",
+          "source": {
+            "pdf_page_start": 78,
+            "pdf_page_end": 79,
+            "extractor": "full",
+            "normalized_start": 4735,
+            "normalized_end": 5034,
+            "exact_source_span": "You gain a Wizard subclass of your choice. The Evoker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Wizard levels. For the rest of your career, you gain each of your subclass's features that are of your Wizard level or lower."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain a Wizard subclass of your choice. The Evoker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Wizard levels. For the rest of your career, you gain each of your subclass's features that are of your Wizard level or lower."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-wizard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Wizard",
+        "level": 4
+      },
+      "projected_record_sha256": "26e4b1ecbb3aecdaf1bb52db6d68c2547756b22600bcc7289203fb35ad08aaed",
+      "official_pages": [
+        79
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 79,
+            "pdf_page_end": 79,
+            "extractor": "full",
+            "normalized_start": 133,
+            "normalized_end": 304,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain the {@feat Ability Score Improvement|XPHB} feat (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-wizard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Epic Boon",
+        "source": "XPHB",
+        "className": "Wizard",
+        "level": 19
+      },
+      "projected_record_sha256": "8e212896ae93d82b8dd6038cd6fed832bf1b9c5e3230a696204a9bb9540375ac",
+      "official_pages": [
+        79
+      ],
+      "evidence": [
+        {
+          "reason": "omits the official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 79,
+            "pdf_page_end": 79,
+            "extractor": "full",
+            "normalized_start": 1085,
+            "normalized_end": 1216,
+            "exact_source_span": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of Spell Recall is recommended."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You gain an {@filter Epic Boon feat|feats|category=EB} (see \"Feats\") or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Spell Recall|XPHB} is recommended."
+        }
+      ]
+    },
+    {
+      "file": "data/optionalfeatures.json",
+      "kind": "optionalfeature",
+      "identity": {
+        "name": "Lessons of the First Ones",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "877952a6b5c0c90de5b61640e78bbd881f0c485d89b54b1c890f3577c3736db7",
+      "official_pages": [
+        73
+      ],
+      "evidence": [
+        {
+          "reason": "omits official Feats cross-reference",
+          "source": {
+            "pdf_page_start": 73,
+            "pdf_page_end": 73,
+            "extractor": "full",
+            "normalized_start": 3213,
+            "normalized_end": 3347,
+            "exact_source_span": "You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice (see \"Feats\")."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "You have received knowledge from an elder entity of the multiverse, allowing you to gain one {@filter Origin feat|feats|category=o} of your choice (see \"Feats\")."
+        }
+      ]
+    },
+    {
+      "file": "data/optionalfeatures.json",
+      "kind": "optionalfeature",
+      "identity": {
+        "name": "Pact of the Chain",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "8866dd4fbeda25f6794ca4334e588ac2e2f30f5760d9bc1596d438be785d76aa",
+      "official_pages": [
+        74
+      ],
+      "evidence": [
+        {
+          "reason": "omits the quotation marks on the official section title",
+          "source": {
+            "pdf_page_start": 74,
+            "pdf_page_end": 74,
+            "extractor": "full",
+            "normalized_start": 1368,
+            "normalized_end": 1613,
+            "exact_source_span": "When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: Imp, Pseudodragon, Quasit, Skeleton, Sphinx of Wonder, Sprite, or Venomous Snake (see \"Monsters\" for the familiar's stat block)."
+          }
+        },
+        {
+          "reason": "Remove contradictory derived ritual metadata; literal source prose says Magic action without expending a spell slot.",
+          "pdf_page": 74
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/1",
+          "value": "When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: {@creature Imp|XMM}, {@creature Pseudodragon|XMM}, {@creature Quasit|XMM}, {@creature Skeleton|XMM}, {@creature Sphinx of Wonder|XMM}, {@creature Sprite|XMM}, or {@creature Venomous Snake|XMM} (see \"Monsters\" for the familiar's stat block)."
+        },
+        {
+          "path": "/additionalSpells",
+          "remove": true
+        }
+      ]
+    },
+    {
+      "file": "data/backgrounds.json",
+      "kind": "background",
+      "identity": {
+        "name": "Acolyte",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "6f4deadea86affbb9e36a48a2085a9e878a0cc53196aec7917c248ccb3fcef83",
+      "official_pages": [
+        83
+      ],
+      "evidence": [
+        {
+          "reason": "official skill pair uses and rather than a comma",
+          "source": {
+            "pdf_page_start": 83,
+            "pdf_page_end": 83,
+            "extractor": "full",
+            "normalized_start": 1074,
+            "normalized_end": 1094,
+            "exact_source_span": "Insight and Religion"
+          }
+        },
+        {
+          "reason": "Official Feats cross-reference omitted. A prefix substring match of the retained feat name does not certify full source text.",
+          "source": {
+            "pdf_page_start": 83,
+            "pdf_page_end": 83,
+            "extractor": "full",
+            "normalized_start": 1015,
+            "normalized_end": 1052,
+            "exact_source_span": "Magic Initiate (Cleric) (see \"Feats\")"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0/items/2/entry",
+          "value": "{@skill Insight|XPHB} and {@skill Religion|XPHB}"
+        },
+        {
+          "path": "/entries/0/items/1/entry",
+          "value": "{@feat Magic Initiate|XPHB} (Cleric) (see \"Feats\")"
+        }
+      ]
+    },
+    {
+      "file": "data/backgrounds.json",
+      "kind": "background",
+      "identity": {
+        "name": "Criminal",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "a2307fd7ffe44daaa4e798fa9403324717f368d6b63c7fc847b4ec1c0e9da10c",
+      "official_pages": [
+        83
+      ],
+      "evidence": [
+        {
+          "reason": "official skill pair uses and rather than a comma",
+          "source": {
+            "pdf_page_start": 83,
+            "pdf_page_end": 83,
+            "extractor": "full",
+            "normalized_start": 1379,
+            "normalized_end": 1406,
+            "exact_source_span": "Sleight of Hand and Stealth"
+          }
+        },
+        {
+          "reason": "Official Feats cross-reference omitted. A prefix substring match of the retained feat name does not certify full source text.",
+          "source": {
+            "pdf_page_start": 83,
+            "pdf_page_end": 83,
+            "extractor": "full",
+            "normalized_start": 1338,
+            "normalized_end": 1357,
+            "exact_source_span": "Alert (see \"Feats\")"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0/items/2/entry",
+          "value": "{@skill Sleight of Hand|XPHB} and {@skill Stealth|XPHB}"
+        },
+        {
+          "path": "/entries/0/items/1/entry",
+          "value": "{@feat Alert|XPHB} (see \"Feats\")"
+        }
+      ]
+    },
+    {
+      "file": "data/backgrounds.json",
+      "kind": "background",
+      "identity": {
+        "name": "Sage",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "5af4de44fda15f5ffd36b2e733db31f5b02cba9ab731d56e167a14557ca97d7e",
+      "official_pages": [
+        83
+      ],
+      "evidence": [
+        {
+          "reason": "official skill pair uses and rather than a comma",
+          "source": {
+            "pdf_page_start": 83,
+            "pdf_page_end": 83,
+            "extractor": "full",
+            "normalized_start": 1678,
+            "normalized_end": 1696,
+            "exact_source_span": "Arcana and History"
+          }
+        },
+        {
+          "reason": "Official Feats cross-reference omitted. A prefix substring match of the retained feat name does not certify full source text.",
+          "source": {
+            "pdf_page_start": 83,
+            "pdf_page_end": 83,
+            "extractor": "full",
+            "normalized_start": 1619,
+            "normalized_end": 1656,
+            "exact_source_span": "Magic Initiate (Wizard) (see \"Feats\")"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0/items/2/entry",
+          "value": "{@skill Arcana|XPHB} and {@skill History|XPHB}"
+        },
+        {
+          "path": "/entries/0/items/1/entry",
+          "value": "{@feat Magic Initiate|XPHB} (Wizard) (see \"Feats\")"
+        }
+      ]
+    },
+    {
+      "file": "data/backgrounds.json",
+      "kind": "background",
+      "identity": {
+        "name": "Soldier",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "36945906f4c5409bdf9071101c9d864cf1926b30244dc79192ee02f76267299f",
+      "official_pages": [
+        83
+      ],
+      "evidence": [
+        {
+          "reason": "official skill pair uses and rather than a comma",
+          "source": {
+            "pdf_page_start": 83,
+            "pdf_page_end": 83,
+            "extractor": "full",
+            "normalized_start": 1986,
+            "normalized_end": 2012,
+            "exact_source_span": "Athletics and Intimidation"
+          }
+        },
+        {
+          "reason": "Official Feats cross-reference omitted. A prefix substring match of the retained feat name does not certify full source text.",
+          "source": {
+            "pdf_page_start": 83,
+            "pdf_page_end": 83,
+            "extractor": "full",
+            "normalized_start": 1935,
+            "normalized_end": 1964,
+            "exact_source_span": "Savage Attacker (see \"Feats\")"
+          }
+        },
+        {
+          "reason": "Official Equipment cross-reference omitted.",
+          "source": {
+            "pdf_page_start": 83,
+            "pdf_page_end": 83,
+            "extractor": "full",
+            "normalized_start": 2031,
+            "normalized_end": 2078,
+            "exact_source_span": "Choose one kind of Gaming Set (see \"Equipment\")"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0/items/2/entry",
+          "value": "{@skill Athletics|XPHB} and {@skill Intimidation|XPHB}"
+        },
+        {
+          "path": "/entries/0/items/1/entry",
+          "value": "{@feat Savage Attacker|XPHB} (see \"Feats\")"
+        },
+        {
+          "path": "/entries/0/items/3/entry",
+          "value": "Choose one kind of {@item Gaming Set|XPHB} (see \"Equipment\")"
+        }
+      ]
+    },
+    {
+      "file": "data/races.json",
+      "kind": "race",
+      "identity": {
+        "name": "Human",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "9ae8c10fe09b980f77f5bbf0c011e91ac71ca33fe976867b7a6f8fdd36a73af5",
+      "official_pages": [
+        86
+      ],
+      "evidence": [
+        {
+          "reason": "keeps non-SRD chapter reference",
+          "source": {
+            "pdf_page_start": 86,
+            "pdf_page_end": 86,
+            "extractor": "full",
+            "normalized_start": 1654,
+            "normalized_end": 1731,
+            "exact_source_span": "You gain an Origin feat of your choice (see \"Feats\"). Skilled is recommended."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/2/entries/0",
+          "value": "You gain an {@filter Origin feat|feats|category=o} of your choice (see \"Feats\"). {@feat Skilled|XPHB} is recommended."
+        }
+      ]
+    },
+    {
+      "file": "data/races.json",
+      "kind": "race",
+      "identity": {
+        "name": "Tiefling",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "c46a63f442de08d097e14a22de0442ac41f829dab74aaf222e74af049a71d3ca",
+      "official_pages": [
+        86
+      ],
+      "evidence": [
+        {
+          "reason": "Trait capitalization differs from official trait",
+          "source": {
+            "pdf_page_start": 86,
+            "pdf_page_end": 86,
+            "extractor": "full",
+            "normalized_start": 3378,
+            "normalized_end": 3530,
+            "exact_source_span": "You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/2/entries/0",
+          "value": "You know the {@spell Thaumaturgy|XPHB} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait."
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-barbarian.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Barbarian",
+        "level": 6
+      },
+      "projected_record_sha256": "0c6ebdef844371ef35e967e75132fe09c434ac6aeccfb79a082368210c02f99d",
+      "official_pages": [
+        28
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e6\n+3\nSubclass feature\n4\n+2\n3\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-barbarian.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Barbarian",
+        "level": 8
+      },
+      "projected_record_sha256": "1150fc278e71eb8c255c734c45724d90405a71112cb6afb2b30890aff42d0e77",
+      "official_pages": [
+        29
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 29,
+            "pdf_page_end": 29,
+            "extractor": "full",
+            "normalized_start": 3294,
+            "normalized_end": 3468,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-barbarian.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Barbarian",
+        "level": 10
+      },
+      "projected_record_sha256": "00f2d34dca7a4286b7ed76f1f591f55842144f45853175c6501a3f162bf8da53",
+      "official_pages": [
+        28
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e10\n+4\nSubclass feature\n4\n+3\n4\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-barbarian.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Barbarian",
+        "level": 12
+      },
+      "projected_record_sha256": "0c8a6685458b9df67396985c0d834483d195f8add8c7c5af63552cca51656cab",
+      "official_pages": [
+        29
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 29,
+            "pdf_page_end": 29,
+            "extractor": "full",
+            "normalized_start": 3294,
+            "normalized_end": 3468,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-barbarian.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Barbarian",
+        "level": 14
+      },
+      "projected_record_sha256": "f746a375b97f61f4dcd190b216fbce252d5383fb772275436c396b05ce15bd9c",
+      "official_pages": [
+        28
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e14\n+5\nSubclass feature\n5\n+3\n4\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-barbarian.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Barbarian",
+        "level": 16
+      },
+      "projected_record_sha256": "86190ca12022fd6e1d170821ae20ec167eb9a97311dfc8575a9bf89e4ddf7541",
+      "official_pages": [
+        29
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 29,
+            "pdf_page_end": 29,
+            "extractor": "full",
+            "normalized_start": 3294,
+            "normalized_end": 3468,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-bard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Bard",
+        "level": 6
+      },
+      "projected_record_sha256": "d8fa351906e43fc04e2748258a2a0bd2bd4b42aed6ba7fc33edb30bc1394a986",
+      "official_pages": [
+        31
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e6\n+3\nSubclass feature\nD8\n3\n10\n4\n3\n3\n—\n—\n—\n—\n—\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-bard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Bard",
+        "level": 8
+      },
+      "projected_record_sha256": "223be8cbb6b2ba580b849e9a7f3a1a41663ed732ec141ba7f66614e5897b1a55",
+      "official_pages": [
+        32
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 32,
+            "pdf_page_end": 32,
+            "extractor": "full",
+            "normalized_start": 3913,
+            "normalized_end": 4082,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Bard levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Bard levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-bard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Expertise",
+        "source": "XPHB",
+        "className": "Bard",
+        "level": 9
+      },
+      "projected_record_sha256": "e3f9b33a091ce79e0f50d194f0126672f40e5a2dcceb023f1243a27e84b5da7c",
+      "official_pages": [
+        32
+      ],
+      "evidence": [
+        {
+          "reason": "Synthetic repeated-level paragraph differs from source; official earlier Expertise feature says At [class] level [n] ... two more of your skill proficiencies.",
+          "source": {
+            "pdf_page_start": 32,
+            "pdf_page_end": 32,
+            "extractor": "full",
+            "normalized_start": 3115,
+            "normalized_end": 3206,
+            "exact_source_span": "At Bard level 9, you gain Expertise in two more of your skill proficiencies of your choice."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "At Bard level 9, you gain Expertise in two more of your skill proficiencies of your choice."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-bard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Bard",
+        "level": 12
+      },
+      "projected_record_sha256": "b29b420ca8799e057b598a85dac27caea22218b32fc8beb0863736429b73a038",
+      "official_pages": [
+        32
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 32,
+            "pdf_page_end": 32,
+            "extractor": "full",
+            "normalized_start": 3913,
+            "normalized_end": 4082,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Bard levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Bard levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-bard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Bard",
+        "level": 14
+      },
+      "projected_record_sha256": "20e8e0f8c4dce9610395d4253496f76554a25c08aac3a346550e8c6cf0040032",
+      "official_pages": [
+        31
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e14\n+5\nSubclass feature\nD10\n4\n17\n4\n3\n3\n3\n2\n1\n1\n—\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-bard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Bard",
+        "level": 16
+      },
+      "projected_record_sha256": "12888365fa6fd1d5bb2818f96119e9928a8b838e88bee6430d2cdba600facbb7",
+      "official_pages": [
+        32
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 32,
+            "pdf_page_end": 32,
+            "extractor": "full",
+            "normalized_start": 3913,
+            "normalized_end": 4082,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Bard levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Bard levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-cleric.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Cleric",
+        "level": 6
+      },
+      "projected_record_sha256": "998eb0aebe287b23faef674d980f01ee0a202d43efd43210c7e6ca4f8cf24be9",
+      "official_pages": [
+        36
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e6\n+3\nSubclass feature\n3\n4\n10\n4\n3\n3\n—\n—\n—\n—\n—\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-cleric.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Cleric",
+        "level": 8
+      },
+      "projected_record_sha256": "a675a4d0031923815f91f6f61fda0c33986bf171dbcd76927bb24255c39f8f48",
+      "official_pages": [
+        37
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 37,
+            "pdf_page_end": 37,
+            "extractor": "full",
+            "normalized_start": 4362,
+            "normalized_end": 4533,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Cleric levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Cleric levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-cleric.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Cleric",
+        "level": 12
+      },
+      "projected_record_sha256": "5158559b4ce1c8c7047673ef564f9e7f8afaf8fbc1492fd373c8309f9c5e1480",
+      "official_pages": [
+        37
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 37,
+            "pdf_page_end": 37,
+            "extractor": "full",
+            "normalized_start": 4362,
+            "normalized_end": 4533,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Cleric levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Cleric levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-cleric.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Cleric",
+        "level": 16
+      },
+      "projected_record_sha256": "e3bdeccaba07ba17d6aedcec8792635f7f23d652e1273ced547b1a7111f73783",
+      "official_pages": [
+        37
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 37,
+            "pdf_page_end": 37,
+            "extractor": "full",
+            "normalized_start": 4362,
+            "normalized_end": 4533,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Cleric levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Cleric levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-cleric.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Cleric",
+        "level": 17
+      },
+      "projected_record_sha256": "41904ee0960efd8dbda8384b90518337323eb8ac9c57be627413378af79dc04e",
+      "official_pages": [
+        36
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e17\n+6\nSubclass feature\n3\n5\n19\n4\n3\n3\n3\n2\n1\n1\n1\n1\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-druid.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Druid",
+        "level": 6
+      },
+      "projected_record_sha256": "24e96a22eddfccc8b063fc01eef71b8214c39fe05f7395ecdfba4c2e9782e838",
+      "official_pages": [
+        41
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e6\n+3\nSubclass feature\n3\n3\n10\n4\n3\n3\n—\n—\n—\n—\n—\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-druid.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Druid",
+        "level": 8
+      },
+      "projected_record_sha256": "6d36fe33e9184df51437fedf89d34de4a25482da7979f09bdfd52c8480a91cef",
+      "official_pages": [
+        43
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 43,
+            "pdf_page_end": 43,
+            "extractor": "full",
+            "normalized_start": 2218,
+            "normalized_end": 2388,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Druid levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Druid levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-druid.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Druid",
+        "level": 10
+      },
+      "projected_record_sha256": "0ba150037f20b92fd73656b28600471974fd836d7721a1fadea9cc5bf5752ef3",
+      "official_pages": [
+        41
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e10\n+4\nSubclass feature\n3\n4\n15\n4\n3\n3\n3\n2\n—\n—\n—\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-druid.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Druid",
+        "level": 12
+      },
+      "projected_record_sha256": "f2c58aa1f6deb15188406ea07e6a8c3b4278834e3b5833aa07c091f3ea4ac713",
+      "official_pages": [
+        43
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 43,
+            "pdf_page_end": 43,
+            "extractor": "full",
+            "normalized_start": 2218,
+            "normalized_end": 2388,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Druid levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Druid levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-druid.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Druid",
+        "level": 14
+      },
+      "projected_record_sha256": "b0e5b22b8d61f529b505ccba0f1e716820a04a771fa7c564b89ab6b4d01ee182",
+      "official_pages": [
+        41
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e14\n+5\nSubclass feature\n3\n4\n17\n4\n3\n3\n3\n2\n1\n1\n—\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-druid.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Druid",
+        "level": 16
+      },
+      "projected_record_sha256": "3ab0bd521367da26286546c4536ff15a520579b3dad246a59067e8bde82ad325",
+      "official_pages": [
+        43
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 43,
+            "pdf_page_end": 43,
+            "extractor": "full",
+            "normalized_start": 2218,
+            "normalized_end": 2388,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Druid levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Druid levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-fighter.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Fighter",
+        "level": 6
+      },
+      "projected_record_sha256": "011c6d1ad27a497a93946e6aa7d5a0e77cf9537921b1a46b6813888307301805",
+      "official_pages": [
+        48
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 48,
+            "pdf_page_end": 48,
+            "extractor": "full",
+            "normalized_start": 2007,
+            "normalized_end": 2186,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-fighter.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Fighter",
+        "level": 7
+      },
+      "projected_record_sha256": "32611a2d48d59e123850040728e0a721fae058e16e6d32663ddfdd032078ec83",
+      "official_pages": [
+        47
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e7\n+3\nSubclass feature\n3\n4\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-fighter.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Fighter",
+        "level": 8
+      },
+      "projected_record_sha256": "6a68f9f619c05412b42ea19b4b04588764140acd48891065c8aa13b3d9e8237e",
+      "official_pages": [
+        48
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 48,
+            "pdf_page_end": 48,
+            "extractor": "full",
+            "normalized_start": 2007,
+            "normalized_end": 2186,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-fighter.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Fighter",
+        "level": 10
+      },
+      "projected_record_sha256": "dd88d7fdfc4b429e74c4893a014afc37f94325217587d846f08979c90a6f2f3e",
+      "official_pages": [
+        47
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e10\n+4\nSubclass feature\n4\n5\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-fighter.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Fighter",
+        "level": 12
+      },
+      "projected_record_sha256": "2319eb8087e4e42a5cc27bbd868c41a6832faeab81eaa2a013d8ca7360d852d5",
+      "official_pages": [
+        48
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 48,
+            "pdf_page_end": 48,
+            "extractor": "full",
+            "normalized_start": 2007,
+            "normalized_end": 2186,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-fighter.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Fighter",
+        "level": 14
+      },
+      "projected_record_sha256": "a466422ea10dc02abbc15c3626a41d4d63a56f1c90a371f35ed39abde5427ec5",
+      "official_pages": [
+        48
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 48,
+            "pdf_page_end": 48,
+            "extractor": "full",
+            "normalized_start": 2007,
+            "normalized_end": 2186,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-fighter.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Fighter",
+        "level": 15
+      },
+      "projected_record_sha256": "25b0e2b38d0f5dd31ed9c0dcea16622a7dfb433559beb745870939f91e4400ff",
+      "official_pages": [
+        47
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e15\n+5\nSubclass feature\n4\n5\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-fighter.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Fighter",
+        "level": 16
+      },
+      "projected_record_sha256": "c4cd88f3573748fc6502a15aef7fff9de1e6f434c510e8bf1c7e39c4485488e6",
+      "official_pages": [
+        48
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 48,
+            "pdf_page_end": 48,
+            "extractor": "full",
+            "normalized_start": 2007,
+            "normalized_end": 2186,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-fighter.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Fighter",
+        "level": 18
+      },
+      "projected_record_sha256": "edd4a9f08535839538ee45beeda10333be4e3b388f42822030a1dbe7a2570c6e",
+      "official_pages": [
+        47
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e18\n+6\nSubclass feature\n4\n6\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-monk.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Monk",
+        "level": 6
+      },
+      "projected_record_sha256": "a5da3d02bc1cb1b5042b2817e7c997dda982f69c942ffea01f27e5f5f603acd7",
+      "official_pages": [
+        50
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e6\n+3\nEmpowered Strikes, Subclass feature\n1d8\n6\n+15 ft.\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-monk.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Monk",
+        "level": 8
+      },
+      "projected_record_sha256": "2c0d0c888159ede29f7345f17fc28507ead36466cee97c134c502472129e0488",
+      "official_pages": [
+        51
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 51,
+            "pdf_page_end": 51,
+            "extractor": "full",
+            "normalized_start": 1969,
+            "normalized_end": 2138,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-monk.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Monk",
+        "level": 11
+      },
+      "projected_record_sha256": "a8debebfeffbdd1bd2b73a2e4d90a1e79bac77553ba3a2730e1e1d2d913483e6",
+      "official_pages": [
+        50
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e11\n+4\nSubclass feature\n1d10\n11\n+20 ft.\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-monk.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Monk",
+        "level": 12
+      },
+      "projected_record_sha256": "7546cd5d0b9efdee87aaf1d1b5f3dcda512c35b39dd9626514cc9b0022a3927b",
+      "official_pages": [
+        51
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 51,
+            "pdf_page_end": 51,
+            "extractor": "full",
+            "normalized_start": 1969,
+            "normalized_end": 2138,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-monk.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Monk",
+        "level": 16
+      },
+      "projected_record_sha256": "7a76007e620d9e1e235453d6a2e481cd49ad8a4007b98efb08c610c562718bd5",
+      "official_pages": [
+        51
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 51,
+            "pdf_page_end": 51,
+            "extractor": "full",
+            "normalized_start": 1969,
+            "normalized_end": 2138,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-monk.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Monk",
+        "level": 17
+      },
+      "projected_record_sha256": "8614470f2750e05dbe3c21fce0f59671e99da581ab5f3597e7412a436854769a",
+      "official_pages": [
+        50
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e17\n+6\nSubclass feature\n1d12\n17\n+25 ft.\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-paladin.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Paladin",
+        "level": 7
+      },
+      "projected_record_sha256": "0b2e6de9fbfb4d07db4346fdb88305010486762619abf21895e9d7c3cc71ee53",
+      "official_pages": [
+        53
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e7\n+3\nSubclass feature\n2\n7\n4\n3\n—\n—\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-paladin.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Paladin",
+        "level": 8
+      },
+      "projected_record_sha256": "e9bae0eb5d2f0b8bc34515c3c82a3c9e6df409a01a0ec93ae89cdbf1f5626eb9",
+      "official_pages": [
+        55
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 55,
+            "pdf_page_end": 55,
+            "extractor": "full",
+            "normalized_start": 930,
+            "normalized_end": 1102,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-paladin.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Paladin",
+        "level": 12
+      },
+      "projected_record_sha256": "666bbb52a7056e415fde0a008ea04e61e9185a84200c4ab17ae7c668b6622477",
+      "official_pages": [
+        55
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 55,
+            "pdf_page_end": 55,
+            "extractor": "full",
+            "normalized_start": 930,
+            "normalized_end": 1102,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-paladin.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Paladin",
+        "level": 15
+      },
+      "projected_record_sha256": "12d93cb3edaa931387b151909328756cc15b63c55d7d5d1fa7450b631295376b",
+      "official_pages": [
+        53
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e15\n+5\nSubclass feature\n3\n12\n4\n3\n3\n2\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-paladin.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Paladin",
+        "level": 16
+      },
+      "projected_record_sha256": "d65dc96e48f5350c8eddc5925f530148e38e3fc67e73d2bd77de7d631517814f",
+      "official_pages": [
+        55
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 55,
+            "pdf_page_end": 55,
+            "extractor": "full",
+            "normalized_start": 930,
+            "normalized_end": 1102,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-paladin.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Paladin",
+        "level": 20
+      },
+      "projected_record_sha256": "bfe2e54f40bbabf44c6d932a3cf9362249f0dd5f7816c7c5c55fab631d1c1142",
+      "official_pages": [
+        53
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e20\n+6\nSubclass feature\n3\n15\n4\n3\n3\n3\n2\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-ranger.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Ranger",
+        "level": 7
+      },
+      "projected_record_sha256": "819b4bde97007fef6b8d7f09f7b98bfb7b321d1601b6c855aff20e1034c62589",
+      "official_pages": [
+        58
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e7\n+3\nSubclass feature\n3\n7\n4\n3\n—\n—\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-ranger.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Ranger",
+        "level": 8
+      },
+      "projected_record_sha256": "40e145d4f6ec894181d45d625d7a96c15a7e49ccb0ba561b4ffc2618a8194016",
+      "official_pages": [
+        59
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 59,
+            "pdf_page_end": 59,
+            "extractor": "full",
+            "normalized_start": 1422,
+            "normalized_end": 1593,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-ranger.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Ranger",
+        "level": 11
+      },
+      "projected_record_sha256": "956aacf9ecb9b1afbfa07e723407b37cbc4c8888eaceca799e6281c6fdad749e",
+      "official_pages": [
+        58
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e11\n+4\nSubclass feature\n4\n10\n4\n3\n3\n—\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-ranger.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Ranger",
+        "level": 12
+      },
+      "projected_record_sha256": "f93c0ec578dc884014261a4837cd357d352ab70d357b7d3fe0ffb5815a6852ab",
+      "official_pages": [
+        59
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 59,
+            "pdf_page_end": 59,
+            "extractor": "full",
+            "normalized_start": 1422,
+            "normalized_end": 1593,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-ranger.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Ranger",
+        "level": 15
+      },
+      "projected_record_sha256": "5934f20259a8f997680768f980ef4f1ec3289138f23a5bc501329623dd7acc25",
+      "official_pages": [
+        58
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e15\n+5\nSubclass feature\n5\n12\n4\n3\n3\n2\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-ranger.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Ranger",
+        "level": 16
+      },
+      "projected_record_sha256": "9191f7b41552df122ef26f216c164c6d1bf9ab4c75efeb33d763aca5d97d1fd0",
+      "official_pages": [
+        59
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 59,
+            "pdf_page_end": 59,
+            "extractor": "full",
+            "normalized_start": 1422,
+            "normalized_end": 1593,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-rogue.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Expertise",
+        "source": "XPHB",
+        "className": "Rogue",
+        "level": 6
+      },
+      "projected_record_sha256": "6735219ab53dc455b1e9f70612f057a7e16abaf9095278d5ad14155872ccb392",
+      "official_pages": [
+        61
+      ],
+      "evidence": [
+        {
+          "reason": "Synthetic repeated-level paragraph differs from source; official earlier Expertise feature says At [class] level [n] ... two more of your skill proficiencies.",
+          "source": {
+            "pdf_page_start": 61,
+            "pdf_page_end": 61,
+            "extractor": "full",
+            "normalized_start": 3519,
+            "normalized_end": 3611,
+            "exact_source_span": "At Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "At Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-rogue.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Rogue",
+        "level": 8
+      },
+      "projected_record_sha256": "3db4599b3728956ea8e8116d87188c0ecc954711e95be33193682163457e9616",
+      "official_pages": [
+        63
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 63,
+            "pdf_page_end": 63,
+            "extractor": "full",
+            "normalized_start": 35,
+            "normalized_end": 209,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-rogue.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Rogue",
+        "level": 9
+      },
+      "projected_record_sha256": "c5dda99be595fd03795b467a481343b5847754f9971138d143fd6fd47bc4c501",
+      "official_pages": [
+        62
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e9\n+4\nSubclass feature \n5d6\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-rogue.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Rogue",
+        "level": 10
+      },
+      "projected_record_sha256": "acc2924f351d45b85e56a93973c6063f5f48a9e58dbda918aa355c97567f3469",
+      "official_pages": [
+        63
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 63,
+            "pdf_page_end": 63,
+            "extractor": "full",
+            "normalized_start": 35,
+            "normalized_end": 209,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-rogue.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Rogue",
+        "level": 12
+      },
+      "projected_record_sha256": "ea6399f7845ebf104ef1cc5269a16fe412c7044085b12c7c8626e353cbf58d22",
+      "official_pages": [
+        63
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 63,
+            "pdf_page_end": 63,
+            "extractor": "full",
+            "normalized_start": 35,
+            "normalized_end": 209,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-rogue.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Rogue",
+        "level": 13
+      },
+      "projected_record_sha256": "63e0d50677ce25ea2aaa466b950ae8884a07b059f7e7699ed6c31402d25aaa6e",
+      "official_pages": [
+        62
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e13\n+5\nSubclass feature\n7d6\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-rogue.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Rogue",
+        "level": 16
+      },
+      "projected_record_sha256": "3cb58bb90a3948372b1f2c91384f64711835d78e1fc21557e9518eddeb63cf46",
+      "official_pages": [
+        63
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 63,
+            "pdf_page_end": 63,
+            "extractor": "full",
+            "normalized_start": 35,
+            "normalized_end": 209,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-rogue.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Rogue",
+        "level": 17
+      },
+      "projected_record_sha256": "d403ac935124178d20aad895f8e172697847ca506d73fe7e6c24226751e7d559",
+      "official_pages": [
+        62
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e17\n+6\nSubclass feature\n9d6\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-sorcerer.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Sorcerer",
+        "level": 6
+      },
+      "projected_record_sha256": "6d3ee19a7aba5c5aedd0ad32d14c81f251111fc800103bd6e81575cc4942370e",
+      "official_pages": [
+        65
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e6\n+3\nSubclass feature\n6\n5\n10\n4\n3\n3\n—\n—\n—\n—\n—\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-sorcerer.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Sorcerer",
+        "level": 8
+      },
+      "projected_record_sha256": "e9e9038d97e9b9a7b08d2ef24313856134e11d41be90f87da0b7de0747edf663",
+      "official_pages": [
+        66
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 66,
+            "pdf_page_end": 66,
+            "extractor": "full",
+            "normalized_start": 2534,
+            "normalized_end": 2707,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-sorcerer.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Metamagic",
+        "source": "XPHB",
+        "className": "Sorcerer",
+        "level": 10
+      },
+      "projected_record_sha256": "590ecac23298873cfa94fa9edf3e98baf210947cd948d6f209834b4fc3e5d5fb",
+      "official_pages": [
+        66
+      ],
+      "evidence": [
+        {
+          "reason": "Synthetic repeated-level paragraph. Official level-2 Metamagic prose explains additional options at 10 and 17; this reworded sentence does not occur.",
+          "source": [
+            {
+              "pdf_page_start": 66,
+              "pdf_page_end": 66,
+              "extractor": "full",
+              "normalized_start": 1520,
+              "normalized_end": 1852,
+              "exact_source_span": "Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options of your choice from \"Metamagic Options\" later in this class's description. You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs."
+            },
+            {
+              "pdf_page_start": 66,
+              "pdf_page_end": 66,
+              "extractor": "full",
+              "normalized_start": 1853,
+              "normalized_end": 1966,
+              "exact_source_span": "You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options."
+            },
+            {
+              "pdf_page_start": 66,
+              "pdf_page_end": 66,
+              "extractor": "full",
+              "normalized_start": 1967,
+              "normalized_end": 2155,
+              "exact_source_span": "Whenever you gain a Sorcerer level, you can replace one of your Metamagic options with one you don't know. You gain two more options at Sorcerer level 10 and two more at Sorcerer level 17."
+            }
+          ]
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options of your choice from \"Metamagic Options\" later in this class's description. You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs.",
+            "You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options.",
+            "Whenever you gain a Sorcerer level, you can replace one of your Metamagic options with one you don't know. You gain two more options at Sorcerer level 10 and two more at Sorcerer level 17."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-sorcerer.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Sorcerer",
+        "level": 12
+      },
+      "projected_record_sha256": "2626219eded7ad7fe8f4e0ccd615ab20661597fc818478c7ae6adc9b9fb5d6d9",
+      "official_pages": [
+        66
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 66,
+            "pdf_page_end": 66,
+            "extractor": "full",
+            "normalized_start": 2534,
+            "normalized_end": 2707,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-sorcerer.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Sorcerer",
+        "level": 14
+      },
+      "projected_record_sha256": "24a5062e795043aee8c5fdc7081b2df2e37d4e9e82b416014c3494080203495e",
+      "official_pages": [
+        65
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e14\n+5\nSubclass feature\n14\n6\n17\n4\n3\n3\n3\n2\n1\n1\n—\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-sorcerer.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Sorcerer",
+        "level": 16
+      },
+      "projected_record_sha256": "8192a6918b8ebabd4ba6818effb79ad36a15f08c6078cab0df7b7574c62f8d64",
+      "official_pages": [
+        66
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 66,
+            "pdf_page_end": 66,
+            "extractor": "full",
+            "normalized_start": 2534,
+            "normalized_end": 2707,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-sorcerer.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Metamagic",
+        "source": "XPHB",
+        "className": "Sorcerer",
+        "level": 17
+      },
+      "projected_record_sha256": "4f54e792cf8ce9675a19e296c0205b2656565fb4b678bda66ce0b0b26b74861e",
+      "official_pages": [
+        66
+      ],
+      "evidence": [
+        {
+          "reason": "Synthetic repeated-level paragraph. Official level-2 Metamagic prose explains additional options at 10 and 17; this reworded sentence does not occur.",
+          "source": [
+            {
+              "pdf_page_start": 66,
+              "pdf_page_end": 66,
+              "extractor": "full",
+              "normalized_start": 1520,
+              "normalized_end": 1852,
+              "exact_source_span": "Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options of your choice from \"Metamagic Options\" later in this class's description. You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs."
+            },
+            {
+              "pdf_page_start": 66,
+              "pdf_page_end": 66,
+              "extractor": "full",
+              "normalized_start": 1853,
+              "normalized_end": 1966,
+              "exact_source_span": "You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options."
+            },
+            {
+              "pdf_page_start": 66,
+              "pdf_page_end": 66,
+              "extractor": "full",
+              "normalized_start": 1967,
+              "normalized_end": 2155,
+              "exact_source_span": "Whenever you gain a Sorcerer level, you can replace one of your Metamagic options with one you don't know. You gain two more options at Sorcerer level 10 and two more at Sorcerer level 17."
+            }
+          ]
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options of your choice from \"Metamagic Options\" later in this class's description. You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs.",
+            "You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options.",
+            "Whenever you gain a Sorcerer level, you can replace one of your Metamagic options with one you don't know. You gain two more options at Sorcerer level 10 and two more at Sorcerer level 17."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-sorcerer.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Sorcerer",
+        "level": 18
+      },
+      "projected_record_sha256": "e3c762d14db408c4d6c117d0bc3969a5fd866bcb620d44bdcf8243564651eb53",
+      "official_pages": [
+        65
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e18\n+6\nSubclass feature\n18\n6\n20\n4\n3\n3\n3\n3\n1\n1\n1\n1\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-warlock.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Warlock",
+        "level": 6
+      },
+      "projected_record_sha256": "c9cc55d372fc156da28b57819d6d20c90ea17c2a88fcdfd14b825845a8a7e049",
+      "official_pages": [
+        71
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e6\n+3\nSubclass feature\n5\n3\n7\n2\n3\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-warlock.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Warlock",
+        "level": 8
+      },
+      "projected_record_sha256": "9fcea11bf8176174dea96cc843f8177445c26eacfa3fe120ed2317abe4b7dfff",
+      "official_pages": [
+        72
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 72,
+            "pdf_page_end": 72,
+            "extractor": "full",
+            "normalized_start": 1106,
+            "normalized_end": 1278,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-warlock.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Warlock",
+        "level": 10
+      },
+      "projected_record_sha256": "4020a911d5018f4664aaabee643be8cf3c417eda1e2f84a7e3ac876cf516e113",
+      "official_pages": [
+        71
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e10\n+4\nSubclass feature\n7\n4\n10\n2\n5\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-warlock.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Warlock",
+        "level": 12
+      },
+      "projected_record_sha256": "4ec12176246a7f890df84a88cfdc81e7f8b2ffd6dcc428c28b1962503bd5bcf9",
+      "official_pages": [
+        72
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 72,
+            "pdf_page_end": 72,
+            "extractor": "full",
+            "normalized_start": 1106,
+            "normalized_end": 1278,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-warlock.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Mystic Arcanum",
+        "source": "XPHB",
+        "className": "Warlock",
+        "level": 13
+      },
+      "projected_record_sha256": "f220921e0bf6a64d6a43b9bb8935aa066fb0a2baca00353f5a7b4fe7900f2a51",
+      "official_pages": [
+        72
+      ],
+      "evidence": [
+        {
+          "reason": "Synthetic repeated-level paragraph; official level-11 prose contains the later arcanum-level gains.",
+          "source": {
+            "pdf_page_start": 72,
+            "pdf_page_end": 72,
+            "extractor": "full",
+            "normalized_start": 2004,
+            "normalized_end": 2284,
+            "exact_source_span": "As shown in the Warlock Features table, you gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a Long Rest."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "As shown in the Warlock Features table, you gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a Long Rest."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-warlock.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Warlock",
+        "level": 14
+      },
+      "projected_record_sha256": "d82d428914f8db7f661ba33321502fc33bac4d5fdd0b92bfcc58317aa0c0cadc",
+      "official_pages": [
+        71
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e14\n+5\nSubclass feature\n8\n4\n12\n3\n5\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-warlock.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Mystic Arcanum",
+        "source": "XPHB",
+        "className": "Warlock",
+        "level": 15
+      },
+      "projected_record_sha256": "620429b268495c15db353dde326faa6c243f1be9649043ae23f948d71116589e",
+      "official_pages": [
+        72
+      ],
+      "evidence": [
+        {
+          "reason": "Synthetic repeated-level paragraph; official level-11 prose contains the later arcanum-level gains.",
+          "source": {
+            "pdf_page_start": 72,
+            "pdf_page_end": 72,
+            "extractor": "full",
+            "normalized_start": 2004,
+            "normalized_end": 2284,
+            "exact_source_span": "As shown in the Warlock Features table, you gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a Long Rest."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "As shown in the Warlock Features table, you gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a Long Rest."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-warlock.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Warlock",
+        "level": 16
+      },
+      "projected_record_sha256": "a5e7dfb5c3fb16527135c2758be2e3858ebf41e74848db99bfcc191ddfe5533a",
+      "official_pages": [
+        72
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 72,
+            "pdf_page_end": 72,
+            "extractor": "full",
+            "normalized_start": 1106,
+            "normalized_end": 1278,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-warlock.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Mystic Arcanum",
+        "source": "XPHB",
+        "className": "Warlock",
+        "level": 17
+      },
+      "projected_record_sha256": "6f974d39b2fc00aa7093cbd290aaec444b496b87a4bd0f1e25842879f2630e1e",
+      "official_pages": [
+        72
+      ],
+      "evidence": [
+        {
+          "reason": "Synthetic repeated-level paragraph; official level-11 prose contains the later arcanum-level gains.",
+          "source": {
+            "pdf_page_start": 72,
+            "pdf_page_end": 72,
+            "extractor": "full",
+            "normalized_start": 2004,
+            "normalized_end": 2284,
+            "exact_source_span": "As shown in the Warlock Features table, you gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a Long Rest."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "As shown in the Warlock Features table, you gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a Long Rest."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-wizard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Wizard",
+        "level": 6
+      },
+      "projected_record_sha256": "a4cfd37227e66153ca9edde7c6e2ee74c01ea424e4c9b6a84a8e303be8a65992",
+      "official_pages": [
+        77
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e6\n+3\nSubclass feature\n4\n10\n4\n3\n3\n—\n—\n—\n—\n—\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-wizard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Wizard",
+        "level": 8
+      },
+      "projected_record_sha256": "3a6e144933bce57e61252dd9267bc88860849fba2e97753d85252e2f2d4f9946",
+      "official_pages": [
+        79
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 79,
+            "pdf_page_end": 79,
+            "extractor": "full",
+            "normalized_start": 133,
+            "normalized_end": 304,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-wizard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Wizard",
+        "level": 10
+      },
+      "projected_record_sha256": "0ec1acd4e74b3640d746b4b119862f53bd2b24b86e06e7335ae878deaadc2230",
+      "official_pages": [
+        77
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e10\n+4\nSubclass feature\n5\n15\n4\n3\n3\n3\n2\n—\n—\n—\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-wizard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Wizard",
+        "level": 12
+      },
+      "projected_record_sha256": "db71fdbf399b9d7108f22f9470d8062ac95c22b4802ba32bd01e7ae2a99f226c",
+      "official_pages": [
+        79
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 79,
+            "pdf_page_end": 79,
+            "extractor": "full",
+            "normalized_start": 133,
+            "normalized_end": 304,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16."
+          ]
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-wizard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Subclass Feature",
+        "source": "XPHB",
+        "className": "Wizard",
+        "level": 14
+      },
+      "projected_record_sha256": "ad5bb906c59649765f8f3e0de3a7bd6397b32a7759bad530ef4de73113369e34",
+      "official_pages": [
+        77
+      ],
+      "evidence": [
+        {
+          "reason": "Official progression table says Subclass feature at this level, but this generic explanatory sentence is not official prose.",
+          "source": "See exact source progression row in class-progression-table-audit.json",
+          "progression_source_raw": "\u001e14\n+5\nSubclass feature\n5\n18\n4\n3\n3\n3\n2\n1\n1\n—\n—\n"
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": []
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-wizard.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Ability Score Improvement",
+        "source": "XPHB",
+        "className": "Wizard",
+        "level": 16
+      },
+      "projected_record_sha256": "ae5177cea1d73e8cfa0dd00a07704009f2ae0ab489221f99f805253df171ab97",
+      "official_pages": [
+        79
+      ],
+      "evidence": [
+        {
+          "reason": "Repeated-level prose is an upstream synthesis. Official SRD has one level-4 paragraph with later levels listed; progression row is official but this replacement sentence is not.",
+          "source": {
+            "pdf_page_start": 79,
+            "pdf_page_end": 79,
+            "extractor": "full",
+            "normalized_start": 133,
+            "normalized_end": 304,
+            "exact_source_span": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16."
+          }
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries",
+          "value": [
+            "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16."
+          ]
+        }
+      ]
+    }
+  ]
+}

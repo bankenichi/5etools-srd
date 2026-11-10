@@ -1,0 +1,3645 @@
+{
+  "official_pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+  "scope": "Literal equipment body/row projections only; metadata and consumer layout remain separate gates.",
+  "units": {
+    "Alchemist's Fire (50 GP)": {
+      "heading": "Alchemist's Fire (50 GP)",
+      "heading_source_lines": [
+        {
+          "page": 94,
+          "column": 2,
+          "block": 27,
+          "line": 0,
+          "text": "Alchemist’s Fire (50 GP)",
+          "red": true,
+          "red12": true,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              313.4988098144531,
+              426.7578125
+            ]
+          ],
+          "bbox": [
+            313.4988098144531,
+            415.4418029785156,
+            442.97998046875,
+            429.7578125
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0
+      ],
+      "paragraphs": [
+        {
+          "text": "When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist’s Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 1d4 Fire damage and start burning (see “Rules Glossary”).",
+          "pages": [
+            94
+          ],
+          "source_lines": [
+            {
+              "page": 94,
+              "column": 2,
+              "block": 27,
+              "line": 1,
+              "text": "When you take the Attack action, you can replace ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  439.4778137207031
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                408.30780029296875,
+                528.595947265625,
+                464.1177978515625
+              ]
+            },
+            {
+              "page": 94,
+              "column": 2,
+              "block": 27,
+              "line": 2,
+              "text": "one of your attacks with throwing a flask of Al-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  451.4778137207031
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                420.30780029296875,
+                517.0988159179688,
+                476.1177978515625
+              ]
+            },
+            {
+              "page": 94,
+              "column": 2,
+              "block": 27,
+              "line": 3,
+              "text": "chemist’s Fire. Target one creature or object you ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  463.4778137207031
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                432.30780029296875,
+                524.7800903320312,
+                488.1177978515625
+              ]
+            },
+            {
+              "page": 94,
+              "column": 2,
+              "block": 27,
+              "line": 4,
+              "text": "can see within 20 feet of yourself. The target must ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  475.4778137207031
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                444.30780029296875,
+                532.5839233398438,
+                500.1177978515625
+              ]
+            },
+            {
+              "page": 94,
+              "column": 2,
+              "block": 27,
+              "line": 5,
+              "text": "succeed on a Dexterity saving throw (DC 8 plus ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  487.4778137207031
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                456.30780029296875,
+                520.4168090820312,
+                512.1177978515625
+              ]
+            },
+            {
+              "page": 94,
+              "column": 2,
+              "block": 27,
+              "line": 6,
+              "text": "your Dexterity modifier and Proficiency Bonus) or ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  499.4778137207031
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                468.30780029296875,
+                533.4398803710938,
+                524.1177978515625
+              ]
+            },
+            {
+              "page": 94,
+              "column": 2,
+              "block": 27,
+              "line": 7,
+              "text": "take 1d4 Fire damage and start burning (see “Rules ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  511.4778137207031
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                480.30780029296875,
+                538.4801025390625,
+                536.1177978515625
+              ]
+            },
+            {
+              "page": 94,
+              "column": 2,
+              "block": 27,
+              "line": 8,
+              "text": "Glossary”).",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  523.477783203125
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                492.3077697753906,
+                361.68975830078125,
+                548.1177978515625
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": [
+            {
+              "printed": "Al-\nchemist",
+              "chosen": "Alchemist",
+              "basis": "Same spelling occurs unbroken elsewhere in the official PDF.",
+              "unbroken_source_forms": [
+                "Alchemist"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Bedroll (1 GP)": {
+      "heading": "Bedroll (1 GP)",
+      "heading_source_lines": [
+        {
+          "page": 96,
+          "column": 1,
+          "block": 21,
+          "line": 0,
+          "text": "Bedroll (1 GP)",
+          "red": true,
+          "red12": true,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              63.0,
+              628.757568359375
+            ]
+          ],
+          "bbox": [
+            63.0,
+            617.4415893554688,
+            139.05482482910156,
+            631.757568359375
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0
+      ],
+      "paragraphs": [
+        {
+          "text": "A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see “Gameplay Toolbox”).",
+          "pages": [
+            96
+          ],
+          "source_lines": [
+            {
+              "page": 96,
+              "column": 1,
+              "block": 21,
+              "line": 1,
+              "text": "A Bedroll sleeps one Small or Medium creature. ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  641.4774780273438
+                ]
+              ],
+              "bbox": [
+                63.0,
+                610.3074951171875,
+                270.4400329589844,
+                666.1174926757812
+              ]
+            },
+            {
+              "page": 96,
+              "column": 1,
+              "block": 21,
+              "line": 2,
+              "text": "While in a Bedroll, you automatically succeed on ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  653.4774780273438
+                ]
+              ],
+              "bbox": [
+                63.0,
+                622.3074951171875,
+                275.14410400390625,
+                678.1174926757812
+              ]
+            },
+            {
+              "page": 96,
+              "column": 1,
+              "block": 21,
+              "line": 3,
+              "text": "saving throws against extreme cold (see “Gameplay ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  665.4774780273438
+                ]
+              ],
+              "bbox": [
+                63.0,
+                634.3074951171875,
+                288.1841125488281,
+                690.1174926757812
+              ]
+            },
+            {
+              "page": 96,
+              "column": 1,
+              "block": 21,
+              "line": 4,
+              "text": "Toolbox”).",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  677.4774780273438
+                ]
+              ],
+              "bbox": [
+                63.0,
+                646.3074951171875,
+                107.52702331542969,
+                702.1174926757812
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": []
+        }
+      ]
+    },
+    "Blanket (5 SP)": {
+      "heading": "Blanket (5 SP)",
+      "heading_source_lines": [
+        {
+          "page": 96,
+          "column": 2,
+          "block": 23,
+          "line": 0,
+          "text": "Blanket (5 SP)",
+          "red": true,
+          "red12": true,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              313.4988098144531,
+              50.18310546875
+            ]
+          ],
+          "bbox": [
+            313.4988098144531,
+            38.867103576660156,
+            388.9176025390625,
+            53.18310546875
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0
+      ],
+      "paragraphs": [
+        {
+          "text": "While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see “Gameplay Toolbox”).",
+          "pages": [
+            96
+          ],
+          "source_lines": [
+            {
+              "page": 96,
+              "column": 2,
+              "block": 23,
+              "line": 1,
+              "text": "While wrapped in a blanket, you have Advantage on ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  62.903076171875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                31.733074188232422,
+                540.5628662109375,
+                87.54307556152344
+              ]
+            },
+            {
+              "page": 96,
+              "column": 2,
+              "block": 23,
+              "line": 2,
+              "text": "saving throws against extreme cold (see “Gameplay ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  74.903076171875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                43.73307418823242,
+                538.682861328125,
+                99.54307556152344
+              ]
+            },
+            {
+              "page": 96,
+              "column": 2,
+              "block": 23,
+              "line": 3,
+              "text": "Toolbox”).",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  86.903076171875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                55.73307418823242,
+                358.0257263183594,
+                111.54307556152344
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": []
+        }
+      ]
+    },
+    "Rations (5 SP)": {
+      "heading": "Rations (5 SP)",
+      "heading_source_lines": [
+        {
+          "page": 99,
+          "column": 2,
+          "block": 13,
+          "line": 0,
+          "text": "Rations (5 SP)",
+          "red": true,
+          "red12": true,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              313.4988098144531,
+              118.26312255859375
+            ]
+          ],
+          "bbox": [
+            313.4988098144531,
+            106.9471206665039,
+            388.4147644042969,
+            121.26312255859375
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0
+      ],
+      "paragraphs": [
+        {
+          "text": "Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See “Malnutrition” in “Rules Glossary” for the risks of not eating.",
+          "pages": [
+            99
+          ],
+          "source_lines": [
+            {
+              "page": 99,
+              "column": 2,
+              "block": 13,
+              "line": 1,
+              "text": "Rations consist of travel-ready food, including jerky, ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  130.98309326171875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                99.81309509277344,
+                541.1107788085938,
+                155.6230926513672
+              ]
+            },
+            {
+              "page": 99,
+              "column": 2,
+              "block": 13,
+              "line": 2,
+              "text": "dried fruit, hardtack, and nuts. See “Malnutrition” ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  142.98309326171875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                111.81309509277344,
+                531.7398071289062,
+                167.6230926513672
+              ]
+            },
+            {
+              "page": 99,
+              "column": 2,
+              "block": 13,
+              "line": 3,
+              "text": "in “Rules Glossary” for the risks of not eating.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  154.98309326171875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                123.81309509277344,
+                509.83380126953125,
+                179.6230926513672
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": []
+        }
+      ]
+    },
+    "Waterskin (2 SP)": {
+      "heading": "Waterskin (2 SP)",
+      "heading_source_lines": [
+        {
+          "page": 100,
+          "column": 1,
+          "block": 8,
+          "line": 0,
+          "text": "Waterskin (2 SP)",
+          "red": true,
+          "red12": true,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              63.0,
+              454.74310302734375
+            ]
+          ],
+          "bbox": [
+            63.0,
+            443.4270935058594,
+            153.8460235595703,
+            457.74310302734375
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0
+      ],
+      "paragraphs": [
+        {
+          "text": "A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk dehydration (see “Rules Glossary”).",
+          "pages": [
+            100
+          ],
+          "source_lines": [
+            {
+              "page": 100,
+              "column": 1,
+              "block": 8,
+              "line": 1,
+              "text": "A Waterskin holds up to 4 pints. If you don’t drink ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  467.4631042480469
+                ]
+              ],
+              "bbox": [
+                63.0,
+                436.2930908203125,
+                279.97296142578125,
+                492.10308837890625
+              ]
+            },
+            {
+              "page": 100,
+              "column": 1,
+              "block": 8,
+              "line": 2,
+              "text": "sufficient water, you risk dehydration (see “Rules ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  479.4631042480469
+                ]
+              ],
+              "bbox": [
+                63.0,
+                448.2930908203125,
+                277.8790283203125,
+                504.10308837890625
+              ]
+            },
+            {
+              "page": 100,
+              "column": 1,
+              "block": 8,
+              "line": 3,
+              "text": "Glossary”).",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  491.4631042480469
+                ]
+              ],
+              "bbox": [
+                63.0,
+                460.2930908203125,
+                111.19100189208984,
+                516.1030883789062
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": []
+        }
+      ]
+    },
+    "Holy Symbol (Varies)": {
+      "heading": "Holy Symbol (Varies)",
+      "heading_source_lines": [
+        {
+          "page": 97,
+          "column": 2,
+          "block": 22,
+          "line": 0,
+          "text": "Holy Symbol (Varies)",
+          "red": true,
+          "red12": true,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              313.4988098144531,
+              384.422607421875
+            ]
+          ],
+          "bbox": [
+            313.4988098144531,
+            373.1065979003906,
+            425.94476318359375,
+            387.422607421875
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0,
+        1
+      ],
+      "paragraphs": [
+        {
+          "text": "A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.",
+          "pages": [
+            97
+          ],
+          "source_lines": [
+            {
+              "page": 97,
+              "column": 2,
+              "block": 22,
+              "line": 1,
+              "text": "A Holy Symbol takes one of the forms in the Holy ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  397.1426086425781
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                365.97259521484375,
+                525.9039306640625,
+                421.7825927734375
+              ]
+            },
+            {
+              "page": 97,
+              "column": 2,
+              "block": 22,
+              "line": 2,
+              "text": "Symbol table and is bejeweled or painted to chan-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  409.1426086425781
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                377.97259521484375,
+                528.2688598632812,
+                433.7825927734375
+              ]
+            },
+            {
+              "page": 97,
+              "column": 2,
+              "block": 22,
+              "line": 3,
+              "text": "nel divine magic. A Cleric or Paladin can use a Holy ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.49884033203125,
+                  421.1426086425781
+                ]
+              ],
+              "bbox": [
+                313.49884033203125,
+                389.97259521484375,
+                535.1399536132812,
+                445.7825927734375
+              ]
+            },
+            {
+              "page": 97,
+              "column": 2,
+              "block": 22,
+              "line": 4,
+              "text": "Symbol as a Spellcasting Focus.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.49884033203125,
+                  433.1426086425781
+                ]
+              ],
+              "bbox": [
+                313.49884033203125,
+                401.97259521484375,
+                449.1147766113281,
+                457.7825927734375
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": [
+            {
+              "printed": "chan-\nnel",
+              "chosen": "channel",
+              "basis": "Same spelling occurs unbroken elsewhere in the official PDF.",
+              "unbroken_source_forms": [
+                "channel"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.",
+          "pages": [
+            97
+          ],
+          "source_lines": [
+            {
+              "page": 97,
+              "column": 2,
+              "block": 22,
+              "line": 5,
+              "text": "\t The table indicates whether a Holy Symbol needs ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.49884033203125,
+                  445.1426086425781
+                ],
+                [
+                  315.6988525390625,
+                  445.1426086425781
+                ],
+                [
+                  321.49884033203125,
+                  445.1426086425781
+                ]
+              ],
+              "bbox": [
+                313.49884033203125,
+                413.97259521484375,
+                536.1668701171875,
+                469.7825927734375
+              ]
+            },
+            {
+              "page": 97,
+              "column": 2,
+              "block": 22,
+              "line": 6,
+              "text": "to be held, worn, or borne on fabric (such as a tab-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.49884033203125,
+                  457.1426086425781
+                ]
+              ],
+              "bbox": [
+                313.49884033203125,
+                425.97259521484375,
+                529.4288330078125,
+                481.7825927734375
+              ]
+            },
+            {
+              "page": 97,
+              "column": 2,
+              "block": 22,
+              "line": 7,
+              "text": "ard or banner) or a Shield.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.49884033203125,
+                  469.1426086425781
+                ]
+              ],
+              "bbox": [
+                313.49884033203125,
+                437.97259521484375,
+                426.5628967285156,
+                493.7825927734375
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": [
+            {
+              "printed": "tab-\nard",
+              "chosen": "tabard",
+              "basis": "Reviewed ordinary word split across a physical line in its source sentence; not a lexical compound.",
+              "unbroken_source_forms": []
+            }
+          ]
+        }
+      ]
+    },
+    "Ammunition (Varies)": {
+      "heading": "Ammunition (Varies)",
+      "heading_source_lines": [
+        {
+          "page": 94,
+          "column": 2,
+          "block": 28,
+          "line": 0,
+          "text": "Ammunition (Varies)",
+          "red": true,
+          "red12": true,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              313.4988098144531,
+              542.8377685546875
+            ]
+          ],
+          "bbox": [
+            313.4988098144531,
+            531.5217895507812,
+            424.9176330566406,
+            545.8377685546875
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0
+      ],
+      "paragraphs": [
+        {
+          "text": "Ammunition is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.",
+          "pages": [
+            94
+          ],
+          "source_lines": [
+            {
+              "page": 94,
+              "column": 2,
+              "block": 28,
+              "line": 1,
+              "text": "Ammunition is required by a weapon that has the ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  555.5578002929688
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                524.3878173828125,
+                530.1549072265625,
+                580.1978149414062
+              ]
+            },
+            {
+              "page": 94,
+              "column": 2,
+              "block": 28,
+              "line": 2,
+              "text": "Ammunition property. A weapon’s description spec-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  567.5578002929688
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                536.3878173828125,
+                538.788818359375,
+                592.1978149414062
+              ]
+            },
+            {
+              "page": 94,
+              "column": 2,
+              "block": 28,
+              "line": 3,
+              "text": "ifies the type of ammunition used by the weapon. ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  579.5578002929688
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                548.3878173828125,
+                529.169921875,
+                604.1978149414062
+              ]
+            },
+            {
+              "page": 94,
+              "column": 2,
+              "block": 28,
+              "line": 4,
+              "text": "The Ammunition table lists the different types and ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  591.5578002929688
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                560.3878173828125,
+                535.6138916015625,
+                616.1978149414062
+              ]
+            },
+            {
+              "page": 94,
+              "column": 2,
+              "block": 28,
+              "line": 5,
+              "text": "the amount you get when you buy them. The table ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  603.5578002929688
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                572.3878173828125,
+                530.7879638671875,
+                628.1978149414062
+              ]
+            },
+            {
+              "page": 94,
+              "column": 2,
+              "block": 28,
+              "line": 6,
+              "text": "also lists the item that is typically used to store ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  615.5578002929688
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                584.3878173828125,
+                520.5868530273438,
+                640.1978149414062
+              ]
+            },
+            {
+              "page": 94,
+              "column": 2,
+              "block": 28,
+              "line": 7,
+              "text": "each type; storage must be bought separately.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  627.5578002929688
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                596.3878173828125,
+                511.75897216796875,
+                652.1978149414062
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": [
+            {
+              "printed": "spec-\nifies",
+              "chosen": "specifies",
+              "basis": "Same spelling occurs unbroken elsewhere in the official PDF.",
+              "unbroken_source_forms": [
+                "specifies"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Saddles": {
+      "heading": "Saddles",
+      "heading_source_lines": [
+        {
+          "page": 100,
+          "column": 2,
+          "block": 11,
+          "line": 2,
+          "text": "Saddles",
+          "red": true,
+          "red12": false,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              313.4988098144531,
+              80.7825927734375
+            ]
+          ],
+          "bbox": [
+            313.4988098144531,
+            67.5805892944336,
+            360.4996643066406,
+            84.2825927734375
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0
+      ],
+      "paragraphs": [
+        {
+          "text": "A saddle comes with a bit, a bridle, reins, and any other equipment needed to use the saddle. A Military Saddle gives Advantage on any ability check you make to remain mounted. An Exotic Saddle is required for riding an aquatic or a flying mount.",
+          "pages": [
+            100
+          ],
+          "source_lines": [
+            {
+              "page": 100,
+              "column": 2,
+              "block": 12,
+              "line": 0,
+              "text": "A saddle comes with a bit, a bridle, reins, and any ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  97.2825927734375
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                66.11259460449219,
+                527.8818359375,
+                121.92259216308594
+              ]
+            },
+            {
+              "page": 100,
+              "column": 2,
+              "block": 12,
+              "line": 1,
+              "text": "other equipment needed to use the saddle. A Mil-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  109.2825927734375
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                78.11259460449219,
+                524.7288208007812,
+                133.92259216308594
+              ]
+            },
+            {
+              "page": 100,
+              "column": 2,
+              "block": 12,
+              "line": 2,
+              "text": "itary Saddle gives Advantage on any ability check ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  121.2825927734375
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                90.11259460449219,
+                529.5828247070312,
+                145.92259216308594
+              ]
+            },
+            {
+              "page": 100,
+              "column": 2,
+              "block": 12,
+              "line": 3,
+              "text": "you make to remain mounted. An Exotic Saddle is ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  133.2825927734375
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                102.11259460449219,
+                529.6768798828125,
+                157.92259216308594
+              ]
+            },
+            {
+              "page": 100,
+              "column": 2,
+              "block": 12,
+              "line": 4,
+              "text": "required for riding an aquatic or a flying mount.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  145.2825927734375
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                114.11259460449219,
+                521.3628540039062,
+                169.92259216308594
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": [
+            {
+              "printed": "Mil-\nitary",
+              "chosen": "Military",
+              "basis": "Same spelling occurs unbroken elsewhere in the official PDF.",
+              "unbroken_source_forms": [
+                "Military"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Tool Proficiency": {
+      "heading": "Tool Proficiency",
+      "heading_source_lines": [
+        {
+          "page": 93,
+          "column": 1,
+          "block": 6,
+          "line": 2,
+          "text": "Tool Proficiency",
+          "red": true,
+          "red12": false,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              63.0,
+              298.6759033203125
+            ]
+          ],
+          "bbox": [
+            63.0,
+            285.4739074707031,
+            164.35302734375,
+            302.1759033203125
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0,
+        1
+      ],
+      "paragraphs": [
+        {
+          "text": "If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.",
+          "pages": [
+            93
+          ],
+          "source_lines": [
+            {
+              "page": 93,
+              "column": 1,
+              "block": 7,
+              "line": 0,
+              "text": "If you have proficiency with a tool, add your Pro-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  315.1759033203125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                284.0058898925781,
+                273.75,
+                339.81591796875
+              ]
+            },
+            {
+              "page": 93,
+              "column": 1,
+              "block": 7,
+              "line": 1,
+              "text": "ficiency Bonus to any ability check you make that ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  327.1759033203125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                296.0058898925781,
+                278.17510986328125,
+                351.81591796875
+              ]
+            },
+            {
+              "page": 93,
+              "column": 1,
+              "block": 7,
+              "line": 2,
+              "text": "uses the tool. If you have proficiency in a skill that’s ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  339.1759033203125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                308.0058898925781,
+                287.6359558105469,
+                363.81591796875
+              ]
+            },
+            {
+              "page": 93,
+              "column": 1,
+              "block": 7,
+              "line": 3,
+              "text": "used with that check, you have Advantage on the ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  351.1759033203125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                320.0058898925781,
+                276.176025390625,
+                375.81591796875
+              ]
+            },
+            {
+              "page": 93,
+              "column": 1,
+              "block": 7,
+              "line": 4,
+              "text": "check too.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  363.1759033203125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                332.0058898925781,
+                106.38702392578125,
+                387.81591796875
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": [
+            {
+              "printed": "Pro-\nficiency",
+              "chosen": "Proficiency",
+              "basis": "Same spelling occurs unbroken elsewhere in the official PDF.",
+              "unbroken_source_forms": [
+                "Proficiency"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Your features might give you proficiency with a tool. A monster has proficiency with any tool in its stat block.",
+          "pages": [
+            93
+          ],
+          "source_lines": [
+            {
+              "page": 93,
+              "column": 1,
+              "block": 7,
+              "line": 5,
+              "text": "\t Your features might give you proficiency with a ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  375.1759033203125
+                ],
+                [
+                  65.19999694824219,
+                  375.1759033203125
+                ],
+                [
+                  71.0,
+                  375.1759033203125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                344.0058898925781,
+                278.35101318359375,
+                399.81591796875
+              ]
+            },
+            {
+              "page": 93,
+              "column": 1,
+              "block": 7,
+              "line": 6,
+              "text": "tool. A monster has proficiency with any tool in its ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  387.1759033203125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                356.0058898925781,
+                283.2000427246094,
+                411.81591796875
+              ]
+            },
+            {
+              "page": 93,
+              "column": 1,
+              "block": 7,
+              "line": 7,
+              "text": "stat block.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  399.1759033203125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                368.0058898925781,
+                107.54197692871094,
+                423.81591796875
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": []
+        }
+      ]
+    },
+    "Artisan's Tools": {
+      "heading": "Artisan's Tools",
+      "heading_source_lines": [
+        {
+          "page": 93,
+          "column": 1,
+          "block": 7,
+          "line": 8,
+          "text": "Artisan’s Tools",
+          "red": true,
+          "red12": false,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              63.0,
+              419.2958984375
+            ]
+          ],
+          "bbox": [
+            63.0,
+            406.0939025878906,
+            155.8619842529297,
+            422.7958984375
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0
+      ],
+      "paragraphs": [
+        {
+          "text": "Artisan’s Tools are each focused on crafting items and pursuing a trade. Each of these tools requires a separate proficiency.",
+          "pages": [
+            93
+          ],
+          "source_lines": [
+            {
+              "page": 93,
+              "column": 1,
+              "block": 8,
+              "line": 0,
+              "text": "Artisan’s Tools are each focused on crafting items ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  435.7958984375
+                ]
+              ],
+              "bbox": [
+                63.0,
+                404.6258850097656,
+                280.3970031738281,
+                460.4359130859375
+              ]
+            },
+            {
+              "page": 93,
+              "column": 1,
+              "block": 8,
+              "line": 1,
+              "text": "and pursuing a trade. Each of these tools requires a ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  447.7958984375
+                ]
+              ],
+              "bbox": [
+                63.0,
+                416.6258850097656,
+                286.9300537109375,
+                472.4359130859375
+              ]
+            },
+            {
+              "page": 93,
+              "column": 1,
+              "block": 8,
+              "line": 2,
+              "text": "separate proficiency.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  459.7958984375
+                ]
+              ],
+              "bbox": [
+                63.0,
+                428.6258850097656,
+                153.56500244140625,
+                484.4359130859375
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": []
+        }
+      ]
+    },
+    "Speed": {
+      "heading": "Speed",
+      "heading_source_lines": [
+        {
+          "page": 100,
+          "column": 2,
+          "block": 38,
+          "line": 0,
+          "text": "Speed",
+          "red": true,
+          "red12": true,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              313.4988098144531,
+              595.55029296875
+            ]
+          ],
+          "bbox": [
+            313.4988098144531,
+            584.2343139648438,
+            345.937255859375,
+            598.55029296875
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0
+      ],
+      "paragraphs": [
+        {
+          "text": "A ship sailing against a strong wind moves at half speed. In a dead calm (no wind), waterborne ships can’t move under sail and must be rowed. Keelboats and Rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can’t be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A Rowboat can be carried and weighs 100 pounds.",
+          "pages": [
+            100
+          ],
+          "source_lines": [
+            {
+              "page": 100,
+              "column": 2,
+              "block": 38,
+              "line": 1,
+              "text": "A ship sailing against a strong wind moves at half ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  608.270263671875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                577.1002807617188,
+                529.3267822265625,
+                632.9102783203125
+              ]
+            },
+            {
+              "page": 100,
+              "column": 2,
+              "block": 38,
+              "line": 2,
+              "text": "speed. In a dead calm (no wind), waterborne ships ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  620.270263671875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                589.1002807617188,
+                533.2857666015625,
+                644.9102783203125
+              ]
+            },
+            {
+              "page": 100,
+              "column": 2,
+              "block": 38,
+              "line": 3,
+              "text": "can’t move under sail and must be rowed. Keelboats ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  632.270263671875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                601.1002807617188,
+                539.995849609375,
+                656.9102783203125
+              ]
+            },
+            {
+              "page": 100,
+              "column": 2,
+              "block": 38,
+              "line": 4,
+              "text": "and Rowboats are used on lakes and rivers. If going ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  644.270263671875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                613.1002807617188,
+                538.0308227539062,
+                668.9102783203125
+              ]
+            },
+            {
+              "page": 100,
+              "column": 2,
+              "block": 38,
+              "line": 5,
+              "text": "downstream, add the speed of the current (typically ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  656.270263671875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                625.1002807617188,
+                541.69482421875,
+                680.9102783203125
+              ]
+            },
+            {
+              "page": 100,
+              "column": 2,
+              "block": 38,
+              "line": 6,
+              "text": "3 miles per hour) to the speed of the vehicle. These ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  668.270263671875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                637.1002807617188,
+                535.054931640625,
+                692.9102783203125
+              ]
+            },
+            {
+              "page": 100,
+              "column": 2,
+              "block": 38,
+              "line": 7,
+              "text": "vehicles can’t be rowed against any significant cur-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.4988098144531,
+                  680.270263671875
+                ]
+              ],
+              "bbox": [
+                313.4988098144531,
+                649.1002807617188,
+                534.1987915039062,
+                704.9102783203125
+              ]
+            },
+            {
+              "page": 100,
+              "column": 2,
+              "block": 38,
+              "line": 8,
+              "text": "rent, but they can be pulled upstream by draft an-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.498779296875,
+                  692.270263671875
+                ]
+              ],
+              "bbox": [
+                313.498779296875,
+                661.1002807617188,
+                529.3587646484375,
+                716.9102783203125
+              ]
+            },
+            {
+              "page": 100,
+              "column": 2,
+              "block": 38,
+              "line": 9,
+              "text": "imals on the shores. A Rowboat can be carried and ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.498779296875,
+                  704.270263671875
+                ]
+              ],
+              "bbox": [
+                313.498779296875,
+                673.1002807617188,
+                534.02490234375,
+                728.9102783203125
+              ]
+            },
+            {
+              "page": 100,
+              "column": 2,
+              "block": 38,
+              "line": 10,
+              "text": "weighs 100 pounds.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  313.498779296875,
+                  716.270263671875
+                ]
+              ],
+              "bbox": [
+                313.498779296875,
+                685.1002807617188,
+                399.37176513671875,
+                740.9102783203125
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": [
+            {
+              "printed": "cur-\nrent",
+              "chosen": "current",
+              "basis": "Same spelling occurs unbroken elsewhere in the official PDF.",
+              "unbroken_source_forms": [
+                "current"
+              ]
+            },
+            {
+              "printed": "an-\nimals",
+              "chosen": "animals",
+              "basis": "Same spelling occurs unbroken elsewhere in the official PDF.",
+              "unbroken_source_forms": [
+                "animals"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Crew": {
+      "heading": "Crew",
+      "heading_source_lines": [
+        {
+          "page": 101,
+          "column": 1,
+          "block": 1,
+          "line": 0,
+          "text": "Crew",
+          "red": true,
+          "red12": true,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              63.0,
+              206.18548583984375
+            ]
+          ],
+          "bbox": [
+            63.0,
+            194.86949157714844,
+            91.98959350585938,
+            209.18548583984375
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0
+      ],
+      "paragraphs": [
+        {
+          "text": "A ship larger than a Keelboat or Rowboat needs a crew of skilled hirelings (see “Hirelings” later in “Equipment”) to function. The minimum number of skilled hirelings needed to crew a ship depends on the type of ship, as shown in the table.",
+          "pages": [
+            101
+          ],
+          "source_lines": [
+            {
+              "page": 101,
+              "column": 1,
+              "block": 1,
+              "line": 1,
+              "text": "A ship larger than a Keelboat or Rowboat needs a ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  218.905517578125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                187.7355194091797,
+                277.6430358886719,
+                243.54551696777344
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 1,
+              "line": 2,
+              "text": "crew of skilled hirelings (see “Hirelings” later in ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  230.905517578125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                199.7355194091797,
+                272.6971130371094,
+                255.54551696777344
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 1,
+              "line": 3,
+              "text": "“Equipment”) to function. The minimum number of ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  242.905517578125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                211.7355194091797,
+                287.2830810546875,
+                267.5455322265625
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 1,
+              "line": 4,
+              "text": "skilled hirelings needed to crew a ship depends on ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  254.905517578125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                223.7355194091797,
+                283.4040222167969,
+                279.5455322265625
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 1,
+              "line": 5,
+              "text": "the type of ship, as shown in the table.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  266.905517578125
+                ]
+              ],
+              "bbox": [
+                63.0,
+                235.7355194091797,
+                227.90902709960938,
+                291.5455322265625
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": []
+        }
+      ]
+    },
+    "Passengers": {
+      "heading": "Passengers",
+      "heading_source_lines": [
+        {
+          "page": 101,
+          "column": 1,
+          "block": 2,
+          "line": 0,
+          "text": "Passengers",
+          "red": true,
+          "red12": true,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              63.0,
+              286.2655944824219
+            ]
+          ],
+          "bbox": [
+            63.0,
+            274.9495849609375,
+            121.02359771728516,
+            289.2655944824219
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0
+      ],
+      "paragraphs": [
+        {
+          "text": "The table lists the number of Small and Medium passengers the ship can accommodate using hammocks. A ship outfitted with private accommodations can carry one-fifth as many passengers. A passenger usually pays 5 SP per day for a hammock, but prices can vary from ship to ship. A small private cabin usually costs 2 GP per day.",
+          "pages": [
+            101
+          ],
+          "source_lines": [
+            {
+              "page": 101,
+              "column": 1,
+              "block": 2,
+              "line": 1,
+              "text": "The table lists the number of Small and Medium ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  298.9855041503906
+                ]
+              ],
+              "bbox": [
+                63.0,
+                267.81549072265625,
+                272.0230407714844,
+                323.62548828125
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 2,
+              "line": 2,
+              "text": "passengers the ship can accommodate using ham-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  310.9855041503906
+                ]
+              ],
+              "bbox": [
+                63.0,
+                279.81549072265625,
+                279.0500183105469,
+                335.62548828125
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 2,
+              "line": 3,
+              "text": "mocks. A ship outfitted with private accommoda-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  322.9855041503906
+                ]
+              ],
+              "bbox": [
+                63.0,
+                291.81549072265625,
+                276.8800354003906,
+                347.62548828125
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 2,
+              "line": 4,
+              "text": "tions can carry one-fifth as many passengers. A pas-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  334.9855041503906
+                ]
+              ],
+              "bbox": [
+                63.0,
+                303.81549072265625,
+                289.02001953125,
+                359.62548828125
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 2,
+              "line": 5,
+              "text": "senger usually pays 5 SP per day for a hammock, but ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  346.9855041503906
+                ]
+              ],
+              "bbox": [
+                63.0,
+                315.81549072265625,
+                291.2729797363281,
+                371.62548828125
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 2,
+              "line": 6,
+              "text": "prices can vary from ship to ship. A small private ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  358.9855041503906
+                ]
+              ],
+              "bbox": [
+                63.0,
+                327.81549072265625,
+                277.1160888671875,
+                383.62548828125
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 2,
+              "line": 7,
+              "text": "cabin usually costs 2 GP per day.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  370.9855041503906
+                ]
+              ],
+              "bbox": [
+                63.0,
+                339.81549072265625,
+                203.2119903564453,
+                395.62548828125
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": [
+            {
+              "printed": "ham-\nmocks",
+              "chosen": "hammocks",
+              "basis": "Reviewed ordinary word split across a physical line in its source sentence; not a lexical compound.",
+              "unbroken_source_forms": []
+            },
+            {
+              "printed": "accommoda-\ntions",
+              "chosen": "accommodations",
+              "basis": "Reviewed ordinary word split across a physical line in its source sentence; not a lexical compound.",
+              "unbroken_source_forms": []
+            },
+            {
+              "printed": "pas-\nsenger",
+              "chosen": "passenger",
+              "basis": "Reviewed ordinary word split across a physical line in its source sentence; not a lexical compound.",
+              "unbroken_source_forms": []
+            }
+          ]
+        }
+      ]
+    },
+    "Damage Threshold": {
+      "heading": "Damage Threshold",
+      "heading_source_lines": [
+        {
+          "page": 101,
+          "column": 1,
+          "block": 3,
+          "line": 0,
+          "text": "Damage Threshold",
+          "red": true,
+          "red12": true,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              63.0,
+              390.3456115722656
+            ]
+          ],
+          "bbox": [
+            63.0,
+            379.02960205078125,
+            163.9428253173828,
+            393.3456115722656
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0
+      ],
+      "paragraphs": [
+        {
+          "text": "If a vehicle has a damage threshold (see “Rules Glossary”), it’s noted in the table.",
+          "pages": [
+            101
+          ],
+          "source_lines": [
+            {
+              "page": 101,
+              "column": 1,
+              "block": 3,
+              "line": 1,
+              "text": "If a vehicle has a damage threshold (see “Rules Glos-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  403.06561279296875
+                ]
+              ],
+              "bbox": [
+                63.0,
+                371.8955993652344,
+                287.9100036621094,
+                427.70562744140625
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 3,
+              "line": 2,
+              "text": "sary”), it’s noted in the table.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  415.06561279296875
+                ]
+              ],
+              "bbox": [
+                63.0,
+                383.8955993652344,
+                187.80001831054688,
+                439.70562744140625
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": [
+            {
+              "printed": "Glos-\nsary",
+              "chosen": "Glossary",
+              "basis": "Same spelling occurs unbroken elsewhere in the official PDF.",
+              "unbroken_source_forms": [
+                "Glossary"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Ship Repair": {
+      "heading": "Ship Repair",
+      "heading_source_lines": [
+        {
+          "page": 101,
+          "column": 1,
+          "block": 4,
+          "line": 0,
+          "text": "Ship Repair",
+          "red": true,
+          "red12": true,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              63.0,
+              434.4255065917969
+            ]
+          ],
+          "bbox": [
+            63.0,
+            423.1094970703125,
+            123.74281311035156,
+            437.4255065917969
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        0
+      ],
+      "paragraphs": [
+        {
+          "text": "Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 Hit Point of damage requires 1 day and costs 20 GP for materials and labor. If the repairs are made in a location where supplies and skilled labor are abundant, such as a city shipyard, the repair time and cost are halved.",
+          "pages": [
+            101
+          ],
+          "source_lines": [
+            {
+              "page": 101,
+              "column": 1,
+              "block": 4,
+              "line": 1,
+              "text": "Repairs to a damaged ship can be made while the ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  447.1455993652344
+                ]
+              ],
+              "bbox": [
+                63.0,
+                415.9755859375,
+                278.1600646972656,
+                471.78558349609375
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 4,
+              "line": 2,
+              "text": "vessel is berthed. Repairing 1 Hit Point of damage ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  459.1455993652344
+                ]
+              ],
+              "bbox": [
+                63.0,
+                427.9755859375,
+                280.2590637207031,
+                483.78558349609375
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 4,
+              "line": 3,
+              "text": "requires 1 day and costs 20 GP for materials and la-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  471.1455993652344
+                ]
+              ],
+              "bbox": [
+                63.0,
+                439.9755859375,
+                285.9329833984375,
+                495.78558349609375
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 4,
+              "line": 4,
+              "text": "bor. If the repairs are made in a location where sup-",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  483.1455993652344
+                ]
+              ],
+              "bbox": [
+                63.0,
+                451.9755859375,
+                286.45001220703125,
+                507.78558349609375
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 4,
+              "line": 5,
+              "text": "plies and skilled labor are abundant, such as a city ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  495.1455993652344
+                ]
+              ],
+              "bbox": [
+                63.0,
+                463.9755859375,
+                282.2040710449219,
+                519.7855834960938
+              ]
+            },
+            {
+              "page": 101,
+              "column": 1,
+              "block": 4,
+              "line": 6,
+              "text": "shipyard, the repair time and cost are halved.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  507.1455993652344
+                ]
+              ],
+              "bbox": [
+                63.0,
+                475.9755859375,
+                259.8009948730469,
+                531.7855834960938
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": [
+            {
+              "printed": "la-\nbor",
+              "chosen": "labor",
+              "basis": "Same spelling occurs unbroken elsewhere in the official PDF.",
+              "unbroken_source_forms": [
+                "labor"
+              ]
+            },
+            {
+              "printed": "sup-\nplies",
+              "chosen": "supplies",
+              "basis": "Same spelling occurs unbroken elsewhere in the official PDF.",
+              "unbroken_source_forms": [
+                "supplies"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Mysterious Deck": {
+      "heading": "Mysterious Deck",
+      "heading_source_lines": [
+        {
+          "page": 231,
+          "column": 1,
+          "block": 3,
+          "line": 0,
+          "text": "Mysterious Deck",
+          "red": true,
+          "red12": true,
+          "fonts": [
+            "GillSans-SemiBold"
+          ],
+          "origins": [
+            [
+              63.0,
+              157.86309814453125
+            ]
+          ],
+          "bbox": [
+            63.0,
+            146.54710388183594,
+            152.308837890625,
+            160.86309814453125
+          ]
+        }
+      ],
+      "paragraph_indexes": [
+        20
+      ],
+      "paragraphs": [
+        {
+          "text": "Skull. An Avatar of Death (see the accompanying stat block) appears in an unoccupied space as close to you as possible. The avatar targets only you with its attacks, appearing as a ghostly skeleton clad in a tattered black robe and carrying a spectral scythe. The avatar disappears when it drops to 0 Hit Points or you die. If an ally of yours deals damage to the avatar, that ally summons another Avatar of Death. The new avatar appears in an unoccupied space as close to that ally as possible and targets only that ally with its attacks. You and your allies can each summon only one avatar as a consequence of this draw. A creature slain by an avatar can’t be restored to life.",
+          "pages": [
+            232
+          ],
+          "source_lines": [
+            {
+              "page": 232,
+              "column": 1,
+              "block": 1,
+              "line": 34,
+              "text": "\t Skull. An Avatar of Death (see the accompanying ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria",
+                "Cambria-BoldItalic",
+                "Cambria-Bold"
+              ],
+              "origins": [
+                [
+                  62.99999237060547,
+                  456.66259765625
+                ],
+                [
+                  65.19998931884766,
+                  456.66259765625
+                ],
+                [
+                  70.99999237060547,
+                  456.66259765625
+                ],
+                [
+                  95.91999816894531,
+                  456.66259765625
+                ],
+                [
+                  112.47599792480469,
+                  456.66259765625
+                ],
+                [
+                  185.0500030517578,
+                  456.66259765625
+                ]
+              ],
+              "bbox": [
+                62.99999237060547,
+                425.4925842285156,
+                288.2730712890625,
+                481.3026123046875
+              ]
+            },
+            {
+              "page": 232,
+              "column": 1,
+              "block": 1,
+              "line": 35,
+              "text": "stat block) appears in an unoccupied space as close ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  468.66259765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                437.4925842285156,
+                286.08099365234375,
+                493.3026123046875
+              ]
+            },
+            {
+              "page": 232,
+              "column": 1,
+              "block": 1,
+              "line": 36,
+              "text": "to you as possible. The avatar targets only you with ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  480.66259765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                449.4925842285156,
+                287.8260192871094,
+                505.3026123046875
+              ]
+            },
+            {
+              "page": 232,
+              "column": 1,
+              "block": 1,
+              "line": 37,
+              "text": "its attacks, appearing as a ghostly skeleton clad in a ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  492.66259765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                461.4925842285156,
+                288.39508056640625,
+                517.3026123046875
+              ]
+            },
+            {
+              "page": 232,
+              "column": 1,
+              "block": 1,
+              "line": 38,
+              "text": "tattered black robe and carrying a spectral scythe. ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  504.66259765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                473.4925842285156,
+                285.1390380859375,
+                529.3026123046875
+              ]
+            },
+            {
+              "page": 232,
+              "column": 1,
+              "block": 1,
+              "line": 39,
+              "text": "The avatar disappears when it drops to 0 Hit Points ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  516.66259765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                485.4925842285156,
+                287.9499816894531,
+                541.3026123046875
+              ]
+            },
+            {
+              "page": 232,
+              "column": 1,
+              "block": 1,
+              "line": 40,
+              "text": "or you die. If an ally of yours deals damage to the ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  528.66259765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                497.4925842285156,
+                276.1080627441406,
+                553.3026123046875
+              ]
+            },
+            {
+              "page": 232,
+              "column": 1,
+              "block": 1,
+              "line": 41,
+              "text": "avatar, that ally summons another Avatar of Death. ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria",
+                "Cambria-Bold"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  540.66259765625
+                ],
+                [
+                  213.71697998046875,
+                  540.66259765625
+                ],
+                [
+                  286.5299987792969,
+                  540.66259765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                509.4925842285156,
+                290.7799987792969,
+                565.3026123046875
+              ]
+            },
+            {
+              "page": 232,
+              "column": 1,
+              "block": 1,
+              "line": 42,
+              "text": "The new avatar appears in an unoccupied space as ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  552.66259765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                521.4926147460938,
+                283.7020263671875,
+                577.3026123046875
+              ]
+            },
+            {
+              "page": 232,
+              "column": 1,
+              "block": 1,
+              "line": 43,
+              "text": "close to that ally as possible and targets only that ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  564.66259765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                533.4926147460938,
+                278.48004150390625,
+                589.3026123046875
+              ]
+            },
+            {
+              "page": 232,
+              "column": 1,
+              "block": 1,
+              "line": 44,
+              "text": "ally with its attacks. You and your allies can each ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  576.66259765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                545.4926147460938,
+                276.7450256347656,
+                601.3026123046875
+              ]
+            },
+            {
+              "page": 232,
+              "column": 1,
+              "block": 1,
+              "line": 45,
+              "text": "summon only one avatar as a consequence of this ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  588.66259765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                557.4926147460938,
+                278.28607177734375,
+                613.3026123046875
+              ]
+            },
+            {
+              "page": 232,
+              "column": 1,
+              "block": 1,
+              "line": 46,
+              "text": "draw. A creature slain by an avatar can’t be restored ",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  600.66259765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                569.4926147460938,
+                291.7000732421875,
+                625.3026123046875
+              ]
+            },
+            {
+              "page": 232,
+              "column": 1,
+              "block": 1,
+              "line": 47,
+              "text": "to life.",
+              "red": false,
+              "red12": false,
+              "fonts": [
+                "Cambria"
+              ],
+              "origins": [
+                [
+                  63.0,
+                  612.66259765625
+                ]
+              ],
+              "bbox": [
+                63.0,
+                581.4926147460938,
+                90.0979995727539,
+                637.3026123046875
+              ]
+            }
+          ],
+          "layout_hyphen_decisions": []
+        }
+      ]
+    }
+  },
+  "tables": {
+    "ammunition": {
+      "source": "Ammunition (Varies)",
+      "table": {
+        "type": "table",
+        "colLabels": [
+          "Type",
+          "Amount",
+          "Storage",
+          "Weight",
+          "Cost"
+        ],
+        "rows": [
+          [
+            "Arrows",
+            "20",
+            "Quiver",
+            "1 lb.",
+            "1 GP"
+          ],
+          [
+            "Bolts",
+            "20",
+            "Case",
+            "1½ lb.",
+            "1 GP"
+          ],
+          [
+            "Bullets, Firearm",
+            "10",
+            "Pouch",
+            "2 lb.",
+            "3 GP"
+          ],
+          [
+            "Bullets, Sling",
+            "20",
+            "Pouch",
+            "1½ lb.",
+            "4 CP"
+          ],
+          [
+            "Needles",
+            "50",
+            "Pouch",
+            "1 lb.",
+            "1 GP"
+          ]
+        ],
+        "caption": "Ammunition"
+      }
+    },
+    "holy_symbols": {
+      "source": "Holy Symbol (Varies)",
+      "table": {
+        "type": "table",
+        "colLabels": [
+          "Symbol",
+          "Weight",
+          "Cost"
+        ],
+        "rows": [
+          [
+            "Amulet (worn or held)",
+            "1 lb.",
+            "5 GP"
+          ],
+          [
+            "Emblem (borne on fabric or a Shield)",
+            "—",
+            "5 GP"
+          ],
+          [
+            "Reliquary (held)",
+            "2 lb.",
+            "5 GP"
+          ]
+        ],
+        "caption": "Holy Symbols"
+      }
+    }
+  },
+  "cell_projections": {
+    "lance_properties": {
+      "page": 91,
+      "bounds": [
+        49,
+        421.6,
+        554,
+        436.7
+      ],
+      "column_breaks": [
+        130,
+        210,
+        425,
+        475,
+        515
+      ],
+      "row": [
+        "Lance",
+        "1d10 Piercing",
+        "Heavy, Reach, Two-Handed (unless mounted)",
+        "Topple",
+        "6 lb.",
+        "10 GP"
+      ],
+      "cell": 2
+    }
+  },
+  "records": [
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Alchemist's Fire",
+      "sections": [
+        {
+          "unit": "Alchemist's Fire (50 GP)"
+        }
+      ]
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Bedroll",
+      "sections": [
+        {
+          "unit": "Bedroll (1 GP)"
+        }
+      ]
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Blanket",
+      "sections": [
+        {
+          "unit": "Blanket (5 SP)"
+        }
+      ]
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Rations",
+      "sections": [
+        {
+          "unit": "Rations (5 SP)"
+        }
+      ]
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Waterskin",
+      "sections": [
+        {
+          "unit": "Waterskin (2 SP)"
+        }
+      ]
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Amulet",
+      "sections": [
+        {
+          "unit": "Holy Symbol (Varies)"
+        }
+      ],
+      "table_rows": {
+        "holy_symbols": [
+          0
+        ]
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Emblem",
+      "sections": [
+        {
+          "unit": "Holy Symbol (Varies)"
+        }
+      ],
+      "table_rows": {
+        "holy_symbols": [
+          1
+        ]
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Reliquary",
+      "sections": [
+        {
+          "unit": "Holy Symbol (Varies)"
+        }
+      ],
+      "table_rows": {
+        "holy_symbols": [
+          2
+        ]
+      }
+    },
+    {
+      "file": "items-base.json",
+      "kind": "baseitem",
+      "name": "Arrow",
+      "sections": [
+        {
+          "unit": "Ammunition (Varies)"
+        }
+      ],
+      "table_rows": {
+        "ammunition": [
+          0
+        ]
+      }
+    },
+    {
+      "file": "items-base.json",
+      "kind": "baseitem",
+      "name": "Arrows (20)",
+      "sections": [
+        {
+          "unit": "Ammunition (Varies)"
+        }
+      ],
+      "table_rows": {
+        "ammunition": [
+          0
+        ]
+      }
+    },
+    {
+      "file": "items-base.json",
+      "kind": "baseitem",
+      "name": "Bolt",
+      "sections": [
+        {
+          "unit": "Ammunition (Varies)"
+        }
+      ],
+      "table_rows": {
+        "ammunition": [
+          1
+        ]
+      }
+    },
+    {
+      "file": "items-base.json",
+      "kind": "baseitem",
+      "name": "Bolts (20)",
+      "sections": [
+        {
+          "unit": "Ammunition (Varies)"
+        }
+      ],
+      "table_rows": {
+        "ammunition": [
+          1
+        ]
+      }
+    },
+    {
+      "file": "items-base.json",
+      "kind": "baseitem",
+      "name": "Firearm Bullet",
+      "sections": [
+        {
+          "unit": "Ammunition (Varies)"
+        }
+      ],
+      "table_rows": {
+        "ammunition": [
+          2
+        ]
+      }
+    },
+    {
+      "file": "items-base.json",
+      "kind": "baseitem",
+      "name": "Firearm Bullets (10)",
+      "sections": [
+        {
+          "unit": "Ammunition (Varies)"
+        }
+      ],
+      "table_rows": {
+        "ammunition": [
+          2
+        ]
+      }
+    },
+    {
+      "file": "items-base.json",
+      "kind": "baseitem",
+      "name": "Sling Bullet",
+      "sections": [
+        {
+          "unit": "Ammunition (Varies)"
+        }
+      ],
+      "table_rows": {
+        "ammunition": [
+          3
+        ]
+      }
+    },
+    {
+      "file": "items-base.json",
+      "kind": "baseitem",
+      "name": "Sling Bullets (20)",
+      "sections": [
+        {
+          "unit": "Ammunition (Varies)"
+        }
+      ],
+      "table_rows": {
+        "ammunition": [
+          3
+        ]
+      }
+    },
+    {
+      "file": "items-base.json",
+      "kind": "baseitem",
+      "name": "Needle",
+      "sections": [
+        {
+          "unit": "Ammunition (Varies)"
+        }
+      ],
+      "table_rows": {
+        "ammunition": [
+          4
+        ]
+      }
+    },
+    {
+      "file": "items-base.json",
+      "kind": "baseitem",
+      "name": "Needles (50)",
+      "sections": [
+        {
+          "unit": "Ammunition (Varies)"
+        }
+      ],
+      "table_rows": {
+        "ammunition": [
+          4
+        ]
+      }
+    },
+    {
+      "file": "items-base.json",
+      "kind": "baseitem",
+      "name": "Lance",
+      "sections": [],
+      "cell_projection": "lance_properties"
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Exotic Saddle",
+      "sections": [
+        {
+          "unit": "Saddles",
+          "sentences": [
+            0,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "file": "items-base.json",
+      "kind": "itemType",
+      "name": "Tool",
+      "sections": [
+        {
+          "unit": "Tool Proficiency",
+          "heading": true
+        }
+      ]
+    },
+    {
+      "file": "items-base.json",
+      "kind": "itemType",
+      "name": "Gaming Set",
+      "sections": [
+        {
+          "unit": "Tool Proficiency",
+          "heading": true
+        }
+      ]
+    },
+    {
+      "file": "items-base.json",
+      "kind": "itemType",
+      "name": "Instrument",
+      "sections": [
+        {
+          "unit": "Tool Proficiency",
+          "heading": true
+        }
+      ]
+    },
+    {
+      "file": "items-base.json",
+      "kind": "itemType",
+      "name": "Artisan's Tools",
+      "sections": [
+        {
+          "unit": "Artisan's Tools",
+          "heading": true
+        },
+        {
+          "unit": "Tool Proficiency",
+          "heading": true
+        }
+      ]
+    },
+    {
+      "file": "items-base.json",
+      "kind": "itemType",
+      "name": "Vehicle (Air)",
+      "sections": [
+        {
+          "unit": "Speed",
+          "heading": true
+        },
+        {
+          "unit": "Crew",
+          "heading": true
+        },
+        {
+          "unit": "Passengers",
+          "heading": true
+        },
+        {
+          "unit": "Damage Threshold",
+          "heading": true
+        },
+        {
+          "unit": "Ship Repair",
+          "heading": true
+        }
+      ]
+    },
+    {
+      "file": "items-base.json",
+      "kind": "itemType",
+      "name": "Vehicle (Water)",
+      "sections": [
+        {
+          "unit": "Speed",
+          "heading": true
+        },
+        {
+          "unit": "Crew",
+          "heading": true
+        },
+        {
+          "unit": "Passengers",
+          "heading": true
+        },
+        {
+          "unit": "Damage Threshold",
+          "heading": true
+        },
+        {
+          "unit": "Ship Repair",
+          "heading": true
+        }
+      ]
+    },
+    {
+      "file": "decks.json",
+      "kind": "card",
+      "name": "Skull",
+      "sections": [
+        {
+          "unit": "Mysterious Deck",
+          "remove_prefix": "Skull. "
+        }
+      ]
+    }
+  ]
+}

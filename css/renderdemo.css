@@ -1,1 +1,0 @@
-@layer vetools{@media screen and (width <= 991px){.ace_editor{height:40vh !important}}@media print{#pagecontent>tbody>tr{break-inside:auto}}:where(html.is-faux-print) #pagecontent>tbody>tr{break-inside:auto}}/*# sourceMappingURL=renderdemo.css.map */

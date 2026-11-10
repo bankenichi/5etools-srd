@@ -1,0 +1,565 @@
+{
+  "official_pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+  "scope": "Three class feature records only: materialize the two printed Fighting Style alternatives inline, and remove seven foreign invocation references absent from the SRD. No selection, progression, grouping, fitting, splitting, or rendering code changes.",
+  "records": [
+    {
+      "file": "data/class/class-paladin.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Fighting Style",
+        "source": "XPHB",
+        "className": "Paladin",
+        "level": 2
+      },
+      "projected_record_sha256": "6cbaa071fc05258cf2b035ed7753251e1bb6a9e459d6eb8484449b1493964c23",
+      "official_pages": [
+        54
+      ],
+      "evidence": [
+        {
+          "heading": "Blessed Warrior",
+          "pages": [
+            54
+          ],
+          "source_quote": "Blessed Warrior. You learn two Cleric cantrips of your choice (see the Cleric class’s section for a list of Cleric spells). Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.",
+          "source_lines": [
+            {
+              "page": 54,
+              "block": 8,
+              "line": 4,
+              "text": "\t Blessed Warrior. You learn two Cleric cantrips of ",
+              "origins": [
+                [
+                  313.4988098144531,
+                  152.74261474609375
+                ],
+                [
+                  315.6988220214844,
+                  152.74261474609375
+                ],
+                [
+                  321.4988098144531,
+                  152.74261474609375
+                ],
+                [
+                  397.17877197265625,
+                  152.74261474609375
+                ]
+              ]
+            },
+            {
+              "page": 54,
+              "block": 8,
+              "line": 5,
+              "text": "your choice (see the Cleric class’s section for a list ",
+              "origins": [
+                [
+                  313.4988098144531,
+                  164.74261474609375
+                ]
+              ]
+            },
+            {
+              "page": 54,
+              "block": 8,
+              "line": 6,
+              "text": "of Cleric spells). Guidance and Sacred Flame are rec-",
+              "origins": [
+                [
+                  313.4988098144531,
+                  176.74261474609375
+                ],
+                [
+                  383.88983154296875,
+                  176.74261474609375
+                ],
+                [
+                  422.4288024902344,
+                  176.74261474609375
+                ],
+                [
+                  443.048828125,
+                  176.74261474609375
+                ],
+                [
+                  499.6588134765625,
+                  176.74261474609375
+                ]
+              ]
+            },
+            {
+              "page": 54,
+              "block": 8,
+              "line": 7,
+              "text": "ommended. The chosen cantrips count as Paladin ",
+              "origins": [
+                [
+                  313.48883056640625,
+                  188.74261474609375
+                ]
+              ]
+            },
+            {
+              "page": 54,
+              "block": 8,
+              "line": 8,
+              "text": "spells for you, and Charisma is your spellcasting ",
+              "origins": [
+                [
+                  313.48883056640625,
+                  200.74261474609375
+                ]
+              ]
+            },
+            {
+              "page": 54,
+              "block": 8,
+              "line": 9,
+              "text": "ability for them. Whenever you gain a Paladin level, ",
+              "origins": [
+                [
+                  313.48883056640625,
+                  212.74261474609375
+                ]
+              ]
+            },
+            {
+              "page": 54,
+              "block": 8,
+              "line": 10,
+              "text": "you can replace one of these cantrips with another ",
+              "origins": [
+                [
+                  313.48883056640625,
+                  224.74261474609375
+                ]
+              ]
+            },
+            {
+              "page": 54,
+              "block": 8,
+              "line": 11,
+              "text": "Cleric cantrip.",
+              "origins": [
+                [
+                  313.48883056640625,
+                  236.74261474609375
+                ]
+              ]
+            }
+          ],
+          "reason": "The alternative is printed inline in this class section. The upstream placeholder points to an unselected full-book feat; retaining only that placeholder omits the printed rules."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/1",
+          "value": {
+            "type": "entries",
+            "name": "Blessed Warrior",
+            "entries": [
+              "You learn two Cleric cantrips of your choice (see the Cleric class’s section for a list of Cleric spells). Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-ranger.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Fighting Style",
+        "source": "XPHB",
+        "className": "Ranger",
+        "level": 2
+      },
+      "projected_record_sha256": "3a05b256ab678940fa88030ad4f5d78e3d3e78668089e1ea15e4bb23cb38638c",
+      "official_pages": [
+        59
+      ],
+      "evidence": [
+        {
+          "heading": "Druidic Warrior",
+          "pages": [
+            59
+          ],
+          "source_quote": "Druidic Warrior. You learn two Druid cantrips of your choice (see the Druid class’s section for a list of Druid spells). Guidance and Starry Wisp are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.",
+          "source_lines": [
+            {
+              "page": 59,
+              "block": 3,
+              "line": 4,
+              "text": "\t Druidic Warrior. You learn two Druid cantrips of ",
+              "origins": [
+                [
+                  63.0,
+                  292.82257080078125
+                ],
+                [
+                  65.19999694824219,
+                  292.82257080078125
+                ],
+                [
+                  71.0,
+                  292.82257080078125
+                ],
+                [
+                  146.17999267578125,
+                  292.82257080078125
+                ]
+              ]
+            },
+            {
+              "page": 59,
+              "block": 3,
+              "line": 5,
+              "text": "your choice (see the Druid class’s section for a list of ",
+              "origins": [
+                [
+                  62.99999237060547,
+                  304.82257080078125
+                ]
+              ]
+            },
+            {
+              "page": 59,
+              "block": 3,
+              "line": 6,
+              "text": "Druid spells). Guidance and Starry Wisp are recom-",
+              "origins": [
+                [
+                  62.99999237060547,
+                  316.82257080078125
+                ],
+                [
+                  123.0979995727539,
+                  316.82257080078125
+                ],
+                [
+                  161.62998962402344,
+                  316.82257080078125
+                ],
+                [
+                  182.24998474121094,
+                  316.82257080078125
+                ],
+                [
+                  232.5360107421875,
+                  316.82257080078125
+                ]
+              ]
+            },
+            {
+              "page": 59,
+              "block": 3,
+              "line": 7,
+              "text": "mended. The chosen cantrips count as Ranger spells ",
+              "origins": [
+                [
+                  62.999969482421875,
+                  328.82257080078125
+                ]
+              ]
+            },
+            {
+              "page": 59,
+              "block": 3,
+              "line": 8,
+              "text": "for you, and Wisdom is your spellcasting ability for ",
+              "origins": [
+                [
+                  62.999969482421875,
+                  340.82257080078125
+                ]
+              ]
+            },
+            {
+              "page": 59,
+              "block": 3,
+              "line": 9,
+              "text": "them. Whenever you gain a Ranger level, you can ",
+              "origins": [
+                [
+                  62.999969482421875,
+                  352.82257080078125
+                ]
+              ]
+            },
+            {
+              "page": 59,
+              "block": 3,
+              "line": 10,
+              "text": "replace one of these cantrips with another Druid ",
+              "origins": [
+                [
+                  62.999969482421875,
+                  364.82257080078125
+                ]
+              ]
+            },
+            {
+              "page": 59,
+              "block": 3,
+              "line": 11,
+              "text": "cantrip.",
+              "origins": [
+                [
+                  62.999969482421875,
+                  376.82257080078125
+                ]
+              ]
+            }
+          ],
+          "reason": "The alternative is printed inline in this class section. The upstream placeholder points to an unselected full-book feat; retaining only that placeholder omits the printed rules."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/1",
+          "value": {
+            "type": "entries",
+            "name": "Druidic Warrior",
+            "entries": [
+              "You learn two Druid cantrips of your choice (see the Druid class’s section for a list of Druid spells). Guidance and Starry Wisp are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "data/class/class-warlock.json",
+      "kind": "classFeature",
+      "identity": {
+        "name": "Eldritch Invocation Options",
+        "source": "XPHB",
+        "className": "Warlock",
+        "level": 1
+      },
+      "projected_record_sha256": "cebb855213c30227c692f1bfc16252a966fbfc02b599eb51ff5a93895c7e0cae",
+      "official_pages": [
+        72,
+        73,
+        74,
+        75
+      ],
+      "evidence": [
+        {
+          "reason": "These seven WoW references have no retained optionalfeature targets and their names do not occur anywhere in the pinned official PDF. The source invocation options occupy pages 72-75. The remaining 28 nodes, prerequisite metadata, ordering, and containing feature are preserved.",
+          "removed_uids": [
+            "Call of the Void|WoW",
+            "Curse of Corruption|WoW",
+            "Expendable Minions|WoW",
+            "Health Funnel|WoW",
+            "Legion Summoning|WoW",
+            "Master Demonologist|WoW",
+            "Pact of the Legion|WoW"
+          ],
+          "official_pdf_pages_searched": 364
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/1/entries",
+          "value": [
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Agonizing Blast|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Armor of Shadows|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Ascendant Step|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Devil's Sight|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Devouring Blade|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Eldritch Mind|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Eldritch Smite|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Eldritch Spear|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Fiendish Vigor|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Gaze of Two Minds|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Gift of the Depths|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Gift of the Protectors|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Investment of the Chain Master|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Lessons of the First Ones|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Lifedrinker|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Mask of Many Faces|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Master of Myriad Forms|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Misty Visions|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "One with Shadows|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Otherworldly Leap|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Pact of the Blade|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Pact of the Chain|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Pact of the Tome|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Repelling Blast|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Thirsting Blade|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Visions of Distant Realms|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Whispers of the Grave|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Witch Sight|XPHB",
+              "preserve": {
+                "prerequisite": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

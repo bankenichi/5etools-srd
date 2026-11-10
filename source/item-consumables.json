@@ -1,0 +1,1947 @@
+{
+  "official_pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+  "scope": "Source-proven consumable booleans for retained magic items flagged CNS, plus the specific enhanced-ammunition price equivalence. Other item/scroll/base-equipment pricing is not certified here.",
+  "rarity_values_gp": {
+    "common": 100,
+    "uncommon": 400,
+    "rare": 4000,
+    "very rare": 40000,
+    "legendary": 200000,
+    "artifact": "Priceless"
+  },
+  "records": [
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Bag of Beans",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Bag of Beans",
+        "source_pages": [
+          211
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "becomes a nonmagical item when it no longer contains any beans."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Bead of Force",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Bead of Force",
+        "source_pages": [
+          212,
+          213
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "The bead explodes in a 10-foot-radius Sphere on impact and is destroyed."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Bead of Nourishment",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Bead of Nourishment",
+        "source_pages": [
+          213
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "This flavorless, gelatinous bead dissolves on your tongue"
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Candle of Invocation",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Candle of Invocation",
+        "source_pages": [
+          214,
+          215
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "After burning for 4 hours, the candle is destroyed."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Chime of Opening",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Chime of Opening",
+        "source_pages": [
+          215
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "The chime can be used 10 times. After the tenth time, it cracks and becomes useless."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Deck of Illusions",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Deck of Illusions",
+        "source_pages": [
+          217,
+          218
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "When the illusion ends, the image on its card disappears, and that card can't be used again."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Dust of Disappearance",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Dust of Disappearance",
+        "source_pages": [
+          219
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "dust is consumed when its magic takes effect."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Dust of Dryness",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Dust of Dryness",
+        "source_pages": [
+          219
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "This small packet contains 1d6 + 4 pinches of dust.",
+          "Doing so destroys the pellet and ends its magic."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Dust of Sneezing and Choking",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Dust of Sneezing and Choking",
+        "source_pages": [
+          219
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "There is enough of it for one use."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Efreeti Bottle",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Efreeti Bottle",
+        "source_pages": [
+          220
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "the bottle loses its magic."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed.",
+        "required_quote_occurrences": 3
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Elemental Gem, Blue Sapphire",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Elemental Gem",
+        "source_pages": [
+          220
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "take a Utilize action to break the gem",
+          "the gem ceases to be magical."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Elemental Gem, Emerald",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Elemental Gem",
+        "source_pages": [
+          220
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "take a Utilize action to break the gem",
+          "the gem ceases to be magical."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Elemental Gem, Red Corundum",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Elemental Gem",
+        "source_pages": [
+          220
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "take a Utilize action to break the gem",
+          "the gem ceases to be magical."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Elemental Gem, Yellow Diamond",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Elemental Gem",
+        "source_pages": [
+          220
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "take a Utilize action to break the gem",
+          "the gem ceases to be magical."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Elixir of Health",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Elixir of Health",
+        "source_pages": [
+          220
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Gem of Brightness",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Gem of Brightness",
+        "source_pages": [
+          223
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "When all of the gem's charges are expended, the gem becomes a nonmagical jewel worth 50 GP."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Manual of Clay Golems",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Manual of Golems",
+        "source_pages": [
+          229,
+          230
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Once you finish creating the golem, the book is consumed in eldritch flames."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Manual of Flesh Golems",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Manual of Golems",
+        "source_pages": [
+          229,
+          230
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Once you finish creating the golem, the book is consumed in eldritch flames."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Manual of Iron Golems",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Manual of Golems",
+        "source_pages": [
+          229,
+          230
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Once you finish creating the golem, the book is consumed in eldritch flames."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Manual of Stone Golems",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Manual of Golems",
+        "source_pages": [
+          229,
+          230
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Once you finish creating the golem, the book is consumed in eldritch flames."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Necklace of Fireballs",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Necklace of Fireballs",
+        "source_pages": [
+          233
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "This necklace has 1d6 + 3 beads hanging from it.",
+          "detach a bead and throw it",
+          "the bead detonates"
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Marvelous Pigments",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Marvelous Pigments",
+        "source_pages": [
+          230
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Using the brush and expending 1 pot of pigment,"
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Oil of Etherealness",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Oil of Etherealness",
+        "source_pages": [
+          233
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Oil of Sharpness",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Oil of Sharpness",
+        "source_pages": [
+          233
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Oil of Slipperiness",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Oil of Slipperiness",
+        "source_pages": [
+          233,
+          234
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Philter of Love",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Philter of Love",
+        "source_pages": [
+          234
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Acid Resistance",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Resistance",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Animal Friendship",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Animal Friendship",
+        "source_pages": [
+          235
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Clairvoyance",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Clairvoyance",
+        "source_pages": [
+          235
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Climbing",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Climbing",
+        "source_pages": [
+          235
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Cloud Giant Strength",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Giant Strength",
+        "source_pages": [
+          235
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Cold Resistance",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Resistance",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Diminution",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Diminution",
+        "source_pages": [
+          235
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Fire Giant Strength",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Giant Strength",
+        "source_pages": [
+          235
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Fire Resistance",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Resistance",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Flying",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Flying",
+        "source_pages": [
+          235
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Force Resistance",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Resistance",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Frost Giant Strength",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Giant Strength",
+        "source_pages": [
+          235
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Gaseous Form",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Gaseous Form",
+        "source_pages": [
+          235
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Greater Healing",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potions of Healing",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Growth",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Growth",
+        "source_pages": [
+          235
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Healing",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potions of Healing",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Heroism",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Heroism",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Hill Giant Strength",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Giant Strength",
+        "source_pages": [
+          235
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Invisibility",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Invisibility",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Invulnerability",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Invulnerability",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Lightning Resistance",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Resistance",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Longevity",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Longevity",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Mind Reading",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Mind Reading",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Necrotic Resistance",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Resistance",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Poison",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Poison",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Poison Resistance",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Resistance",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Psychic Resistance",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Resistance",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Radiant Resistance",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Resistance",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Speed",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Speed",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Stone Giant Strength",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Giant Strength",
+        "source_pages": [
+          235
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Storm Giant Strength",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Giant Strength",
+        "source_pages": [
+          235
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Superior Healing",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potions of Healing",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Supreme Healing",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potions of Healing",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Thunder Resistance",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Resistance",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Vitality",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Vitality",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Potion of Water Breathing",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Water Breathing",
+        "source_pages": [
+          236,
+          237
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Feather Token, Anchor",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Feather Token",
+        "source_pages": [
+          221
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Different types of feather tokens exist, each with a different single-use effect."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Feather Token, Bird",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Feather Token",
+        "source_pages": [
+          221
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Different types of feather tokens exist, each with a different single-use effect."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Feather Token, Fan",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Feather Token",
+        "source_pages": [
+          221
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Different types of feather tokens exist, each with a different single-use effect."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Feather Token, Swan Boat",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Feather Token",
+        "source_pages": [
+          221
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Different types of feather tokens exist, each with a different single-use effect."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Feather Token, Tree",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Feather Token",
+        "source_pages": [
+          221
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Different types of feather tokens exist, each with a different single-use effect."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Feather Token, Whip",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Feather Token",
+        "source_pages": [
+          221
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Different types of feather tokens exist, each with a different single-use effect."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Ring of Three Wishes",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Ring of Three Wishes",
+        "source_pages": [
+          239
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "The ring becomes nonmagical when you use the last charge."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Robe of Useful Items",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Robe of Useful Items",
+        "source_pages": [
+          240,
+          241
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Once the last patch is removed, the robe becomes an ordinary garment."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Scarab of Protection",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Scarab of Protection",
+        "source_pages": [
+          243
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "scarab crumbles into powder and is destroyed when its last charge is expended."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Sovereign Glue",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Sovereign Glue",
+        "source_pages": [
+          244
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "When found, a container contains 1d6 + 1 ounces.",
+          "Applying an ounce of Sovereign Glue takes a Utilize action"
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Spell Scroll (Cantrip)",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Spell Scroll",
+        "source_pages": [
+          244
+        ],
+        "method": "printed_category",
+        "printed_category": "Scroll",
+        "general_rule_page": 205,
+        "general_rule_quote": "Scrolls are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Spell Scroll (Level 1)",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Spell Scroll",
+        "source_pages": [
+          244
+        ],
+        "method": "printed_category",
+        "printed_category": "Scroll",
+        "general_rule_page": 205,
+        "general_rule_quote": "Scrolls are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Spell Scroll (Level 2)",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Spell Scroll",
+        "source_pages": [
+          244
+        ],
+        "method": "printed_category",
+        "printed_category": "Scroll",
+        "general_rule_page": 205,
+        "general_rule_quote": "Scrolls are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Spell Scroll (Level 3)",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Spell Scroll",
+        "source_pages": [
+          244
+        ],
+        "method": "printed_category",
+        "printed_category": "Scroll",
+        "general_rule_page": 205,
+        "general_rule_quote": "Scrolls are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Spell Scroll (Level 4)",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Spell Scroll",
+        "source_pages": [
+          244
+        ],
+        "method": "printed_category",
+        "printed_category": "Scroll",
+        "general_rule_page": 205,
+        "general_rule_quote": "Scrolls are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Spell Scroll (Level 5)",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Spell Scroll",
+        "source_pages": [
+          244
+        ],
+        "method": "printed_category",
+        "printed_category": "Scroll",
+        "general_rule_page": 205,
+        "general_rule_quote": "Scrolls are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Spell Scroll (Level 6)",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Spell Scroll",
+        "source_pages": [
+          244
+        ],
+        "method": "printed_category",
+        "printed_category": "Scroll",
+        "general_rule_page": 205,
+        "general_rule_quote": "Scrolls are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Spell Scroll (Level 7)",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Spell Scroll",
+        "source_pages": [
+          244
+        ],
+        "method": "printed_category",
+        "printed_category": "Scroll",
+        "general_rule_page": 205,
+        "general_rule_quote": "Scrolls are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Spell Scroll (Level 8)",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Spell Scroll",
+        "source_pages": [
+          244
+        ],
+        "method": "printed_category",
+        "printed_category": "Scroll",
+        "general_rule_page": 205,
+        "general_rule_quote": "Scrolls are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Spell Scroll (Level 9)",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Spell Scroll",
+        "source_pages": [
+          244
+        ],
+        "method": "printed_category",
+        "printed_category": "Scroll",
+        "general_rule_page": 205,
+        "general_rule_quote": "Scrolls are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Talisman of Pure Good",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Talisman of Pure Good",
+        "source_pages": [
+          248,
+          249
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "When you expend the last charge, the talisman disperses into motes of golden light and is destroyed."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Talisman of Ultimate Evil",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Talisman of Ultimate Evil",
+        "source_pages": [
+          249
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "item",
+      "name": "Universal Solvent",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Universal Solvent",
+        "source_pages": [
+          250
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "When found, a tube contains 1d6 + 1 ounces.",
+          "pour 1 or more ounces of solvent from the tube"
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "itemGroup",
+      "name": "Elemental Gem",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Elemental Gem",
+        "source_pages": [
+          220
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "take a Utilize action to break the gem",
+          "the gem ceases to be magical."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "itemGroup",
+      "name": "Manual of Golems",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Manual of Golems",
+        "source_pages": [
+          229,
+          230
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Once you finish creating the golem, the book is consumed in eldritch flames."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "itemGroup",
+      "name": "Potion of Giant Strength",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Giant Strength",
+        "source_pages": [
+          235
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "itemGroup",
+      "name": "Potion of Resistance",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potion of Resistance",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "itemGroup",
+      "name": "Potions of Healing",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Potions of Healing",
+        "source_pages": [
+          236
+        ],
+        "method": "printed_category",
+        "printed_category": "Potion",
+        "general_rule_page": 204,
+        "general_rule_quote": "Potions are consumable items."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "itemGroup",
+      "name": "Feather Token",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Feather Token",
+        "source_pages": [
+          221
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Different types of feather tokens exist, each with a different single-use effect."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    },
+    {
+      "file": "items.json",
+      "kind": "itemGroup",
+      "name": "Spell Scroll",
+      "target": "record",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Spell Scroll",
+        "source_pages": [
+          244
+        ],
+        "method": "printed_category",
+        "printed_category": "Scroll",
+        "general_rule_page": 205,
+        "general_rule_quote": "Scrolls are consumable items."
+      }
+    },
+    {
+      "file": "magicvariants.json",
+      "kind": "magicvariant",
+      "name": "+1 Ammunition",
+      "target": "inherits",
+      "facts": {
+        "consumable": true,
+        "value": 2000
+      },
+      "evidence": {
+        "source_heading": "Ammunition, +1, +2, or +3",
+        "source_pages": [
+          209
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Once it hits a target, the ammunition is no longer magical."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed.",
+        "price_derivation": {
+          "source_page": 206,
+          "rarity": "uncommon",
+          "rarity_value_gp": 400,
+          "potion_value_fraction": [
+            1,
+            2
+          ],
+          "pieces_equivalent_to_one_potion": 10,
+          "ammunition_quote": "Ten pieces of this ammunition are equivalent in value to a potion of the same rarity.",
+          "consumable_price_quote": "Halve the value for a consumable item other than a Spell Scroll.",
+          "value_unit": "copper pieces per one piece of ammunition",
+          "note": "Specific printed ammunition equivalence; not the general half-rarity price per piece."
+        }
+      }
+    },
+    {
+      "file": "magicvariants.json",
+      "kind": "magicvariant",
+      "name": "+2 Ammunition",
+      "target": "inherits",
+      "facts": {
+        "consumable": true,
+        "value": 20000
+      },
+      "evidence": {
+        "source_heading": "Ammunition, +1, +2, or +3",
+        "source_pages": [
+          209
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Once it hits a target, the ammunition is no longer magical."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed.",
+        "price_derivation": {
+          "source_page": 206,
+          "rarity": "rare",
+          "rarity_value_gp": 4000,
+          "potion_value_fraction": [
+            1,
+            2
+          ],
+          "pieces_equivalent_to_one_potion": 10,
+          "ammunition_quote": "Ten pieces of this ammunition are equivalent in value to a potion of the same rarity.",
+          "consumable_price_quote": "Halve the value for a consumable item other than a Spell Scroll.",
+          "value_unit": "copper pieces per one piece of ammunition",
+          "note": "Specific printed ammunition equivalence; not the general half-rarity price per piece."
+        }
+      }
+    },
+    {
+      "file": "magicvariants.json",
+      "kind": "magicvariant",
+      "name": "+3 Ammunition",
+      "target": "inherits",
+      "facts": {
+        "consumable": true,
+        "value": 200000
+      },
+      "evidence": {
+        "source_heading": "Ammunition, +1, +2, or +3",
+        "source_pages": [
+          209
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "Once it hits a target, the ammunition is no longer magical."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed.",
+        "price_derivation": {
+          "source_page": 206,
+          "rarity": "very rare",
+          "rarity_value_gp": 40000,
+          "potion_value_fraction": [
+            1,
+            2
+          ],
+          "pieces_equivalent_to_one_potion": 10,
+          "ammunition_quote": "Ten pieces of this ammunition are equivalent in value to a potion of the same rarity.",
+          "consumable_price_quote": "Halve the value for a consumable item other than a Spell Scroll.",
+          "value_unit": "copper pieces per one piece of ammunition",
+          "note": "Specific printed ammunition equivalence; not the general half-rarity price per piece."
+        }
+      }
+    },
+    {
+      "file": "magicvariants.json",
+      "kind": "magicvariant",
+      "name": "Ammunition of Slaying",
+      "target": "inherits",
+      "facts": {
+        "consumable": true
+      },
+      "evidence": {
+        "source_heading": "Ammunition of Slaying",
+        "source_pages": [
+          209
+        ],
+        "method": "finite_source_use",
+        "normalized_source_quotes": [
+          "After dealing its extra damage to a creature, the ammunition becomes nonmagical."
+        ],
+        "interpretation": "The item is spent, destroyed, or loses its magic after its finite source uses. Source use counts and recharge behavior are not changed."
+      }
+    }
+  ]
+}

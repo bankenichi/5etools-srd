@@ -1,0 +1,2 @@
+# PDF glyph geometry was reviewed and reproduced with this version.
+PyMuPDF==1.28.0

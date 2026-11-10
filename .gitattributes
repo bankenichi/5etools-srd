@@ -29,3 +29,10 @@ Dockerfile                 text eol=lf
 *.pdf                      -text
 *.woff2                    -text
 *.otf                      -text
+
+# Preserve byte-bound source models and correction evidence across clones.
+*.py                        text eol=lf
+source/*.json               -text
+source/**/*.json            -text
+corrections/*.json          -text
+corrections/**/*.json       -text

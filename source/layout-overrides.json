@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "official_pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+  "upstream_commit": "32ef600fab87a585a61dd1a22e9b02dfc58c728a",
+  "authorization": "User: Apply the six data-only overrides.",
+  "orientation": "portrait",
+  "expected_card_delta": 6,
+  "expected_total_cards": 1616,
+  "source_baseline": "candidate-20",
+  "records": [
+    {
+      "file": "data/bestiary/bestiary-srd521.json",
+      "kind": "monster",
+      "name": "Chain Devil",
+      "paragraph_path": [
+        "trait",
+        0,
+        "entries",
+        0
+      ],
+      "paragraph_sha256": "cdaa5f94312c3de3bfbf812865b1e4a64a5be1978e81441f39dcd8c02a9cc229",
+      "source_record_sha256": "d5dd95e8e5b1040ed9154d2ad5ec748fa00dfa49a3b58ce86194e8501be684f7",
+      "layout_record_sha256": "c9b0c6d70fe96b29862a70de2ff185793670b394eda41e90c2a49721a328a132",
+      "before_cards": 1,
+      "after_cards": 2
+    },
+    {
+      "file": "data/bestiary/bestiary-srd521.json",
+      "kind": "monster",
+      "name": "Horned Devil",
+      "paragraph_path": [
+        "trait",
+        0,
+        "entries",
+        0
+      ],
+      "paragraph_sha256": "cdaa5f94312c3de3bfbf812865b1e4a64a5be1978e81441f39dcd8c02a9cc229",
+      "source_record_sha256": "c7c53bfe416947b7913a2571ff3c42d4e2fd3a15d1ffe620e3de77b7fa4822b8",
+      "layout_record_sha256": "4b93c5b3aaabbd6f842d547e04913125bd0f80f4444e4f6fcb926c4e951fc5a1",
+      "before_cards": 1,
+      "after_cards": 2
+    },
+    {
+      "file": "data/bestiary/bestiary-srd521.json",
+      "kind": "monster",
+      "name": "Kraken",
+      "paragraph_path": [
+        "trait",
+        0,
+        "entries",
+        0
+      ],
+      "paragraph_sha256": "e7ac726fc07368c669b112bc64697f652941dc817356aa6806e696975973f4f0",
+      "source_record_sha256": "5da117b2d4222e436652d70b91f7e92b8e4cce8d4ab08172b5b54fd2d7189f8a",
+      "layout_record_sha256": "ccca78fab33d4100b7412af0a24c1cef0f6680116c5be9fac96bccc48e87b2f4",
+      "before_cards": 2,
+      "after_cards": 2
+    },
+    {
+      "file": "data/bestiary/bestiary-srd521.json",
+      "kind": "monster",
+      "name": "Planetar",
+      "paragraph_path": [
+        "trait",
+        0,
+        "entries",
+        0
+      ],
+      "paragraph_sha256": "30494606121f78c0078de4445eca23a3a4afdc8722f1f9470ad8cee922967c2a",
+      "source_record_sha256": "eac03b08a81c9675fb95527c7541f09cac8e87ca6faa2d5e08694b7416f09043",
+      "layout_record_sha256": "3577cc3b2411b730c4b4ab2d8bc4424d3d3b0defb1c6b6b212ee1e5ffb490c79",
+      "before_cards": 1,
+      "after_cards": 2
+    },
+    {
+      "file": "data/decks.json",
+      "kind": "deck",
+      "name": "Mysterious Deck",
+      "paragraph_path": [
+        "entries",
+        0
+      ],
+      "paragraph_sha256": "abca3727df6291d886fb633e27d90e499d496df535fd67d8a1330cbb4e66a1a5",
+      "source_record_sha256": "a22ca634cdb76d961c1520902a3e8757a0c7411810cfef8f9e80b44879f2353a",
+      "layout_record_sha256": "d7319f6f32b15582c9420a7d0048dacb9eaa856d9029f8011282f10cdc318b26",
+      "before_cards": 2,
+      "after_cards": 4
+    },
+    {
+      "file": "data/races.json",
+      "kind": "race",
+      "name": "Dragonborn",
+      "paragraph_path": [
+        "entries",
+        0,
+        "entries",
+        0
+      ],
+      "paragraph_sha256": "000d2c121504039d37a7e16e452ba6dc5c3c1e6cb170d35f67b008a31fee9542",
+      "source_record_sha256": "a0648578b21246c23431708e75e2952c827df28ce0f77dfec539f0e30ff70a9c",
+      "layout_record_sha256": "8595e7c2fc14d4eb511e2151ec0ba4e7fc08f4120344dd0e88789f54726e31a9",
+      "before_cards": 1,
+      "after_cards": 2
+    }
+  ]
+}

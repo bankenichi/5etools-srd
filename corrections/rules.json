@@ -1,0 +1,769 @@
+{
+  "official_pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+  "scope": "All 33 confirmed prose/heading discrepancies remaining after footer/table-aware source location. Does not certify whole-record metadata, table associations, omissions or typography outside these edits.",
+  "records": [
+    {
+      "file": "data/actions.json",
+      "kind": "action",
+      "identity": {
+        "name": "Attack",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "838b1f60d64935de9f3c1ef6edd149971f03c13d3ca6cd7135b7897d33c19c3f",
+      "official_pages": [
+        177
+      ],
+      "evidence": [
+        {
+          "pdf_page": 177,
+          "path": "/entries/1/entries/1/name",
+          "official_text": "Moving between Attacks",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/1/entries/1/name",
+          "value": "Moving between Attacks"
+        }
+      ]
+    },
+    {
+      "file": "data/actions.json",
+      "kind": "action",
+      "identity": {
+        "name": "Don or Doff a Shield",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "a8a9b19718ea384794ddeafc2beda576c9072c125fa78a7a2ac31d498fcb0897",
+      "official_pages": [
+        92
+      ],
+      "evidence": [
+        {
+          "pdf_page": 92,
+          "path": "/entries/0",
+          "official_text": "Shield (Utilize Action to Don or Doff)",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "{@item Shield|XPHB} ({@action Utilize|XPHB} Action to Don or Doff)"
+        }
+      ]
+    },
+    {
+      "file": "data/actions.json",
+      "kind": "action",
+      "identity": {
+        "name": "End Concentration",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "84b750defdbee95db1b88c7bd119188fadbb261d46fb75d59d8807dccc93eafc",
+      "official_pages": [
+        179
+      ],
+      "evidence": [
+        {
+          "pdf_page": 179,
+          "path": "/entries/0",
+          "official_text": "The creator can end Concentration at any time (no action required).",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "The creator can end Concentration at any time (no action required)."
+        }
+      ]
+    },
+    {
+      "file": "data/actions.json",
+      "kind": "action",
+      "identity": {
+        "name": "Help",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "4d2d0fafe0d012978f00294fa076d0159ef1d0ec86ba1cb316e865bd16f8b3cf",
+      "official_pages": [
+        18
+      ],
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "path": "/entries/2",
+          "official_text": "You can take the Help action to try to stabilize a creature with 0 Hit Points, which requires a successful DC 10 Wisdom (Medicine) check.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/2",
+          "value": "You can take the Help action to try to stabilize a creature with 0 Hit Points, which requires a successful DC 10 Wisdom (Medicine) check."
+        }
+      ]
+    },
+    {
+      "file": "data/actions.json",
+      "kind": "action",
+      "identity": {
+        "name": "Hide",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "5d44004d367de126e108ad3224653b2ba2090fd7240e2a38daf0a8b371ade60d",
+      "official_pages": [
+        183
+      ],
+      "evidence": [
+        {
+          "pdf_page": 183,
+          "path": "/entries/0",
+          "official_text": "With the Hide action, you try to hide yourself. To do so, you must succeed on a DC 15 Dexterity (Stealth) check while you're Heavily Obscured or behind Three-Quarters Cover or Total Cover, and you must be out of any enemy's line of sight; if you can see a creature, you can discern whether it can see you.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "With the Hide action, you try to hide yourself. To do so, you must succeed on a {@dc 15} Dexterity ({@skill Stealth|XPHB}) check while you're {@variantrule Heavily Obscured|XPHB} or behind {@variantrule Cover|XPHB|Three-Quarters Cover or Total Cover}, and you must be out of any enemy's line of sight; if you can see a creature, you can discern whether it can see you."
+        }
+      ]
+    },
+    {
+      "file": "data/generated/gendata-variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Multiclassing",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "e1f63697177deb112ef0cc17a8249bd073eb02b00dc27a8784b492abba7077c7",
+      "official_pages": [
+        25
+      ],
+      "evidence": [
+        {
+          "pdf_page": 25,
+          "path": "/entries/2/entries/0",
+          "official_text": "The Experience Point cost to gain a level is based on your total character level, not your level in a particular class, as shown in the Character Advancement table in “Character Creation.” For example, if you are a level 6 Cleric / level 1 Fighter, you must gain enough XP to reach level 8 before you can take your second level as a Fighter or your seventh level as a Cleric.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        },
+        {
+          "pdf_page": 25,
+          "path": "/entries/5/entries/0",
+          "official_text": "When you gain your first level in a class other than your initial class, you gain only some of the new class's starting proficiencies, as detailed in each class's description in “Classes.”",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/2/entries/0",
+          "value": "The Experience Point cost to gain a level is based on your total character level, not your level in a particular class, as shown in the Character Advancement table in “Character Creation.” For example, if you are a level 6 Cleric / level 1 Fighter, you must gain enough XP to reach level 8 before you can take your second level as a Fighter or your seventh level as a Cleric."
+        },
+        {
+          "path": "/entries/5/entries/0",
+          "value": "When you gain your first level in a class other than your initial class, you gain only some of the new class's starting proficiencies, as detailed in each class's description in “Classes.”"
+        }
+      ]
+    },
+    {
+      "file": "data/trapshazards.json",
+      "kind": "trap",
+      "identity": {
+        "name": "Falling Net",
+        "source": "XDMG"
+      },
+      "projected_record_sha256": "8f84b06424839cf496bcd0450865cf54159bab2f2d1ea7ef8aeff3ca11b8fab4",
+      "official_pages": [
+        199
+      ],
+      "evidence": [
+        {
+          "pdf_page": 199,
+          "path": "/entries/3/entries/0",
+          "official_text": "Reducing the Net to 0 Hit Points frees any creature trapped in it (see “Adventuring Gear” for the Net's statistics).",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/3/entries/0",
+          "value": "Reducing the Net to 0 Hit Points frees any creature trapped in it (see “Adventuring Gear” for the {@item Net|XPHB|Net's} statistics)."
+        }
+      ]
+    },
+    {
+      "file": "data/trapshazards.json",
+      "kind": "trap",
+      "identity": {
+        "name": "Hidden Pit",
+        "source": "XDMG"
+      },
+      "projected_record_sha256": "eca09d600c3821ae69f80addcb7e3d5315a80677c64682b15a6213eaa54ea3b1",
+      "official_pages": [
+        200
+      ],
+      "evidence": [
+        {
+          "pdf_page": 200,
+          "path": "/entries/3/entries/0",
+          "official_text": "A creature needs a Climb Speed, climbing gear, or magic such as Spider Climb to scale the pit's smooth walls. You can make the pit easier to escape by adding cracks in the walls big enough to serve as handholds and footholds.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/3/entries/0",
+          "value": "A creature needs a Climb Speed, climbing gear, or magic such as {@spell Spider Climb|XPHB} to scale the pit's smooth walls. You can make the pit easier to escape by adding cracks in the walls big enough to serve as handholds and footholds."
+        }
+      ]
+    },
+    {
+      "file": "data/trapshazards.json",
+      "kind": "trap",
+      "identity": {
+        "name": "Poisoned Darts",
+        "source": "XDMG"
+      },
+      "projected_record_sha256": "71866af42aba91e826bbd69352579dbb4177814576e93d9331e42bdaf976c53b",
+      "official_pages": [
+        200
+      ],
+      "evidence": [
+        {
+          "pdf_page": 200,
+          "path": "/entries/0",
+          "official_text": "When a creature moves onto this trap's pressure plate for the first time on a turn, poisoned darts shoot from tubes embedded in the surrounding walls. The holes that house these tubes are obscured by dust and cobwebs or skillfully hidden amid bas-reliefs, murals, or frescoes.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "When a creature moves onto this trap's pressure plate for the first time on a turn, poisoned darts shoot from tubes embedded in the surrounding walls. The holes that house these tubes are obscured by dust and cobwebs or skillfully hidden amid bas-reliefs, murals, or frescoes."
+        }
+      ]
+    },
+    {
+      "file": "data/trapshazards.json",
+      "kind": "hazard",
+      "identity": {
+        "name": "High Altitude",
+        "source": "XDMG"
+      },
+      "projected_record_sha256": "ecd7962bf67c2ca8517fb9061540917fa7cb35c03ae47919486e1b845f6a4d9e",
+      "official_pages": [
+        195
+      ],
+      "evidence": [
+        {
+          "pdf_page": 195,
+          "path": "/entries/0",
+          "official_text": "Traveling at altitudes of 10,000 feet or higher above sea level is taxing for most creatures because of the reduced amount of oxygen in the air. Each hour such a creature spends traveling at high altitude counts as 2 hours for the purpose of determining how long that creature can travel (see \"Travel Pace\").",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "Traveling at altitudes of 10,000 feet or higher above sea level is taxing for most creatures because of the reduced amount of oxygen in the air. Each hour such a creature spends traveling at high altitude counts as 2 hours for the purpose of determining how long that creature can travel (see \"Travel Pace\")."
+        }
+      ]
+    },
+    {
+      "file": "data/trapshazards.json",
+      "kind": "hazard",
+      "identity": {
+        "name": "Thin Ice",
+        "source": "XDMG"
+      },
+      "projected_record_sha256": "90bfccb861060861d2e1bf91b4895febb25bc8fa40da3f9af1bbba512792af8b",
+      "official_pages": [
+        195
+      ],
+      "evidence": [
+        {
+          "pdf_page": 195,
+          "path": "/entries/0",
+          "official_text": "Thin ice has a weight tolerance of 3d10 × 10 pounds per 10-foot-square area. Whenever the total weight on an area of thin ice exceeds its tolerance, the ice in that area breaks. All creatures on broken ice fall through. Below the ice is frigid water (see “Frigid Water” above).",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "Thin ice has a weight tolerance of {@dice 3d10 × 10} pounds per 10-foot-square area. Whenever the total weight on an area of thin ice exceeds its tolerance, the ice in that area breaks. All creatures on broken ice fall through. Below the ice is {@hazard frigid water|XDMG} (see “Frigid Water” above)."
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Action",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "67b17df339b7c2898a4533113090e81283299cbf0443507e13a39f9966797113",
+      "official_pages": [
+        176
+      ],
+      "evidence": [
+        {
+          "pdf_page": 176,
+          "path": "/entries/0",
+          "official_text": "On your turn, you can take one action. Choose which action to take from those below or from the special actions provided by your features. See also “Playing the Game” (“Actions”). These actions are defined elsewhere in this glossary:",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "On your turn, you can take one action. Choose which action to take from those below or from the special actions provided by your features. See also “Playing the Game” (“Actions”). These actions are defined elsewhere in this glossary:"
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Carrying Capacity",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "222e9e811acb9a5c7042c5794f86521e495e92b86c41e39305c8ad39eead1319",
+      "official_pages": [
+        178
+      ],
+      "evidence": [
+        {
+          "pdf_page": 178,
+          "path": "/entries/0",
+          "official_text": "Your size and Strength score determine the maximum weight in pounds that you can carry, as shown in the Carrying Capacity table. The table also shows the maximum weight you can drag, lift, or push.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "Your size and Strength score determine the maximum weight in pounds that you can carry, as shown in the Carrying Capacity table. The table also shows the maximum weight you can drag, lift, or push."
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Challenge Rating",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "e83a96d8f2f0d06ce18d68afef9d3bf849339985854f673203d3d4eb6a813775",
+      "official_pages": [
+        178
+      ],
+      "evidence": [
+        {
+          "pdf_page": 178,
+          "path": "/entries/0",
+          "official_text": "Challenge Rating (CR) summarizes the threat a monster poses to a group of four player characters. Compare a monster's CR to the characters' level. If the CR is higher, the monster is likely a danger. If the CR is lower, the monster likely poses little threat. But circumstances and the number of player characters can significantly alter how threatening a monster is in actual play. “Gameplay Toolbox” (“Combat Encounters”) provides guidance to the GM on using CR while planning potential combat encounters. See also “Stat Block.”",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "Challenge Rating (CR) summarizes the threat a {@variantrule Monster|XPHB|monster} poses to a group of four {@variantrule Player Character|XPHB|player characters}. Compare a {@variantrule Monster|XPHB|monster's} CR to the characters' level. If the CR is higher, the {@variantrule Monster|XPHB|monster} is likely a danger. If the CR is lower, the {@variantrule Monster|XPHB|monster} likely poses little threat. But circumstances and the number of {@variantrule Player Character|XPHB|player characters} can significantly alter how threatening a {@variantrule Monster|XPHB|monster} is in actual play. “Gameplay Toolbox” (“Combat Encounters”) provides guidance to the GM on using CR while planning potential combat {@variantrule Encounter|XPHB|encounters}. See also “Stat Block.”"
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Climbing",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "7457983c651cf49218b6a0d4705bc6c7f87e5318ecf06be708b962da1fc54406",
+      "official_pages": [
+        178
+      ],
+      "evidence": [
+        {
+          "pdf_page": 178,
+          "path": "/entries/0",
+          "official_text": "While you're climbing, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a Climb Speed and use it to climb. At the GM's option, climbing a slippery surface or one with few handholds might require a successful DC 15 Strength (Athletics) check.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "While you're climbing, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a {@variantrule Climb Speed|XPHB} and use it to climb. At the GM's option, climbing a slippery surface or one with few handholds might require a successful {@dc 15} Strength ({@skill Athletics|XPHB}) check."
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Crawling",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "f4ce85056fe1b58068cedf80523edcf09dbcb8b5816bc481350e2a6626dc74cd",
+      "official_pages": [
+        179
+      ],
+      "evidence": [
+        {
+          "pdf_page": 179,
+          "path": "/entries/0",
+          "official_text": "While you're crawling, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). See also “Speed.”",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "While you're crawling, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). See also “Speed.”"
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Experience Points",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "1935183fd6fa9e0d6a64a3a15ff34f77835faaa02ee5312a2c732e8f4f6a3756",
+      "official_pages": [
+        182
+      ],
+      "evidence": [
+        {
+          "pdf_page": 182,
+          "path": "/entries/0",
+          "official_text": "As they overcome challenges and complete adventures, characters earn Experience Points (XP), which are awarded by the Game Master. When a character’s XP total crosses certain thresholds, the character’s level increases. See also “Level Advancement.”",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "As they overcome challenges and complete adventures, characters earn Experience Points (XP), which are awarded by the Game Master. When a character’s XP total crosses certain thresholds, the character’s level increases. See also “Level Advancement.”"
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Friendly [Attitude]",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "c01f9dd70a78007328551d861b28e05c89630bf435cee9ac694f6374a7550dac",
+      "official_pages": [
+        182
+      ],
+      "evidence": [
+        {
+          "pdf_page": 182,
+          "path": "/entries/0",
+          "official_text": "A Friendly creature views you favorably. You have Advantage on an ability check to influence a Friendly creature. See also “Influence.”",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "A Friendly creature views you favorably. You have Advantage on an ability check to influence a Friendly creature. See also “Influence.”"
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Hit Point Dice",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "27a4840604ae2ab1041dc5de86165b2dc1714c18a9dd471eb1158abdf1bbbc3c",
+      "official_pages": [
+        183
+      ],
+      "evidence": [
+        {
+          "pdf_page": 183,
+          "path": "/entries/0",
+          "official_text": "Hit Point Dice, or Hit Dice for short, help determine a player character's Hit Point maximum, as explained in “Character Creation.” Most monsters also have Hit Dice. A creature can spend Hit Dice during a Short Rest to regain Hit Points. See also “Short Rest.”",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "Hit Point Dice, or Hit Dice for short, help determine a {@variantrule Player Character|XPHB|player character's} Hit Point maximum, as explained in “Character Creation.” Most {@variantrule Monster|XPHB|monsters} also have Hit Dice. A creature can spend Hit Dice during a {@variantrule Short Rest|XPHB} to regain {@variantrule Hit Points|XPHB}. See also “Short Rest.”"
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Initiative",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "0a081ca9cf96e73beb3b93358029eb83beadfbfcbe3d6f33b8d2c48ac0551f32",
+      "official_pages": [
+        184
+      ],
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "path": "/entries/0",
+          "official_text": "Initiative determines the order of turns during combat. The combat rules in “Playing the Game” explain how to roll Initiative.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "Initiative determines the order of turns during combat. The combat rules in “Playing the Game” explain how to roll Initiative."
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Long Jump",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "7017c999beedaa8b944ddb7d08829ac822d8c255b8f3a11747452c55ad8d1eff",
+      "official_pages": [
+        185
+      ],
+      "evidence": [
+        {
+          "pdf_page": 185,
+          "path": "/entries/1",
+          "official_text": "If you land in Difficult Terrain, you must succeed on a DC 10 Dexterity (Acrobatics) check or have the Prone condition.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/1",
+          "value": "If you land in Difficult Terrain, you must succeed on a {@dc 10} Dexterity ({@skill Acrobatics|XPHB}) check or have the {@condition Prone|XPHB} condition."
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Long Rest",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "df87b7f6ed5c7efd061c7371410f683a097048710c3a86d2035b0f3d4e1efd8f",
+      "official_pages": [
+        185
+      ],
+      "evidence": [
+        {
+          "pdf_page": 185,
+          "path": "/entries/2/entries/3/items/2",
+          "official_text": "Taking any damage",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        },
+        {
+          "pdf_page": 185,
+          "path": "/entries/2/entries/3/items/3",
+          "official_text": "1 hour of walking or other physical exertion",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        },
+        {
+          "pdf_page": 185,
+          "path": "/entries/2/entries/4",
+          "official_text": "If you rested at least 1 hour before the interruption, you gain the benefits of a Short Rest. See also “Short Rest.”",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/2/entries/3/items/2",
+          "value": "Taking any damage"
+        },
+        {
+          "path": "/entries/2/entries/3/items/3",
+          "value": "1 hour of walking or other physical exertion"
+        },
+        {
+          "path": "/entries/2/entries/4",
+          "value": "If you rested at least 1 hour before the interruption, you gain the benefits of a {@variantrule Short Rest|XPHB}. See also “Short Rest.”"
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Simultaneous Effects",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "5f9baf0da4c1183144090b6324ad3a8f2a05d1b7b1301c1bea2bf99579d08e9b",
+      "official_pages": [
+        187
+      ],
+      "evidence": [
+        {
+          "pdf_page": 187,
+          "path": "/entries/0",
+          "official_text": "If two or more things happen at the same time on a turn, the person at the game table—player or GM—whose turn it is decides the order in which those things happen. For example, if two effects occur at the start of a player character's turn, the player decides which of the effects happens first.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "If two or more things happen at the same time on a turn, the person at the game table—player or GM—whose turn it is decides the order in which those things happen. For example, if two effects occur at the start of a {@variantrule Player Character|XPHB|player character's} turn, the player decides which of the effects happens first."
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Spell",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "0641217d46b674ab1d9611ab54cafa55ec75ae18382af862881fe307a74f3cfa",
+      "official_pages": [
+        188
+      ],
+      "evidence": [
+        {
+          "pdf_page": 188,
+          "path": "/entries/0",
+          "official_text": "A spell is a magical effect that has the characteristics described in “Spells.”",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "A spell is a {@variantrule Magical Effect|XPHB|magical effect} that has the characteristics described in “Spells.”"
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Stat Block",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "4181427c7953f081ae836e7b229bb0a186f15b2b042b5ca72c0e58a0e5ef0cc8",
+      "official_pages": [
+        188,
+        189
+      ],
+      "evidence": [
+        {
+          "pdf_page": 188,
+          "path": "/entries/1/entries/0/entries/0",
+          "official_text": "A monster is Tiny, Small, Medium, Large, Huge, or Gargantuan.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        },
+        {
+          "pdf_page": 188,
+          "path": "/entries/1/entries/3/entries/0",
+          "official_text": "These entries give the monster's Armor Class, Initiative, and Hit Points, which are detailed in “Playing the Game.” In parentheses after the Hit Points, the monster's Hit Point Dice are provided, along with the contribution of its Constitution, if any, to its Hit Points. Following the Initiative modifier is an Initiative score. Some creatures that are created by magic lack Hit Dice and Initiative information.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        },
+        {
+          "pdf_page": 188,
+          "path": "/entries/1/entries/5/entries/0",
+          "official_text": "A table provides the monster's ability scores, modifiers, and saving throw modifiers, all of which are detailed in “Playing the Game.”",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        },
+        {
+          "pdf_page": 189,
+          "path": "/entries/1/entries/12/entries/0",
+          "official_text": "Challenge Rating summarizes the threat a monster poses and is detailed in “Monsters.” The Experience Points characters receive for defeating a monster and its Proficiency Bonus follow. Some creatures that are created by magic have no CR.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/1/entries/0/entries/0",
+          "value": "A {@variantrule Monster|XPHB|monster} is Tiny, Small, Medium, Large, Huge, or Gargantuan."
+        },
+        {
+          "path": "/entries/1/entries/3/entries/0",
+          "value": "These entries give the {@variantrule Monster|XPHB|monster's} {@variantrule Armor Class|XPHB}, {@variantrule Initiative|XPHB}, and {@variantrule Hit Points|XPHB}, which are detailed in “Playing the Game.” In parentheses after the {@variantrule Hit Points|XPHB}, the {@variantrule Monster|XPHB|monster's} {@variantrule Hit Point Dice|XPHB} are provided, along with the contribution of its Constitution, if any, to its {@variantrule Hit Points|XPHB}. Following the {@variantrule Initiative|XPHB} modifier is an {@variantrule Initiative|XPHB} score. Some creatures that are created by magic lack Hit Dice and {@variantrule Initiative|XPHB} information."
+        },
+        {
+          "path": "/entries/1/entries/5/entries/0",
+          "value": "A table provides the {@variantrule Monster|XPHB|monster's} ability scores, modifiers, and {@variantrule Saving Throw|XPHB|saving throw} modifiers, all of which are detailed in “Playing the Game.”"
+        },
+        {
+          "path": "/entries/1/entries/12/entries/0",
+          "value": "Challenge Rating summarizes the threat a {@variantrule Monster|XPHB|monster} poses and is detailed in “Monsters.” The Experience Points characters receive for defeating a {@variantrule Monster|XPHB|monster} and its {@variantrule Proficiency|XPHB|Proficiency Bonus} follow. Some creatures that are created by magic have no CR."
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Swimming",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "519524c20548898af89b5b5e15b578239f277e671645dc72f79574a38030a1d6",
+      "official_pages": [
+        189
+      ],
+      "evidence": [
+        {
+          "pdf_page": 189,
+          "path": "/entries/0",
+          "official_text": "While you're swimming, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a Swim Speed and use it to swim. At the GM's option, moving any distance in rough water might require a successful DC 15 Strength (Athletics) check.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "While you're swimming, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a {@variantrule Swim Speed|XPHB} and use it to swim. At the GM's option, moving any distance in rough water might require a successful {@dc 15} Strength ({@skill Athletics|XPHB}) check."
+        }
+      ]
+    },
+    {
+      "file": "data/variantrules.json",
+      "kind": "variantrule",
+      "identity": {
+        "name": "Unarmed Strike",
+        "source": "XPHB"
+      },
+      "projected_record_sha256": "3ca7b0fafa7b12728f80e548e7f9863d191da9b391bfbaaf3f253ea76f629a20",
+      "official_pages": [
+        190
+      ],
+      "evidence": [
+        {
+          "pdf_page": 190,
+          "path": "/entries/0",
+          "official_text": "Instead of using a weapon to make a melee attack, you can use a punch, kick, headbutt, or similar forceful blow. In game terms, this is an Unarmed Strike—a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.",
+          "reason": "Verified against the printed source paragraph/heading; no similarity pass."
+        }
+      ],
+      "edits": [
+        {
+          "path": "/entries/0",
+          "value": "Instead of using a weapon to make a melee attack, you can use a punch, kick, headbutt, or similar forceful blow. In game terms, this is an Unarmed Strike—a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you."
+        }
+      ]
+    }
+  ]
+}
